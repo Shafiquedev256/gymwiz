@@ -1,16 +1,16 @@
 const OurFacilities = () => {
   return (
-    <section className='hidden md:block'>
+    <section className=''>
       <h3 className='text-center text-2xl md:text-4xl font-semibold title tracking-wide'>
         Experience the Best
       </h3>
-      <div className='flex flex-col justify-center items-center'>
-        <div className='flex my-3 flex-row h-[300px] justify-between items-center p-2 fit bg-stripes bg-ground-stripes-red-600 from-red-50 rounded-md to-red-400'>
-          <div className='md:w-[70%]'>
-            <h4 className='md:w-[70%] text-center text-3xl  whitespace-nowrap'>
+      <div className='flex flex-col space-y-2 justify-center items-center'>
+        <div className='flex my-2 flex-row h-[200px] md:h-[300px] justify-between items-center p-2 fit bg-stripes bg-ground-stripes-red-600 from-red-50 rounded-md to-red-400'>
+          <div className='w-[70%] md:w-[70%]'>
+            <h4 className=' md:w-[70%] text-center md:text-3xl text-lg font-semibold   md:whitespace-nowrap'>
               Expert Personal training
             </h4>
-            <p className='text-lg md:w-[70%] text-center '>
+            <p className='text-sm md:text-lg md:w-[70%] text-center '>
               Guided sessions with certified trainers for customized fitness
               plans.
             </p>
@@ -23,15 +23,15 @@ const OurFacilities = () => {
           <img
             src='/pexels-jonathanborba-3076516.jpg'
             alt=''
-            className='h-[80%] rounded-md'
+            className='h-[50%] md:h-[80%] rounded-md'
           />
         </div>
-        <div className='flex  flex-row-reverse h-[300px] justify-between items-center p-2 fit'>
+        <div className='flex my-2 flex-row-reverse h-[200px] md:h-[300px] justify-between items-center p-2 fit bg-stripes bg-ground-stripes-red-600 from-red-50 rounded-md to-red-400'>
           <div className='md:w-[70%]'>
-            <h4 className='md:w-[70%] text-center text-3xl  '>
+            <h4 className=' md:w-[70%] text-center md:text-3xl text-lg font-semibold   md:whitespace-nowrap'>
               Nutritional guidance and planning
             </h4>
-            <p className='text-lg md:w-[70%] text-center '>
+            <p className='text-sm md:text-lg md:w-[70%] text-center '>
               Expert advice for healthy eating and meal planning
             </p>
             <div className='md:w-[70%] flex justify-center items-center'>
@@ -40,14 +40,18 @@ const OurFacilities = () => {
               </button>
             </div>
           </div>
-          <img src='/digitalgym.jpg' alt='' className='h-[80%] rounded-md' />
+          <img
+            src='/digitalgym.jpg'
+            alt=''
+            className='h-[40%]  md:h-[80%] rounded-md'
+          />
         </div>
-        <div className='flex my-3 flex-row h-[300px] space-x-3 items-center p-2 fit'>
+        <div className='flex my-2 flex-row h-[200px] md:h-[300px] justify-between items-center p-2 fit bg-stripes bg-ground-stripes-red-600 from-red-50 rounded-md to-red-400'>
           <div className='md:w-[70%]'>
-            <h4 className='md:w-[70%] text-center text-3xl  whitespace-nowrap'>
+            <h4 className=' md:w-[70%] text-center md:text-3xl text-lg font-semibold   md:whitespace-nowrap'>
               Group fitness classes
             </h4>
-            <p className='text-lg md:w-[70%] text-center '>
+            <p className='text-sm md:text-lg md:w-[70%] text-center '>
               Sessions for cardio , strength, and flexibility training.
             </p>
             <div className='md:w-[70%] flex justify-center items-center'>
@@ -56,7 +60,11 @@ const OurFacilities = () => {
               </button>
             </div>
           </div>
-          <img src='/groupworkout.jpg' alt='' className='h-[80%] rounded-md' />
+          <img
+            src='/groupworkout.jpg'
+            alt=''
+            className='h-[50%] md:h-[80%] rounded-md'
+          />
         </div>
       </div>
       <div className='flex justify-center items-center mb-4'>

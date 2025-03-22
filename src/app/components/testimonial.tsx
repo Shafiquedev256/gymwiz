@@ -72,7 +72,7 @@ const Testimonial = () => {
                   trainers truly motivate you. I’ve seen amazing results!
                 </p>
                 <p className=' text-lg font-bold font-body tracking-wide'>
-                  - Josh
+                  - Sarah
                 </p>
               </div>
             </div>
@@ -91,12 +91,12 @@ const Testimonial = () => {
                   </div>
                 </div>
                 <p className='font-body text-sm p-2 text-black '>
-                  Wizz Gym offers a welcoming atmosphere and excellent
-                  equipment. The group classes are fun yet challenging, and the
-                  trainers truly motivate you. I’ve seen amazing results!
+                  The supportive trainers, clean facilities, and diverse classes
+                  keep me motivated. Whether you're a beginner or advanced, Wizz
+                  Gym is perfect for reaching your goals.
                 </p>
                 <p className=' text-lg font-bold font-body tracking-wide'>
-                  - Josh
+                  - Ben
                 </p>
               </div>
             </div>
@@ -114,13 +114,14 @@ const Testimonial = () => {
                     />
                   </div>
                 </div>
-                <p className='font-body text-sm p-2 text-black '>
-                  Wizz Gym offers a welcoming atmosphere and excellent
-                  equipment. The group classes are fun yet challenging, and the
-                  trainers truly motivate you. I’ve seen amazing results!
+                <p className='font-body text-sm px-2 text-black '>
+                  I had the pleasure of visiting Wizz gym, and I can confidently
+                  say it’s one of the best gyms I’ve ever been to! From the
+                  moment you walk in, you can feel the energy and passion for
+                  fitness that this place represents.
                 </p>
                 <p className=' text-lg font-bold font-body tracking-wide'>
-                  - Josh
+                  - Adam
                 </p>
               </div>
             </div>
