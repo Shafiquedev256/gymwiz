@@ -26,9 +26,9 @@ const Testimonial = () => {
                 </div>
               </div>
               <p className='font-body text-sm p-2 text-black '>
-                "Wizz Gym offers a welcoming atmosphere and excellent equipment.
+                Wizz Gym offers a welcoming atmosphere and excellent equipment.
                 The group classes are fun yet challenging, and the trainers
-                truly motivate you. I’ve seen amazing results!"
+                truly motivate you. I’ve seen amazing results!
               </p>
               <p className=' text-lg font-bold font-body tracking-wide'>
                 - Josh
@@ -50,9 +50,9 @@ const Testimonial = () => {
                 </div>
               </div>
               <p className='font-body text-sm p-2 text-black '>
-                "Wizz Gym offers a welcoming atmosphere and excellent equipment.
+                Wizz Gym offers a welcoming atmosphere and excellent equipment.
                 The group classes are fun yet challenging, and the trainers
-                truly motivate you. I’ve seen amazing results!"
+                truly motivate you. I’ve seen amazing results!
               </p>
               <p className=' text-lg font-bold font-body tracking-wide'>
                 - Josh
@@ -74,9 +74,9 @@ const Testimonial = () => {
                 </div>
               </div>
               <p className='font-body text-sm p-2 text-black '>
-                "Wizz Gym offers a welcoming atmosphere and excellent equipment.
+                Wizz Gym offers a welcoming atmosphere and excellent equipment.
                 The group classes are fun yet challenging, and the trainers
-                truly motivate you. I’ve seen amazing results!"
+                truly motivate you. I’ve seen amazing results!
               </p>
               <p className=' text-lg font-bold font-body tracking-wide'>
                 - Josh
