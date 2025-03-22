@@ -87,7 +87,7 @@ const About_us_page = () => {
         </div>
       </section>
 
-      <section>
+      <section className='mb-8'>
         <div className='flex flex-col md:flex-row items-center justify-between m-2'>
           <div className='relative'>
             <div className='absolute flex justify-center items-center z-10 text-6xl top-0 left-0 w-[100%] h-[100%]'>
@@ -141,8 +141,9 @@ const About_us_page = () => {
               WHAT OUR MEMBERS NEED TO KNOW !
             </h2>
             <p className='text-center text-sm md:w-[50%]'>
-              We're committed to reducing our carbon footprint and contributing
-              to a healthier environment through our carbon net-zero strategy.
+              We&apos;re committed to reducing our carbon footprint and
+              contributing to a healthier environment through our carbon
+              net-zero strategy.
             </p>
           </div>
 
@@ -188,8 +189,8 @@ const About_us_page = () => {
               <div className='ml-4'>
                 <h3 className='font-semibold text-red-600'>Short Showers</h3>
                 <p className='text-sm'>
-                  As water can be a scarce resource, even in Uganda, it’s best
-                  not to shower longer than necessary.
+                  As water can be a scarce resource, even in Uganda, it&apos;s
+                  best not to shower longer than necessary.
                 </p>
               </div>
             </div>
@@ -204,7 +205,7 @@ const About_us_page = () => {
                   Bring Your Bottle
                 </h3>
                 <p className='text-sm'>
-                  All our gyms have water fountains, so don’t forget your
+                  All our gyms have water fountains, so don&apos;t forget your
                   reusable bottle for refills.
                 </p>
               </div>
