@@ -4,7 +4,7 @@ import Link from "next/link";
 const HeroSection = () => {
   return (
     <section>
-      <div className='relative w-[100%] h-[60vh] lg:h-[80vh] md:h-[70vh] bg-[url("/digitalgym.jpg")] bg-cover bg-center bg-no-repeat'>
+      <div className='relative w-[100%] h-[80vh] lg:h-[80vh] md:h-[70vh] bg-[url("/digitalgym.jpg")] bg-cover bg-center bg-no-repeat'>
         <div className=' absolute flex flex-col justify-center items-center top-0 left-0  w-[100%] h-[100%]'>
           <div className='absolute top-2 right-2'>
             <div className='w-fit relative'>
