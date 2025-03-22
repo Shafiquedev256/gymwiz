@@ -69,7 +69,7 @@ const Testimonial = () => {
                 <p className='font-body text-sm p-2 text-black '>
                   Wizz Gym offers a welcoming atmosphere and excellent
                   equipment. The group classes are fun yet challenging, and the
-                  trainers truly motivate you. I have seen amazing results!
+                  trainers truly motivate you. I&apos;ve seen amazing results!
                 </p>
                 <p className=' text-lg font-bold font-body tracking-wide'>
                   - Sarah
@@ -92,8 +92,8 @@ const Testimonial = () => {
                 </div>
                 <p className='font-body text-sm p-2 text-black '>
                   The supportive trainers, clean facilities, and diverse classes
-                  keep me motivated. Whether you're a beginner or advanced, Wizz
-                  Gym is perfect for reaching your goals.
+                  keep me motivated. Whether you&apos;re a beginner or advanced,
+                  Wizz Gym is perfect for reaching your goals.
                 </p>
                 <p className=' text-lg font-bold font-body tracking-wide'>
                   - Ben
