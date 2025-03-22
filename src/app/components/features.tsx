@@ -29,7 +29,7 @@ const OurFacilities = () => {
         <div className='flex my-2 flex-row-reverse h-[200px] md:h-[300px] justify-between items-center p-2 fit bg-stripes bg-ground-stripes-red-600 from-red-50 rounded-md to-red-400'>
           <div className='md:w-[70%]'>
             <h4 className=' md:w-[70%] text-center md:text-3xl text-lg font-semibold   md:whitespace-nowrap'>
-              Nutritional guidance and planning
+              Healthy nutrition plan
             </h4>
             <p className='text-sm md:text-lg md:w-[70%] text-center '>
               Expert advice for healthy eating and meal planning

@@ -15,20 +15,20 @@ const HeaderSection = () => {
       <section className='z-20 sticky top-0 left-0 w-[100%] '>
         <div className='bg-red-700 flex flex-col  text-white'>
           <div className='flex flex-row items-center justify-between px-4 '>
-            <div className=' w-[40%] md:w-2/6'>
+            <Link href={"/"} className=' w-[40%] md:w-2/6'>
               <img
                 src='/wizzlogo.png'
                 alt='Wizz gym logo'
                 className='md:w-36'
               />
-            </div>
+            </Link>
             {/* Desktop menu */}
             <div className='md:block hidden md:w-2/5 md:px-3'>
               <ul className=' flex flex-row justify-between text-lg items-center'>
                 <li>
                   <Link
                     href={"/aboutus"}
-                    className={`${pathname === "/aboutus" ? "text-red-500 font-bold underline" : " "}`}
+                    className={`${pathname === "/aboutus" ? " underline" : " "}`}
                   >
                     About Us
                   </Link>
@@ -37,7 +37,7 @@ const HeaderSection = () => {
                 <li>
                   <Link
                     href={"/pricing"}
-                    className={`${pathname === "/pricing" ? "text-red-500 font-bold underline" : " "}`}
+                    className={`${pathname === "/pricing" ? " underline" : " "}`}
                   >
                     Classes
                   </Link>
@@ -45,7 +45,7 @@ const HeaderSection = () => {
                 <li>
                   <Link
                     href={"/pricing"}
-                    className={`${pathname === "/pricing" ? "text-red-500 font-bold underline" : " "}`}
+                    className={`${pathname === "/pricing" ? " underline" : " "}`}
                   >
                     Spa
                   </Link>
@@ -53,7 +53,7 @@ const HeaderSection = () => {
                 <li>
                   <Link
                     href={"/pricing"}
-                    className={` ${pathname === "/pricing" ? "text-red-500 font-bold underline" : " "}`}
+                    className={` ${pathname === "/pricing" ? " underline" : " "}`}
                   >
                     Contact
                   </Link>
@@ -61,7 +61,7 @@ const HeaderSection = () => {
                 <li>
                   <Link
                     href={"/pricing"}
-                    className={`${pathname === "/pricing" ? "text-red-500 font-bold underline" : " "}`}
+                    className={`${pathname === "/pricing" ? " underline" : " "}`}
                   >
                     Carears
                   </Link>
@@ -69,7 +69,7 @@ const HeaderSection = () => {
                 <li>
                   <Link
                     href={"/pricing"}
-                    className={`${pathname === "/pricing" ? "text-red-500 font-bold underline" : " "}`}
+                    className={`${pathname === "/pricing" ? " underline" : " "}`}
                   >
                     Shop
                   </Link>
@@ -116,7 +116,7 @@ const HeaderSection = () => {
                 <li>
                   <Link
                     href={"/aboutus"}
-                    className={`${pathname === "/aboutus" ? "text-red-500 font-bold underline" : " "}`}
+                    className={`${pathname === "/aboutus" ? " underline" : " "}`}
                   >
                     About Us
                   </Link>
@@ -125,7 +125,7 @@ const HeaderSection = () => {
                 <li>
                   <Link
                     href={"/pricing"}
-                    className={`${pathname === "/pricing" ? "text-red-500 font-bold underline" : " "}`}
+                    className={`${pathname === "/pricing" ? " underline" : " "}`}
                   >
                     Classes
                   </Link>
@@ -133,7 +133,7 @@ const HeaderSection = () => {
                 <li>
                   <Link
                     href={"/pricing"}
-                    className={`${pathname === "/pricing" ? "text-red-500 font-bold underline" : " "}`}
+                    className={`${pathname === "/pricing" ? " underline" : " "}`}
                   >
                     Spa
                   </Link>
@@ -141,7 +141,7 @@ const HeaderSection = () => {
                 <li>
                   <Link
                     href={"/pricing"}
-                    className={` ${pathname === "/pricing" ? "text-red-500 font-bold underline" : " "}`}
+                    className={` ${pathname === "/pricing" ? " underline" : " "}`}
                   >
                     Contact
                   </Link>
@@ -149,7 +149,7 @@ const HeaderSection = () => {
                 <li>
                   <Link
                     href={"/pricing"}
-                    className={`${pathname === "/pricing" ? "text-red-500 font-bold underline" : " "}`}
+                    className={`${pathname === "/pricing" ? " underline" : " "}`}
                   >
                     Carears
                   </Link>
@@ -157,7 +157,7 @@ const HeaderSection = () => {
                 <li>
                   <Link
                     href={"/pricing"}
-                    className={`${pathname === "/pricing" ? "text-red-500 font-bold underline" : " "}`}
+                    className={`${pathname === "/pricing" ? " underline" : " "}`}
                   >
                     Shop
                   </Link>
