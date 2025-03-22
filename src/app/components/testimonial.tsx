@@ -4,7 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 const Testimonial = () => {
-  let settings = {
+  const settings = {
     autoplay: true,
     speed: 1000,
     autoplaySpeed: 2000,
