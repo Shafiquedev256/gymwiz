@@ -5,3 +5,5 @@ const MembershipPlans = () => {
     </section>
   );
 };
+
+export default MembershipPlans;
