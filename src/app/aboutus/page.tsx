@@ -1,3 +1,4 @@
+"use client";
 import { FooterSection } from "../components/footer";
 import HeaderSection from "../components/header";
 

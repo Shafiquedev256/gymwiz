@@ -1,3 +1,4 @@
+"use client";
 import OurFacilities from "./components/features";
 import { FooterSection } from "./components/footer";
 import HeaderSection from "./components/header";
