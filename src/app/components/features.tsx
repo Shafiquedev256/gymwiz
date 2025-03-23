@@ -16,7 +16,7 @@ const OurFacilities = () => {
             </p>
             <div className='md:w-[70%] flex justify-center items-center'>
               <button className=' bg-red-700 px-3 w-fit hover:bg-red-500 text-white text-center rounded-full text-sm text-semibold p-2 m-4'>
-                See Trainers
+                SEE TRAINERS
               </button>
             </div>
           </div>
@@ -35,8 +35,8 @@ const OurFacilities = () => {
               Expert advice for healthy eating and meal planning
             </p>
             <div className='md:w-[70%] flex justify-center items-center'>
-              <button className=' bg-red-700 px-3 w-fit text-white text-center rounded-full text-sm text-semibold p-2 m-4'>
-                See Trainers
+              <button className=' bg-red-700 px-3  w-fit text-white text-center rounded-full text-sm text-semibold p-2 m-4'>
+                SEE TRAINERS
               </button>
             </div>
           </div>
@@ -56,7 +56,7 @@ const OurFacilities = () => {
             </p>
             <div className='md:w-[70%] flex justify-center items-center'>
               <button className=' bg-red-700 text-white text-center rounded-full text-sm text-semibold p-2 px-3 w-fit m-4'>
-                See Classes
+                SEE CLASSES
               </button>
             </div>
           </div>

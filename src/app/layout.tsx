@@ -1,6 +1,9 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
 import type { Metadata } from "next";
 import { Capriola, Outfit, Orbitron } from "next/font/google";
 import "./globals.css";
+
 const capriola = Capriola({
   subsets: ["latin"], // Specify the subsets you need
   weight: "400", // Capriola has only one weight
