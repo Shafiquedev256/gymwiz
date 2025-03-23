@@ -18,7 +18,7 @@ const ContactUsPage = () => {
     message: "",
   });
 
-  const sendEmail = (e: any) => {
+  const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
     emailjs
