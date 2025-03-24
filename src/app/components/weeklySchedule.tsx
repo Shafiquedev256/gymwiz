@@ -90,14 +90,16 @@ const WeeklySchedule = ({ schedule }: Props) => {
           your gym and book your spot at reception.
         </p>
       </div>
-      <div className='flex justify-center items-center'>
-        <div className='w-fit relative'>
-          <div className='bg-red-500 h-[120px] md:h-[150px] hexagon'></div>
-          <div className='absolute text-center text-white   flex flex-col justify-center items-center  top-0 left-0 w-[100%] h-[100%]'>
-            {selectedDay == "SUNDAY" && " Wizz gym is closed on Sunday"}
+      {selectedDay == "SUNDAY" && (
+        <div className='flex justify-center items-center'>
+          <div className='w-fit relative'>
+            <div className='bg-red-500 h-[120px] md:h-[150px] hexagon'></div>
+            <div className='absolute text-center text-white   flex flex-col justify-center items-center  top-0 left-0 w-[100%] h-[100%]'>
+              {selectedDay == "SUNDAY" && " Wizz gym is closed on Sunday"}
+            </div>
           </div>
         </div>
-      </div>
+      )}
 
       {schedule
         .filter((day) => day.day.toLocaleUpperCase() === selectedDay)
