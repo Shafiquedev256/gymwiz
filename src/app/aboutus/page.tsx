@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import { FooterSection } from "../components/footer";
 import HeaderSection from "../components/header";
 
@@ -134,7 +135,46 @@ const About_us_page = () => {
           </div>
         </div>
       </section>
+      <section>
+        {/* Members Rules Section */}
 
+        <h2 className='title font-semibold text-2xl text-center mb-2 py-3  md:my-3 '>
+          Members Rules
+        </h2>
+        <p className='text-gray-700 mb-2 md:text-center  px-2'>
+          We aim to make our gyms a safe and enjoyable experience for all our
+          members.
+          <Link
+            href={"/gymrules"}
+            className='underline text-blue-700 font-semibold md:p-2'
+          >
+            Learn About Our Rules
+          </Link>
+        </p>
+
+        <div className='w-[95%]'>
+          {/* Community Work Section */}
+
+          <div className='w-screen bg-[url("/nature.jpg")] bg-center bg-cover bg-no-repeat my-4   w4scre4n'>
+            <div className='bg-[#0000002f] bg-opacity-60 p-3 flex justify-center items-center flex-col w-[100%] h-[100%]'>
+              <h2 className=' font-semibold text-2xl text-center mb-2 py-3 text-white  md:my-3 '>
+                Community Work
+              </h2>
+              <p className=' text-gray-100   md:text-center md:w-[50%] mb-6'>
+                At Siti Gym, we believe in giving back to the community. We
+                actively contribute to local projects and initiatives that
+                support health and wellness in the broader community.
+                <Link
+                  href={"/community"}
+                  className='underline  text-blue-700 m-2 md:whitespace-nowrap font-semibold '
+                >
+                  Learn About Our Community Work
+                </Link>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
       <section className='mt-4 flex flex-col justify-between items-center'>
         <div>
           <div className=' flex flex-col justify-center items-center space-y-2'>
