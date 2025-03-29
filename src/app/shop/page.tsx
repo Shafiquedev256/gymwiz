@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { Dispatch, SetStateAction, useState } from "react";
 import { FooterSection } from "../components/footer";
 import HeaderSection from "../components/header";
 
@@ -8,7 +8,7 @@ export type ProductCardPropsEL = {
   name: string;
   image: string;
   price: number;
-  setAdded: any;
+  setAdded: Dispatch<SetStateAction<boolean>>;
   id: number;
   quantity: number;
 };
