@@ -8,13 +8,13 @@ import WhyChooseUs from "./components/whyChooseUs";
 
 export default function Home() {
   return (
-    <>
+    <section className='w-[100%] overflow-x-hidden'>
       <HeaderSection />
       <HeroSection />
       <WhyChooseUs />
       <OurFacilities />
       <section className='bg-[url("/bg-8.jpg")] bg-center font-body bg-cover bg-no-repeat '>
-        <div className='py-16 px-8 bg-[#fa94948b] text-center text-white '>
+        <div className='py-16 px-8 bg-[#0b0b0b5b] text-center text-white '>
           <h2 className='text-2xl md:text-3xl font-bold title  mb-2'>
             Ready to Join Us Today?
           </h2>
@@ -42,6 +42,6 @@ export default function Home() {
       <Testimonial />
 
       <FooterSection />
-    </>
+    </section>
   );
 }

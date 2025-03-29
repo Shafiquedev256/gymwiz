@@ -42,7 +42,7 @@ const Testimonial = () => {
     ],
   };
   return (
-    <section className='flex flex-col justify-center items-center'>
+    <section className='flex flex-col w-[100%] overflow-x-hidden justify-center items-center'>
       <div>
         <h2 className='title tracking-wide text-2xl font-semibold font-custom text-center'>
           Real People, Real Results
