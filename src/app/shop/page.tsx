@@ -9,7 +9,7 @@ export type ProductCardPropsEL = {
   image: string;
   price: number;
   setAdded: any;
-  id: Number;
+  id: number;
   quantity: any;
 };
 

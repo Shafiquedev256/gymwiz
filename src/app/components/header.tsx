@@ -295,7 +295,7 @@ const HeaderSection = () => {
                 <li>
                   <Link
                     href={"/spa"}
-                    className={`${pathname === "/pricing" ? " underline" : " "} hover:underline`}
+                    className={`${pathname === "/spa" ? " underline" : " "} hover:underline`}
                   >
                     Spa
                   </Link>
@@ -303,7 +303,7 @@ const HeaderSection = () => {
                 <li>
                   <Link
                     href={"/contact"}
-                    className={` ${pathname === "/pricing" ? " underline" : " "} hover:underline`}
+                    className={` ${pathname === "/contact" ? " underline" : " "} hover:underline`}
                   >
                     Contact
                   </Link>
@@ -311,9 +311,30 @@ const HeaderSection = () => {
                 <li>
                   <Link
                     href={"/carears"}
-                    className={`${pathname === "/pricing" ? " underline" : " "} hover:underline`}
+                    className={`${pathname === "/carears" ? " underline" : " "} hover:underline`}
                   >
                     Carears
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href={"/shop"}
+                    className={` ${pathname === "/shop" ? " underline" : " "} hover:underline`}
+                  >
+                    Shop
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href={"/shop/cart"}
+                    className={`${pathname === "/shop/cart" ? " underline" : " "} hover:underline`}
+                  >
+                    <div className='flex flex-row space-x-1 items-center'>
+                      <span className=' text-center font-bold text-sm'>
+                        {cartCount}
+                      </span>
+                      <span>Cart</span>
+                    </div>
                   </Link>
                 </li>
               </ul>
