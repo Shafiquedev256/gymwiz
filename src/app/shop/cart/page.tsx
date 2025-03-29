@@ -23,7 +23,7 @@ const Cart = () => {
 
   const handleWhatsAppRedirect = () => {
     const products = cartItems?.map(
-      (item: any) => ` ${item.name} - $ ${item.price} `
+      (item: ProductCardPropsEL) => ` ${item.name} - $ ${item.price} `
     );
     const phoneNumber = "+256705746131"; // Replace with your WhatsApp number
     const message = `Hello i'm checking out this \n \n${JSON.stringify(products)}\n No. ${cartItems.length}  total = $ ${totalPrice}`; // Pre-filled message
@@ -67,7 +67,7 @@ const Cart = () => {
             </div>
 
             <section className='md:w-3/5 font-body'>
-              {cartItems.map((item: any) => (
+              {cartItems.map((item: ProductCardPropsEL) => (
                 <div
                   key={item.name}
                   className='p-2 bg-white shadow-sm w-[95%]  my-4 mx-2 rounded'
