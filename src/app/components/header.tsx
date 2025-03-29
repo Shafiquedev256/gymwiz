@@ -2,11 +2,13 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
+import { useCartCount } from "../hooks/CartContext";
 
 const HeaderSection = () => {
   const pathname = usePathname();
   const [isOpen, setIsOpen] = useState(false);
   const [open, setOpen] = useState(false);
+  const cartCount = useCartCount();
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
@@ -122,7 +124,7 @@ const HeaderSection = () => {
               </li>
             </ul>
             {/* Desktop menu */}
-            <div className='md:block hidden md:w-2/5 md:px-3'>
+            <div className='md:block hidden md:w-3/5 md:px-3'>
               <ul className=' flex flex-row justify-between text-lg items-center'>
                 <li>
                   <Link
@@ -185,6 +187,27 @@ const HeaderSection = () => {
                     className={`${pathname === "/carears" ? " underline" : " "} hover:underline`}
                   >
                     Carears
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href={"/shop"}
+                    className={` ${pathname === "/shop" ? " underline" : " "} hover:underline`}
+                  >
+                    Shop
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href={"/shop/cart"}
+                    className={`${pathname === "/shop/cart" ? " underline" : " "} hover:underline`}
+                  >
+                    <div className='flex flex-row space-x-1 items-center'>
+                      <span className=' text-center font-bold text-sm'>
+                        {cartCount}
+                      </span>
+                      <span>Cart</span>
+                    </div>
                   </Link>
                 </li>
               </ul>

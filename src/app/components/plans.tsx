@@ -78,7 +78,7 @@ export const Plans = () => {
                   const url = `https://wa.me/+256705746131?text=${encodeURIComponent("SUBSCRIBE siti gym one day pass UGx 0")}`;
                   window.open(url, "_blank"); // Opens the WhatsApp chat in a new tab
                 }}
-                className='bg-white md:w-[70%]  md:text-lg text-sm text-red-700 p-2 rounded-md text-center   hover:bg-red-700 hover:text-white'
+                className='bg-red-700 md:w-[70%]  md:text-lg text-sm text-red-100 p-2 rounded-md text-center   hover:bg-white hover:text-red-700'
               >
                 SUBSCRIBE NOW
               </button>
@@ -133,7 +133,7 @@ export const Plans = () => {
                   const url = `https://wa.me/+256705746131?text=${encodeURIComponent("SUBSCRIBE siti gym    Men's plan    Ugs 120,000")}`;
                   window.open(url, "_blank"); // Opens the WhatsApp chat in a new tab
                 }}
-                className='bg-white md:w-[70%]  md:text-lg text-sm text-red-700 p-2 rounded-md text-center   hover:bg-red-700 hover:text-white'
+                className='bg-red-700 md:w-[70%]  md:text-lg text-sm text-red-100 p-2 rounded-md text-center   hover:bg-white hover:text-red-700'
               >
                 SUBSCRIBE NOW
               </button>
@@ -199,7 +199,7 @@ export const Plans = () => {
                   const url = `https://wa.me/+256705746131?text=${encodeURIComponent("SUBSCRIBE siti gym Student Ugs 100,000")}`;
                   window.open(url, "_blank"); // Opens the WhatsApp chat in a new tab
                 }}
-                className='bg-white md:w-[70%]  md:text-lg text-sm text-red-700 p-2 rounded-md text-center   hover:bg-red-700 hover:text-white'
+                className='bg-red-700 md:w-[70%]  md:text-lg text-sm text-red-100 p-2 rounded-md text-center   hover:bg-white hover:text-red-700'
               >
                 SUBSCRIBE NOW
               </button>
@@ -260,7 +260,7 @@ export const Plans = () => {
                   const url = `https://wa.me/+256705746131?text=${encodeURIComponent("SUBSCRIBE siti gym Women Ugs 120,000")}`;
                   window.open(url, "_blank"); // Opens the WhatsApp chat in a new tab
                 }}
-                className='bg-white md:w-[70%]  md:text-lg text-sm text-red-700 p-2 rounded-md text-center   hover:bg-red-700 hover:text-white'
+                className='bg-red-700 md:w-[70%]  md:text-lg text-sm text-red-100 p-2 rounded-md text-center   hover:bg-white hover:text-red-700'
               >
                 SUBSCRIBE NOW
               </button>
@@ -359,7 +359,7 @@ export const Plans = () => {
                   const url = `https://wa.me/+256705746131?text=${encodeURIComponent("SUBSCRIBE siti gym  Corporate Ugs 120,000")}`;
                   window.open(url, "_blank"); // Opens the WhatsApp chat in a new tab
                 }}
-                className='bg-white md:w-[70%]  md:text-lg text-sm text-red-700 p-2 rounded-md text-center   hover:bg-red-700 hover:text-white'
+                className='bg-red-700 md:w-[70%]  md:text-lg text-sm text-red-100 p-2 rounded-md text-center   hover:bg-white hover:text-red-700'
               >
                 SUBSCRIBE NOW
               </button>

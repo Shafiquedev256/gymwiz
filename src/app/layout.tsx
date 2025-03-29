@@ -3,6 +3,7 @@
 import type { Metadata } from "next";
 import { Capriola, Outfit, Orbitron } from "next/font/google";
 import "./globals.css";
+import { CartProvider } from "./hooks/CartContext";
 
 const capriola = Capriola({
   subsets: ["latin"], // Specify the subsets you need
@@ -37,7 +38,7 @@ export default function RootLayout({
       <body
         className={`antialiased ${capriola.variable} ${outfit.variable} ${orbitron.variable}`}
       >
-        {children}
+        <CartProvider>{children}</CartProvider>
       </body>
     </html>
   );
