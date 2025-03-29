@@ -10,7 +10,7 @@ export type ProductCardPropsEL = {
   price: number;
   setAdded: any;
   id: number;
-  quantity: any;
+  quantity: number;
 };
 
 const StorePage: React.FC = () => {
@@ -127,7 +127,11 @@ const ProductCard: React.FC<ProductCardPropsEL> = ({
   return (
     <>
       <div className=' flex flex-col  m-3   text-black w-[280px]  h-[299px] rounded-md bg-white '>
-        <img className='w-full h-[60%] rounded-t-md' src={image} alt={name} />
+        <img
+          className='w-full h-[60%] rounded-t-md'
+          src={image}
+          alt={name + quantity}
+        />
         <div className='p-3 h-[30%]'>
           <div className='font-bold text-lg mb-2'>{name}</div>
           <p className='text-gray-600'>${price.toFixed(2)}</p>
