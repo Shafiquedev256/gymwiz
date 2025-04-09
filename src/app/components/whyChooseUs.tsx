@@ -1,8 +1,8 @@
 const WhyChooseUs = () => {
   return (
-    <section className=''>
+    <section className='bg-white text-black'>
       <div className='my-8 flex flex-col justify-center items-center space-y-2'>
-        <h2 className='text-3xl md:text-4xl font-bold title  font-custom text-center'>
+        <h2 className='text-3xl md:text-4xl font-bold title text-black font-custom text-center'>
           Boost your fitness training with Us
         </h2>
         <p className='text-sm text-center text-gray-900 md:w-[30%]'>
@@ -10,8 +10,8 @@ const WhyChooseUs = () => {
           Tailored To You
         </p>
       </div>
-      <div className='m-3 flex md:flex-row md:space-x-5 flex-col  justify-center py-8 items-center '>
-        <div className='w-[230px] h-[280px] py-4 m-3 flex flex-col justify-center items-center rounded-md p-3 bg-[#ff37370f]'>
+      <div className='md:m-3 mx-2 grid grid-cols-2 grid-rows-2 md:flex md:flex-row md:space-x-5   md:justify-center py-8 gap-2.5 md:items-center '>
+        <div className='md:w-[230px] md:h-[280px] w-[150px] h-[290px] py-4 md:m-3 flex flex-col justify-center items-center rounded-md p-3 bg-[#ff37370f]'>
           <div className='flex justify-center mb-3 mx-2 items-center'>
             <span className='bg-black rounded-full justify-center items-center p-2'>
               <img src='/cycle.svg' alt='' />
@@ -28,7 +28,7 @@ const WhyChooseUs = () => {
             </p>
           </div>
         </div>
-        <div className='m-3 w-[230px] h-[280px] py-4 flex flex-col justify-center items-center rounded-lg p-3 bg-[#ff37370f]'>
+        <div className='md:m-3 md:w-[230px] md:h-[280px] w-[150px] h-[290px] py-4 flex flex-col justify-center items-center rounded-lg p-3 bg-[#ff37370f]'>
           <div className='flex justify-center mb-3 mx-2 items-center'>
             <span className='bg-black rounded-full justify-center items-center p-2'>
               <svg
@@ -59,7 +59,8 @@ const WhyChooseUs = () => {
             </p>
           </div>
         </div>
-        <div className='w-[230px] h-[280px] m-3 py-4 flex flex-col justify-center items-center rounded-lg p-3 bg-[#ff37370f]'>
+
+        <div className='md:w-[230px] md:h-[280px] m-3 py-4 col-span-full flex flex-col justify-center items-center rounded-lg p-3 bg-[#ff37370f]'>
           <div className='flex justify-center mb-3 mx-2 items-center'>
             <span className='bg-black rounded-full justify-center items-center p-2'>
               <img src='/trainers.svg' alt='' />
