@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import OurFacilities from "./components/features";
 import { FooterSection } from "./components/footer";
 import HeaderSection from "./components/header";
@@ -8,7 +9,7 @@ import WhyChooseUs from "./components/whyChooseUs";
 
 export default function Home() {
   return (
-    <section className='w-[100%] overflow-x-hidden'>
+    <section className='w-[100%] overflow-x-hidden bg-white text-black'>
       <HeaderSection />
       <HeroSection />
       <WhyChooseUs />
@@ -40,7 +41,43 @@ export default function Home() {
         </div>
       </section>
       <Testimonial />
-
+      <div className='w-screen overflow-hidden font-body'>
+        <div className='md:hidden w-screen overflow-hidden bg-black py-3'>
+          <div className='md:hidden  slide-track flex flex-row items-center justify-center'>
+            <Link href={"/"} className='slideel'>
+              <img
+                src='/sitilogo-removebg-preview.png'
+                alt='logo'
+                className=' w-36 '
+              />
+            </Link>
+            <Link href={"/"} className='slideel'>
+              <img
+                src='/gym80.png'
+                alt='USN l
+              ogo'
+                className='w-20 '
+              />
+            </Link>
+            <Link href={"/"} className='slideel'>
+              <img
+                src='/musc-removebg-preview.png'
+                alt='muscl
+                e logo'
+                className='w-28'
+              />
+            </Link>
+            <Link href={"/"} className='slideel'>
+              <img
+                src='/openflow-removebg-preview.png'
+                alt='Open 
+                flow logo'
+                className='w-28  '
+              />
+            </Link>
+          </div>
+        </div>
+      </div>
       <FooterSection />
     </section>
   );

@@ -4,50 +4,13 @@ import Link from "next/link";
 export const FooterSection = () => {
   return (
     <>
-      <div className='w-screen overflow-hidden font-body'>
-        <div className='md:hidden w-screen overflow-hidden bg-black py-3'>
-          <div className='md:hidden  slide-track flex flex-row items-center justify-center'>
-            <Link href={"/"} className='slideel'>
-              <img
-                src='/sitilogo-removebg-preview.png'
-                alt='logo'
-                className=' w-36 '
-              />
-            </Link>
-            <Link href={"/"} className='slideel'>
-              <img
-                src='/gym80.png'
-                alt='USN l
-              ogo'
-                className='w-20 '
-              />
-            </Link>
-            <Link href={"/"} className='slideel'>
-              <img
-                src='/musc-removebg-preview.png'
-                alt='muscl
-                e logo'
-                className='w-28'
-              />
-            </Link>
-            <Link href={"/"} className='slideel'>
-              <img
-                src='/openflow-removebg-preview.png'
-                alt='Open 
-                flow logo'
-                className='w-28  '
-              />
-            </Link>
-          </div>
-        </div>
-      </div>
       <footer className='bg-black  w-screen overflow-hidden'>
         <div>
           <div className='flex flex-col md:flex-row md:justify-evenly items-center justify-center'>
             <div className='hidden  md:flex md:flex-row md:items-center md:justify-center md:space-x-3'>
               <Link href={"/"}>
                 <img
-                  src='/sitilogo-removebg-preview.png'
+                  src='/wizzlogo.png'
                   alt='logo'
                   width={50}
                   height={50}

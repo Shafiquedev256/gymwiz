@@ -29,10 +29,13 @@ export const Plans = () => {
 
         {/**men membership */}
         <div className='flex flex-row  space-x-2   justify-center items-center'>
-          <div className='text-lg font-semibold rounded-3xl w-[46%] md:w-full max-w-sm p-2 bg-[#e1131308] border border-gray-200 hover:border-red-600   sm:p-8 dark:bg-gray-800 dark:border-gray-700'>
+          <div
+            className='text-lg  font-semibold rounded-3xl w-[46%] md:w-full max-w-sm p-2 bg-[#e1131308] border border-gray-200 hover:border-red-600   sm:p-8 
+          '
+          >
             <h2 className='text-[#b62f2f] text-bold text-lg'>ONE DAY PASS</h2>
             <div className=' title  text-center  p-2 w-[100%]   rounded-md my-2'>
-              Ugs 0 /<span className='text-sm'>VISITOR</span>
+              Ugs <br /> 0 /<span className='text-sm'>VISITOR</span>
             </div>
 
             <ul className=' text-sm md:text-lg'>
@@ -84,10 +87,13 @@ export const Plans = () => {
               </button>
             </div>
           </div>
-          <div className='text-lg font-semibold rounded-3xl w-[46%] md:w-full max-w-sm p-2 bg-[#e1131308] border border-gray-200 hover:border-red-600   sm:p-8 dark:bg-gray-800 dark:border-gray-700'>
+          <div
+            className='text-lg font-semibold rounded-3xl w-[46%] md:w-full max-w-sm p-2 bg-[#e1131308] border border-gray-200 hover:border-red-600   sm:p-8 
+          '
+          >
             <h2 className='text-[#b62f2f] text-bold text-lg'>MEN'S PLAN</h2>
             <div className=' title  text-center  p-2 w-[100%]   rounded-md my-2'>
-              Ugs 120,000 /<span className='text-sm'>Month</span>
+              Ugs 120,000 /<span className='text-sm'>MONTH</span>
             </div>
             <ul className=' text-sm md:text-lg'>
               <li className=' border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-red-700  flex flex-row items-center space-x-2'>
@@ -145,7 +151,10 @@ export const Plans = () => {
           Women & Students Membership Plans
         </h2>
         <div className='flex flex-row  space-x-2   justify-center items-center'>
-          <div className='text-lg font-semibold rounded-3xl w-[46%] md:w-full max-w-sm p-2 bg-[#e1131308] border border-gray-200 hover:border-red-600   sm:p-8 dark:bg-gray-800 dark:border-gray-700'>
+          <div
+            className='text-lg font-semibold rounded-3xl w-[46%] md:w-full max-w-sm p-2 bg-[#e1131308] border border-gray-200 hover:border-red-600   sm:p-8 
+          '
+          >
             <h2 className='text-[#b62f2f] text-bold text-lg'>STUDENT'S PLAN</h2>
             <div className=' title   p-2 w-[100%]   rounded-md my-2'>
               Ugs 100,000 /<span className='text-sm'>MONTH</span>
@@ -205,7 +214,10 @@ export const Plans = () => {
               </button>
             </div>
           </div>
-          <div className='text-lg font-semibold rounded-3xl w-[46%] md:w-full max-w-sm p-2 bg-[#e1131308] border border-gray-200 hover:border-red-600   sm:p-8 dark:bg-gray-800 dark:border-gray-700'>
+          <div
+            className='text-lg font-semibold rounded-3xl w-[46%] md:w-full max-w-sm p-2 bg-[#e1131308] border border-gray-200 hover:border-red-600   sm:p-8 
+          '
+          >
             <h2 className='text-[#b62f2f] text-bold text-lg'>WOMEN'S PLAN</h2>
             <div className=' title  text-center  p-2 w-[100%]   rounded-md my-2'>
               Ugs 120,000 /<span className='text-sm'>MONTH</span>
@@ -267,21 +279,6 @@ export const Plans = () => {
             </div>
           </div>
         </div>
-        <div className='flex flex-col justify-center items-center p-6 mx-2'>
-          <h2 className='font-semibold title tracking-wider'>CORPORATE </h2>
-          <p className=' text-center md:w-[55%] text-black'>
-            Save up to
-            <span className='text-red-700 text-2xl font-bold mx-2'>20%</span> on
-            memberships when you sign your employees up to one of our great
-            corporate packages.
-            <Link
-              href='/contact'
-              className='whitespace-nowrap text-blue-600 underline'
-            >
-              Contact us for more information
-            </Link>
-          </p>
-        </div>
         <div className='flex flex-col justify-center items-center p-4 mx-2'>
           <h2 className='font-semibold'>A SOLUTION FOR EVERYONE.</h2>
           <div className='md:w-[56%] flex flex-col space-y-3 md:space-y-1 text-center '>
@@ -301,8 +298,27 @@ export const Plans = () => {
           </div>
         </div>
 
+        <div className='flex flex-col justify-center items-center p-6 mx-2'>
+          <h2 className='font-semibold title tracking-wider'>CORPORATE </h2>
+          <p className=' text-center md:w-[55%] text-black'>
+            Save up to
+            <span className='text-red-700 text-2xl font-bold mx-2'>20%</span> on
+            memberships when you sign your employees up to one of our great
+            corporate packages.
+            <Link
+              href='/contact'
+              className='whitespace-nowrap text-blue-600 underline'
+            >
+              Contact us for more information
+            </Link>
+          </p>
+        </div>
+
         <div className='flex flex-col justify-center items-center my-3'>
-          <div className='text-lg font-semibold rounded-3xl  md:w-full max-w-sm p-2 bg-[#e1131308] border border-gray-200 hover:border-red-600   sm:p-8 dark:bg-gray-800 dark:border-gray-700'>
+          <div
+            className='text-lg font-semibold rounded-3xl  md:w-full max-w-sm p-2 bg-[#e1131308] border border-gray-200 hover:border-red-600   sm:p-8 
+          '
+          >
             <h2 className='text-[#b62f2f] text-bold text-center text-lg'>
               CORPORATE PLAN
             </h2>

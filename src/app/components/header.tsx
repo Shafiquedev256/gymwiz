@@ -18,11 +18,11 @@ const HeaderSection = () => {
       <section className='z-20 sticky top-0 left-0 w-[100%] '>
         <div className='bg-red-700 flex flex-col  text-white'>
           <div className='flex flex-row items-center justify-between px-4 '>
-            <Link href={"/"} className=' w-[40%] md:w-2/6'>
+            <Link href={"/"} className=' w-[30%]  md:w-2/6 '>
               <img
                 src='/wizzlogo.png'
                 alt='Wizz gym logo'
-                className='md:w-36'
+                className='md:w-36 w-[100%]'
               />
             </Link>
 
@@ -129,7 +129,7 @@ const HeaderSection = () => {
                 <li>
                   <Link
                     href={"/aboutus"}
-                    className={`${pathname === "/aboutus" ? " underline" : " "} hover:underline`}
+                    className={`${pathname === "/aboutus" ? " underline" : " "} hover:underline hover:text-red-500`}
                   >
                     About Us
                   </Link>
@@ -146,13 +146,7 @@ const HeaderSection = () => {
                 <li className=' flex flex-col-reverse   '>
                   <div className='relative'>
                     {open && (
-                      <div className=' lg:absolute lg:top-6 lg:z-20 text-black lg:bg-red-100 shadow-md p-1 rounded mr-3 lg:shadow-lg flex-col flex'>
-                        <Link
-                          href={"/classes"}
-                          className=' my-2 hover:bg-red-600 hover:text-white p-2 w-[100%] rounded-lg '
-                        >
-                          All
-                        </Link>
+                      <div className=' lg:absolute lg:top-6 lg:z-20 text-black lg:bg-gray-100 shadow-md p-1 rounded mr-3 lg:shadow-lg flex-col flex'>
                         <Link
                           href={"/classes/women"}
                           className='hover:bg-red-600 hover:text-white my-2 text-center p-2 w-[100%] rounded-lg '
@@ -163,7 +157,9 @@ const HeaderSection = () => {
                     )}
                   </div>
 
-                  <div onClick={() => setOpen(!open)}>Classes</div>
+                  <Link href={"/classes"} onClick={() => setOpen(!open)}>
+                    Classes
+                  </Link>
                 </li>
                 <li>
                   <Link
@@ -216,7 +212,7 @@ const HeaderSection = () => {
 
             <button
               onClick={toggleMenu}
-              className={`md:hidden focus:outline-none z-20 ${isOpen ? "text-black" : "text-white"} `}
+              className={`md:hidden focus:outline-none text-white `}
             >
               <svg
                 className='w-6 h-6'
@@ -225,21 +221,12 @@ const HeaderSection = () => {
                 viewBox='0 0 24 24'
                 xmlns='http://www.w3.org/2000/svg'
               >
-                {isOpen ? (
-                  <path
-                    strokeLinecap='round'
-                    strokeLinejoin='round'
-                    strokeWidth={2}
-                    d='M6 18L18 6M6 6l12 12'
-                  />
-                ) : (
-                  <path
-                    strokeLinecap='round'
-                    strokeLinejoin='round'
-                    strokeWidth={2}
-                    d='M4 6h16M4 12h16M4 18h16'
-                  />
-                )}
+                <path
+                  strokeLinecap='round'
+                  strokeLinejoin='round'
+                  strokeWidth={2}
+                  d='M4 6h16M4 12h16M4 18h16'
+                />
               </svg>
             </button>
 
@@ -248,11 +235,49 @@ const HeaderSection = () => {
             <div
               className={`md:hidden bg-white text-gray-400 ${isOpen ? "translate-x-0" : "-translate-x-[500px]"} z-10   ease-in-out duration-300  w-[100%]  fixed top-0 left-0 flex flex-col justify-center items-center h-[100vh]    text-gray-700`}
             >
+              <div
+                onClick={() => {
+                  setIsOpen(false);
+                }}
+                className='  px-6 text-center w-[100%] font-light flex items-center justify-center lg:hidden right-0 mb-4'
+              >
+                <svg
+                  viewBox='-0.5 0 25 25'
+                  fill='none'
+                  xmlns='http://www.w3.org/2000/svg'
+                  width='50'
+                  height='50'
+                >
+                  <g id='SVGRepo_bgCarrier' strokeWidth='0'></g>
+                  <g
+                    id='SVGRepo_tracerCarrier'
+                    strokeLinecap='round'
+                    strokeLinejoin='round'
+                  ></g>
+                  <g id='SVGRepo_iconCarrier'>
+                    {" "}
+                    <path
+                      d='M3 21.32L21 3.32001'
+                      stroke='currentColor'
+                      strokeWidth='1.5'
+                      strokeLinecap='round'
+                      strokeLinejoin='round'
+                    ></path>{" "}
+                    <path
+                      d='M3 3.32001L21 21.32'
+                      stroke='currentColor'
+                      strokeWidth='1.5'
+                      strokeLinecap='round'
+                      strokeLinejoin='round'
+                    ></path>{" "}
+                  </g>
+                </svg>
+              </div>
               <ul className=' flex flex-col justify-between space-y-4 text-lg items-center'>
                 <li>
                   <Link
                     href={"/aboutus"}
-                    className={`${pathname === "/aboutus" ? " underline" : " "} hover:underline`}
+                    className={`${pathname === "/aboutus" && " bg-red-100 text-red-600 "} p-2  rounded-md hover:underline`}
                   >
                     About Us
                   </Link>
@@ -260,7 +285,7 @@ const HeaderSection = () => {
                 <li>
                   <Link
                     href={"/pricing"}
-                    className={`${pathname === "/pricing" ? " underline" : " "} hover:underline`}
+                    className={`${pathname === "/pricing" && " bg-red-100 text-red-600 "} p-2  rounded-md hover:underline`}
                   >
                     Pricing
                   </Link>
@@ -268,34 +293,26 @@ const HeaderSection = () => {
                 <li className='flex justify-between items-center text-lg'>
                   <div className='relative flex flex-col-reverse items-center justify-center'>
                     {open && (
-                      <div className=' text-center lg:absolute lg:top-6 lg:z-20 bg-gray-200 p-1 rounded mr-3 shadow-b-lg flex-col flex'>
-                        <Link
-                          href={"/classes"}
-                          className='text-red-600  hover:bg-red-100 p-2 border-0 border-b-2 border-b-red-400'
-                        >
-                          All
-                        </Link>
-                        <Link
-                          href={"/classes/women"}
-                          className='text-red-600 p-2  hover:bg-red-100'
-                        >
-                          Female
+                      <div className=' text-center lg:absolute lg:top-6 lg:z-20  p-1 rounded mr-3 shadow-b-lg flex-col flex'>
+                        <Link href={"/classes/women"} className=''>
+                          Female classes
                         </Link>
                       </div>
                     )}
 
-                    <span
+                    <Link
+                      href={"/classes"}
                       onClick={() => setOpen(!open)}
                       className=' w-screen whitespace-nowrap  text-center lg:w-fit hover:underline block active:text-red-600 focus:text-red-600 hover:text-red-600'
                     >
                       Classes
-                    </span>
+                    </Link>
                   </div>
                 </li>
                 <li>
                   <Link
                     href={"/spa"}
-                    className={`${pathname === "/spa" ? " underline" : " "} hover:underline`}
+                    className={`${pathname === "/spa" && " bg-red-100 text-red-600 "} p-2  rounded-md hover:underline`}
                   >
                     Spa
                   </Link>
@@ -303,7 +320,7 @@ const HeaderSection = () => {
                 <li>
                   <Link
                     href={"/contact"}
-                    className={` ${pathname === "/contact" ? " underline" : " "} hover:underline`}
+                    className={` ${pathname === "/contact" && " bg-red-100 text-red-600 "} p-2  rounded-md hover:underline`}
                   >
                     Contact
                   </Link>
@@ -311,7 +328,7 @@ const HeaderSection = () => {
                 <li>
                   <Link
                     href={"/carears"}
-                    className={`${pathname === "/carears" ? " underline" : " "} hover:underline`}
+                    className={`${pathname === "/carears" && " bg-red-100 text-red-600 "} p-2  rounded-md hover:underline`}
                   >
                     Carears
                   </Link>
@@ -319,7 +336,7 @@ const HeaderSection = () => {
                 <li>
                   <Link
                     href={"/shop"}
-                    className={` ${pathname === "/shop" ? " underline" : " "} hover:underline`}
+                    className={` ${pathname === "/shop" && " bg-red-100 text-red-600 "} p-2  rounded-md hover:underline`}
                   >
                     Shop
                   </Link>
@@ -327,7 +344,7 @@ const HeaderSection = () => {
                 <li>
                   <Link
                     href={"/shop/cart"}
-                    className={`${pathname === "/shop/cart" ? " underline" : " "} hover:underline`}
+                    className={`${pathname === "/shop/cart" && " bg-red-100 text-red-600 "} p-2  rounded-md hover:underline`}
                   >
                     <div className='flex flex-row space-x-1 items-center'>
                       <span className=' text-center font-bold text-sm'>
