@@ -16,8 +16,8 @@ const HeaderSection = () => {
   return (
     <>
       <section className='z-20 sticky top-0 left-0 w-[100%] '>
-        <div className='bg-red-700 flex flex-col  text-white'>
-          <div className='flex flex-row items-center justify-between px-4 '>
+        <div className='bg-red-600 flex flex-col  text-white'>
+          <div className='flex flex-row items-center justify-between pr-4 '>
             <Link href={"/"} className=' w-[30%]  md:w-2/6 '>
               <img
                 src='/wizzlogo.png'

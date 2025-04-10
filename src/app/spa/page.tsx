@@ -113,7 +113,7 @@ const SPAAndSauna: React.FC = () => {
             <Link
               target='_blank'
               href={`https://wa.me/+256705746131?text=${encodeURIComponent("Hello! I need details about your Spa and Sauna Services.")}`}
-              className='bg-red-800 font-body tracking-wide font-bold text-white py-3 px-6 rounded-lg shadow-md hover:bg-red-600 transition duration-300'
+              className='bg-red-600 font-body tracking-wide font-bold text-white py-3 px-6 rounded-lg shadow-md hover:bg-red-600 transition duration-300'
             >
               Book Your Experience!
             </Link>

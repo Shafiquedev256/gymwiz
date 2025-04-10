@@ -8,13 +8,13 @@ export const FooterSection = () => {
         <div>
           <div className='flex flex-col md:flex-row md:justify-evenly items-center justify-center'>
             <div className='hidden  md:flex md:flex-row md:items-center md:justify-center md:space-x-3'>
-              <Link href={"/"}>
+              <Link href={"/"} className='object-center'>
                 <img
-                  src='/wizzlogo.png'
+                  src='/zzz1-removebg-preview.png'
                   alt='logo'
                   width={50}
                   height={50}
-                  className='w-36   p-2'
+                  className='w-26   p-2'
                 />
               </Link>
               <Link href={"/"}>

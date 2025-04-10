@@ -46,9 +46,9 @@ export default function Home() {
           <div className='md:hidden  slide-track flex flex-row items-center justify-center'>
             <Link href={"/"} className='slideel'>
               <img
-                src='/sitilogo-removebg-preview.png'
+                src='/zzz1-removebg-preview.png'
                 alt='logo'
-                className=' w-36 '
+                className=' w-22 '
               />
             </Link>
             <Link href={"/"} className='slideel'>
@@ -78,6 +78,14 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <div className='md:h-[30%]'>
+        <iframe
+          src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.765779931804!2d32.60261527403775!3d0.29404126406153863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177dbd39c034e6cb%3A0x967e07aca4b42153!2sWizz%20Gym!5e0!3m2!1sen!2sug!4v1744286971703!5m2!1sen!2sug'
+          className='w-full h-[30vh]'
+          loading='lazy'
+        ></iframe>
+      </div>
+
       <FooterSection />
     </section>
   );
