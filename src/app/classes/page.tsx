@@ -33,7 +33,7 @@ const Classes = () => {
               {classes.map((gymClass, index) => (
                 <div
                   key={index}
-                  className='bg-[#9c0707] md:w-[222px] rounded-lg hover:animate-pulse'
+                  className='bg-red-600 md:w-[222px] rounded-lg hover:animate-pulse'
                 >
                   <img
                     src={gymClass.img}
@@ -53,7 +53,7 @@ const Classes = () => {
           <div className='flex justify-center items-center '>
             <Link
               href={"/classes/women"}
-              className='bg-red-700 text-white  font-bold text-sm my-2 w-[80%] md:w-[20%] rounded-full mb-8 text-center hover:bg-red-800  hover:text-white p-3 '
+              className='bg-red-600 text-white  font-bold text-sm my-2 w-[80%] md:w-[20%] rounded-full mb-8 text-center hover:bg-red-800  hover:text-white p-3 '
             >
               Women workouts
             </Link>
