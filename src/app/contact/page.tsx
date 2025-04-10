@@ -336,9 +336,7 @@ const ContactUsPage = () => {
                 <p className='text-gray-600'>
                   <strong>Customer Service:</strong>
                 </p>
-                <p className='text-gray-700 mb-2'>
-                  256 00 0 000 / 256 111 1 111
-                </p>
+                <p className='text-gray-700 mb-2'>+256 705 746131</p>
                 <p className='text-gray-700'>
                   Questions and support for classes, delivery, and payments.
                 </p>
