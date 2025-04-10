@@ -54,7 +54,10 @@ const Testimonial = () => {
       <div className='w-[100%]  '>
         <Slider {...settings}>
           {testmonialel.map((test) => (
-            <div className='flex flex-row items-center text-black w-[333px] p-2 h-[222px] rounded-md bg-[#f4e1e12f]'>
+            <div
+              key={test.message}
+              className='flex flex-row items-center text-black w-[333px] p-2 h-[222px] rounded-md bg-[#f4e1e12f]'
+            >
               <div className=''>
                 <div className=' rounded-md '>
                   <div className='flex flex-row justify-between items-center space-x-5 mt-2'>
