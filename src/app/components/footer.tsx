@@ -4,7 +4,7 @@ import Link from "next/link";
 export const FooterSection = () => {
   return (
     <>
-      <footer className='bg-black  w-screen overflow-hidden'>
+      <footer className='bg-black pt-6 w-screen overflow-hidden'>
         <div>
           <div className='flex flex-col md:flex-row md:justify-evenly items-center justify-center'>
             <div className='hidden  md:flex md:flex-row md:items-center md:justify-center md:space-x-3'>
