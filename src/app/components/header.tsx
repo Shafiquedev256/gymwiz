@@ -19,11 +19,11 @@ const HeaderSection = () => {
       <section className='z-20 sticky top-0 left-0 w-[100%] '>
         <div className='bg-white py-2 flex flex-col  text-black'>
           <div className='flex flex-row items-center justify-between pr-4 '>
-            <Link href={"/"} className=' w-[30%]  md:w-2/6 '>
+            <Link href={"/"} className=' w-[36%]  md:w-2/6 '>
               <img
                 src='/IMG-20250210-WA0000-removebg-preview.png'
                 alt='Wizz gym logo'
-                className='md:w-36 w-[100%]'
+                className='md:w-36 w-36'
               />
             </Link>
 
