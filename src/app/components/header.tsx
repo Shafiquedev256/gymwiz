@@ -9,6 +9,7 @@ const HeaderSection = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [open, setOpen] = useState(false);
   const cartCount = useCartCount();
+  console.log(cartCount);
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
@@ -16,21 +17,21 @@ const HeaderSection = () => {
   return (
     <>
       <section className='z-20 sticky top-0 left-0 w-[100%] '>
-        <div className='bg-red-600 flex flex-col  text-white'>
+        <div className='bg-white py-2 flex flex-col  text-black'>
           <div className='flex flex-row items-center justify-between pr-4 '>
             <Link href={"/"} className=' w-[30%]  md:w-2/6 '>
               <img
-                src='/wizzlogo.png'
+                src='/IMG-20250210-WA0000-removebg-preview.png'
                 alt='Wizz gym logo'
                 className='md:w-36 w-[100%]'
               />
             </Link>
 
-            <ul className='text-white font-medium lg:hidden space-x-2 flex flex-row justify-center items-center md:space-x-8'>
+            <ul className='text-red-600 font-medium lg:hidden space-x-2 flex flex-row justify-center items-center md:space-x-8'>
               {/** facebook  */}
 
               <li className='flex flex-row   items-center   lg:hover:underline lg:hover:text-black'>
-                <Link href={"/"} className='hover:text-red-600'>
+                <Link href={"/"} className='hover:text-black'>
                   <svg
                     width='23px'
                     height='23px'
@@ -59,7 +60,7 @@ const HeaderSection = () => {
                   href={
                     "https://www.instagram.com/kampalasitigym?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
                   }
-                  className='hover:text-red-600'
+                  className='hover:text-black'
                 >
                   <svg
                     fill='currentColor'
@@ -90,7 +91,7 @@ const HeaderSection = () => {
                   href={
                     "https://www.tiktok.com/@sitigym_?is_from_webapp=1&sender_device=pc"
                   }
-                  className='hover:text-red-600'
+                  className='hover:text-black'
                 >
                   <svg
                     width='28px'
@@ -110,7 +111,7 @@ const HeaderSection = () => {
               {/** whatsapp */}
 
               <li className='flex flex-row   items-center   lg:hover:underline lg:hover:text-black'>
-                <Link href={"/"} className='hover:text-red-600'>
+                <Link href={"/"} className='hover:text-black'>
                   <svg
                     fill='currentColor'
                     width='28px'
@@ -129,7 +130,7 @@ const HeaderSection = () => {
                 <li>
                   <Link
                     href={"/aboutus"}
-                    className={`${pathname === "/aboutus" ? " underline" : " "} hover:underline hover:text-red-500`}
+                    className={`${pathname === "/aboutus" ? " underline text-red-600" : " "} hover:underline hover:text-red-500`}
                   >
                     About Us
                   </Link>
@@ -137,7 +138,7 @@ const HeaderSection = () => {
                 <li>
                   <Link
                     href={"/pricing"}
-                    className={`${pathname === "/pricing" ? " underline" : " "} hover:underline`}
+                    className={`${pathname === "/pricing" ? " underline text-red-600" : " "} hover:underline`}
                   >
                     Pricing
                   </Link>
@@ -164,7 +165,7 @@ const HeaderSection = () => {
                 <li>
                   <Link
                     href={"/spa"}
-                    className={`${pathname === "/spa" ? " underline" : " "} hover:underline`}
+                    className={`${pathname === "/spa" ? " underline text-red-600" : " "} hover:underline`}
                   >
                     Spa
                   </Link>
@@ -172,7 +173,7 @@ const HeaderSection = () => {
                 <li>
                   <Link
                     href={"/contact"}
-                    className={` ${pathname === "/contact" ? " underline" : " "} hover:underline`}
+                    className={` ${pathname === "/contact" ? " underline text-red-600" : " "} hover:underline`}
                   >
                     Contact
                   </Link>
@@ -180,7 +181,7 @@ const HeaderSection = () => {
                 <li>
                   <Link
                     href={"/carears"}
-                    className={`${pathname === "/carears" ? " underline" : " "} hover:underline`}
+                    className={`${pathname === "/carears" ? " underline text-red-600" : " "} hover:underline`}
                   >
                     Carears
                   </Link>
@@ -188,7 +189,7 @@ const HeaderSection = () => {
                 <li>
                   <Link
                     href={"/shop"}
-                    className={` ${pathname === "/shop" ? " underline" : " "} hover:underline`}
+                    className={` ${pathname === "/shop" ? " underline text-red-600" : " "} hover:underline`}
                   >
                     Shop
                   </Link>
@@ -196,7 +197,7 @@ const HeaderSection = () => {
                 <li>
                   <Link
                     href={"/shop/cart"}
-                    className={`${pathname === "/shop/cart" ? " underline" : " "} hover:underline`}
+                    className={`${pathname === "/shop/cart" ? " underline text-red-600" : " "} hover:underline`}
                   >
                     <div className='flex flex-row space-x-1 items-center'>
                       <span className=' text-center font-bold text-sm'>
@@ -212,7 +213,7 @@ const HeaderSection = () => {
 
             <button
               onClick={toggleMenu}
-              className={`md:hidden focus:outline-none text-white `}
+              className={`md:hidden focus:outline-none text-black `}
             >
               <svg
                 className='w-6 h-6'
@@ -303,7 +304,7 @@ const HeaderSection = () => {
                     <Link
                       href={"/classes"}
                       onClick={() => setOpen(!open)}
-                      className=' w-screen whitespace-nowrap  text-center lg:w-fit hover:underline block active:text-red-600 focus:text-red-600 hover:text-red-600'
+                      className=' w-screen whitespace-nowrap  text-center lg:w-fit hover:underline block active:text-red-600 focus:text-red-600 hover:text-black'
                     >
                       Classes
                     </Link>
