@@ -7,8 +7,8 @@ export const Plans = () => {
     <>
       <div className=' text-black min-h-screen py-6'>
         <div className='flex flex-col justify-center items-center mb-4'>
-          <h1 className='text-2xl tracking-wide title   font-bold mb-3 text-center'>
-            Offer: up to <span className='text-red-600'>50% off</span>
+          <h1 className='text-2xl tracking-wide title bg-red-600 w-[95%] md:w-[60%] p-2 rounded-md  font-bold mb-3 text-center'>
+            Offer: up to <span className='text-white'>50% off</span>
           </h1>
           <p className='w-[90%] md:w-[60%] text-center'>
             You might be taking the first step on your fitness journey or
@@ -16,9 +16,12 @@ export const Plans = () => {
             to help you kickstart your fitness journey
           </p>
         </div>
-        <h2 className='text-lg tracking-wide title   font-bold mb-3 text-center'>
-          OUR MEMBERSHIP PLANS
-        </h2>
+        <div className='flex flex-col justify-center items-center'>
+          <h2 className='text-lg tracking-wide title w-[95%] md:w-[60%] p-2 rounded-md  font-bold mb-3 text-center'>
+            OUR MEMBERSHIP PLANS
+          </h2>
+        </div>
+
         <div className='flex items-center justify-center'>
           <p className=' txt-lg text-center p-3 mb-8  md:w-[50%]'>
             Our plans are inclusive with professional coaches, access to every
@@ -28,49 +31,49 @@ export const Plans = () => {
         </div>
 
         {/**men membership */}
-        <div className='flex flex-row  space-x-2   justify-center items-center'>
+        <div className='flex flex-row text-white  space-x-2   justify-center items-center'>
           <div
-            className='text-lg  font-semibold rounded-3xl w-[46%] md:w-full max-w-sm p-2 bg-[#e1131308] border border-gray-200 hover:border-red-600   sm:p-8 
+            className='text-lg  font-semibold rounded-3xl w-[46%] md:w-full max-w-sm p-2 bg-red-600 border border-gray-200 hover:border-red-600   sm:p-8 
           '
           >
-            <h2 className='text-[#b62f2f] text-bold text-lg'>ONE DAY PASS</h2>
+            <h2 className='text-white text-bold text-lg'>ONE DAY PASS</h2>
             <div className=' title  text-center  p-2 w-[100%]   rounded-md my-2'>
               Ugs 00.0000 /<span className='text-sm'>VISITOR</span>
             </div>
 
             <ul className=' text-sm md:text-lg'>
-              <li className='border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-red-600  flex flex-row items-center space-x-2'>
+              <li className='border-0 border-b-[1px] border-b-gray-200 border-dotted p-2 text-center font-light     flex flex-row items-center space-x-2'>
                 <TickIcone />
-                <span className=' whitespace-nowrap text-black'>
+                <span className=' whitespace-nowrap text-white'>
                   Fitness tips
                 </span>
               </li>
-              <li className='border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-red-600  flex flex-row items-center space-x-2'>
+              <li className='border-0 border-b-[1px] border-red-100 border-dotted p-2 text-center font-light     flex flex-row items-center space-x-2'>
                 <TickIcone />
-                <span className=' whitespace-nowrap text-black'>
+                <span className=' whitespace-nowrap text-white'>
                   Group Classes
                 </span>
               </li>
-              <li className='border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-red-600  flex flex-row items-center space-x-2'>
+              <li className='border-0 border-b-[1px] border-red-100 border-dotted p-2 text-center font-light     flex flex-row items-center space-x-2'>
                 <TickIcone />
-                <span className=' whitespace-nowrap text-black'>
+                <span className=' whitespace-nowrap text-white'>
                   Free weight
                 </span>
               </li>
-              <li className='border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-red-600  flex flex-row items-center space-x-2'>
+              <li className='border-0 border-b-[1px] border-red-100 border-dotted p-2 text-center font-light     flex flex-row items-center space-x-2'>
                 <TickIcone />
-                <span className=' whitespace-nowrap text-black'>Machines</span>
+                <span className=' whitespace-nowrap text-white'>Machines</span>
               </li>
-              <li className=' border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-gray-500  flex flex-row items-center space-x-2'>
+              <li className=' border-0 border-b-[1px] border-red-100 border-dotted p-2 text-center font-light  text-red-200  flex flex-row items-center space-x-2'>
                 <TickIcone />
-                <span className='line-through whitespace-nowrap text-black'>
+                <span className='line-through whitespace-nowrap text-red-200 '>
                   {" "}
                   Training plans
                 </span>
               </li>
-              <li className='p-2 text-center font-light   text-gray-500  flex flex-row items-center space-x-2'>
+              <li className='p-2 text-center font-light flex flex-row items-center space-x-2'>
                 <TickIcone />
-                <span className='line-through whitespace-nowrap text-black'>
+                <span className='line-through whitespace-nowrap text-red-200 '>
                   Meal plans
                 </span>
               </li>
@@ -81,54 +84,54 @@ export const Plans = () => {
                   const url = `https://wa.me/+256705746131?text=${encodeURIComponent("SUBSCRIBE siti gym one day pass UGx 0")}`;
                   window.open(url, "_blank"); // Opens the WhatsApp chat in a new tab
                 }}
-                className='bg-red-600 md:w-[70%]  md:text-lg text-sm text-red-100 p-2 rounded-md text-center   hover:bg-white hover:text-red-600'
+                className='bg-white  text-red-600 md:w-[70%]  md:text-lg text-sm  p-2 rounded-md text-center   hover:bg-red-200 hover:text-red-600'
               >
                 SUBSCRIBE NOW
               </button>
             </div>
           </div>
           <div
-            className='text-lg font-semibold rounded-3xl w-[46%] md:w-full max-w-sm p-2 bg-[#e1131308] border border-gray-200 hover:border-red-600   sm:p-8 
+            className='text-lg font-semibold rounded-3xl w-[46%] md:w-full max-w-sm p-2 bg-red-600 border border-gray-200 hover:border-red-600   sm:p-8 
           '
           >
-            <h2 className='text-[#b62f2f] text-bold text-lg'>MEN'S PLAN</h2>
+            <h2 className='text-white text-bold text-lg'>MEN'S PLAN</h2>
             <div className=' title  text-center  p-2 w-[100%]   rounded-md my-2'>
               Ugs 120,000 /<span className='text-sm'>MONTH</span>
             </div>
             <ul className=' text-sm md:text-lg'>
-              <li className=' border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-red-600  flex flex-row items-center space-x-2'>
+              <li className=' border-0 border-b-[1px] border-red-100 border-dotted p-2 text-center font-light   text-white  flex flex-row items-center space-x-2'>
                 <TickIcone />
-                <span className=' whitespace-nowrap text-black'>
+                <span className=' whitespace-nowrap text-white'>
                   {" "}
                   Fitness tips
                 </span>
               </li>
-              <li className='border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-red-600  flex flex-row items-center space-x-2'>
+              <li className='border-0 border-b-[1px] border-red-100 border-dotted p-2 text-center font-light   text-white  flex flex-row items-center space-x-2'>
                 <TickIcone />
-                <span className=' whitespace-nowrap text-black'>
+                <span className=' whitespace-nowrap text-white'>
                   {" "}
                   Group classes
                 </span>
               </li>
-              <li className='border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-red-600  flex flex-row items-center space-x-2'>
+              <li className='border-0 border-b-[1px] border-red-100 border-dotted p-2 text-center font-light   text-white  flex flex-row items-center space-x-2'>
                 <TickIcone />
-                <span className=' whitespace-nowrap text-black'>
+                <span className=' whitespace-nowrap text-white'>
                   Free weight
                 </span>
               </li>
-              <li className='border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-red-600  flex flex-row items-center space-x-2'>
+              <li className='border-0 border-b-[1px] border-red-100 border-dotted p-2 text-center font-light   text-white  flex flex-row items-center space-x-2'>
                 <TickIcone />
-                <span className=' whitespace-nowrap text-black'>Machines</span>
+                <span className=' whitespace-nowrap text-white'>Machines</span>
               </li>
-              <li className='border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-red-600  flex flex-row items-center space-x-2'>
+              <li className='border-0 border-b-[1px] border-red-100 border-dotted p-2 text-center font-light   text-white  flex flex-row items-center space-x-2'>
                 <TickIcone />
-                <span className=' whitespace-nowrap text-black'>
+                <span className=' whitespace-nowrap text-white'>
                   Training plans
                 </span>
               </li>
-              <li className='p-2 text-center font-light   text-gray-300  flex flex-row items-center space-x-2'>
+              <li className='p-2 text-center font-light   text-red-100  flex flex-row items-center space-x-2'>
                 <TickIcone />
-                <span className=' whitespace-nowrap text-black'>
+                <span className=' whitespace-nowrap text-white'>
                   Meal plans
                 </span>
               </li>
@@ -139,7 +142,7 @@ export const Plans = () => {
                   const url = `https://wa.me/+256705746131?text=${encodeURIComponent("SUBSCRIBE siti gym    Men's plan    Ugs 120,000")}`;
                   window.open(url, "_blank"); // Opens the WhatsApp chat in a new tab
                 }}
-                className='bg-red-600 md:w-[70%]  md:text-lg text-sm text-red-100 p-2 rounded-md text-center   hover:bg-white hover:text-red-600'
+                className='bg-white  text-red-600 md:w-[70%]  md:text-lg text-sm  p-2 rounded-md text-center   hover:bg-red-200 hover:text-red-600'
               >
                 SUBSCRIBE NOW
               </button>
@@ -150,54 +153,54 @@ export const Plans = () => {
         <h2 className='text-center p-3 title  text-lg  '>
           Women & Students Membership Plans
         </h2>
-        <div className='flex flex-row  space-x-2   justify-center items-center'>
+        <div className='flex flex-row text-white space-x-2   justify-center items-center'>
           <div
-            className='text-lg font-semibold rounded-3xl w-[46%] md:w-full max-w-sm p-2 bg-[#e1131308] border border-gray-200 hover:border-red-600   sm:p-8 
+            className='text-lg font-semibold rounded-3xl w-[46%] md:w-full max-w-sm p-2 bg-red-600 border border-gray-200 hover:border-red-600   sm:p-8 
           '
           >
-            <h2 className='text-[#b62f2f] text-bold text-lg'>STUDENT'S PLAN</h2>
+            <h2 className='text-white text-bold text-lg'>STUDENT'S PLAN</h2>
             <div className=' title   p-2 w-[100%]   rounded-md my-2'>
               Ugs 100,000 /<span className='text-sm'>MONTH</span>
             </div>
             <ul className=' text-sm md:text-lg'>
-              <li className='border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-red-600  flex flex-row items-center space-x-2'>
+              <li className='border-0 border-b-[1px] border-red-100 border-dotted p-2 text-center font-light   text-white  flex flex-row items-center space-x-2'>
                 <TickIcone />
-                <span className=' whitespace-nowrap text-black'>
+                <span className=' whitespace-nowrap text-white'>
                   Fitness tips
                 </span>
               </li>
-              <li className='border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-red-600  flex flex-row items-center space-x-2'>
+              <li className='border-0 border-b-[1px] border-red-100 border-dotted p-2 text-center font-light   text-white  flex flex-row items-center space-x-2'>
                 <TickIcone />
-                <span className=' whitespace-nowrap text-black'>
+                <span className=' whitespace-nowrap text-white'>
                   Group Classes
                 </span>
               </li>
-              <li className='border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-red-600  flex flex-row items-center space-x-2'>
+              <li className='border-0 border-b-[1px] border-red-100 border-dotted p-2 text-center font-light   text-white  flex flex-row items-center space-x-2'>
                 <TickIcone />
-                <span className=' whitespace-nowrap text-black'>
+                <span className=' whitespace-nowrap text-white'>
                   Free weight
                 </span>
               </li>
 
-              <li className='border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-red-600  flex flex-row items-center space-x-2'>
+              <li className='border-0 border-b-[1px] border-red-100 border-dotted p-2 text-center font-light   text-white  flex flex-row items-center space-x-2'>
                 <TickIcone />
-                <span className=' whitespace-nowrap text-black'>Machines</span>
+                <span className=' whitespace-nowrap text-white'>Machines</span>
               </li>
-              <li className='border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-red-600  flex flex-row items-center space-x-2'>
+              <li className='border-0 border-b-[1px] border-red-100 border-dotted p-2 text-center font-light   text-white  flex flex-row items-center space-x-2'>
                 <TickIcone />
-                <span className=' whitespace-nowrap text-black'>
+                <span className=' whitespace-nowrap text-white'>
                   Training plans
                 </span>
               </li>
-              <li className='border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-red-600  flex flex-row items-center space-x-2'>
+              <li className='border-0 border-b-[1px] border-red-100 border-dotted p-2 text-center font-light   text-white  flex flex-row items-center space-x-2'>
                 <TickIcone />
-                <span className=' whitespace-nowrap text-black'>
+                <span className=' whitespace-nowrap text-white'>
                   Meal plans
                 </span>
               </li>
-              <li className='p-2 text-center font-light   text-gray-500  flex flex-row items-center space-x-2'>
+              <li className='p-2 text-center font-light   text-red-100  flex flex-row items-center space-x-2'>
                 <TickIcone />
-                <span className='line-through whitespace-nowrap text-black'>
+                <span className='line-through whitespace-nowrap text-white'>
                   Private classes
                 </span>
               </li>
@@ -208,60 +211,60 @@ export const Plans = () => {
                   const url = `https://wa.me/+256705746131?text=${encodeURIComponent("SUBSCRIBE siti gym Student Ugs 100,000")}`;
                   window.open(url, "_blank"); // Opens the WhatsApp chat in a new tab
                 }}
-                className='bg-red-600 md:w-[70%]  md:text-lg text-sm text-red-100 p-2 rounded-md text-center   hover:bg-white hover:text-red-600'
+                className='bg-white  text-red-600 md:w-[70%]  md:text-lg text-sm  p-2 rounded-md text-center   hover:bg-red-200 hover:text-red-600'
               >
                 SUBSCRIBE NOW
               </button>
             </div>
           </div>
           <div
-            className='text-lg font-semibold rounded-3xl w-[46%] md:w-full max-w-sm p-2 bg-[#e1131308] border border-gray-200 hover:border-red-600   sm:p-8 
+            className='text-lg font-semibold rounded-3xl w-[46%] md:w-full max-w-sm p-2 bg-red-600 border border-gray-200 hover:border-red-600   sm:p-8 
           '
           >
-            <h2 className='text-[#b62f2f] text-bold text-lg'>WOMEN'S PLAN</h2>
+            <h2 className='text-white text-bold text-lg'>WOMEN'S PLAN</h2>
             <div className=' title  text-center  p-2 w-[100%]   rounded-md my-2'>
               Ugs 120,000 /<span className='text-sm'>MONTH</span>
             </div>
             <ul className=' text-sm md:text-lg'>
-              <li className=' border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-red-600  flex flex-row items-center space-x-2'>
+              <li className=' border-0 border-b-[1px] border-red-100 border-dotted p-2 text-center font-light   text-white  flex flex-row items-center space-x-2'>
                 <TickIcone />
-                <span className=' whitespace-nowrap text-black'>
+                <span className=' whitespace-nowrap text-white'>
                   {" "}
                   Fitness tips
                 </span>
               </li>
-              <li className='border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-red-600  flex flex-row items-center space-x-2'>
+              <li className='border-0 border-b-[1px] border-red-100 border-dotted p-2 text-center font-light   text-white  flex flex-row items-center space-x-2'>
                 <TickIcone />
-                <span className=' whitespace-nowrap text-black'>
+                <span className=' whitespace-nowrap text-white'>
                   {" "}
                   Group classes
                 </span>
               </li>
-              <li className='border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-red-600  flex flex-row items-center space-x-2'>
+              <li className='border-0 border-b-[1px] border-red-100 border-dotted p-2 text-center font-light   text-white  flex flex-row items-center space-x-2'>
                 <TickIcone />
-                <span className=' whitespace-nowrap text-black'>
+                <span className=' whitespace-nowrap text-white'>
                   Free weight
                 </span>
               </li>
-              <li className='border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-red-600  flex flex-row items-center space-x-2'>
+              <li className='border-0 border-b-[1px] border-red-100 border-dotted p-2 text-center font-light   text-white  flex flex-row items-center space-x-2'>
                 <TickIcone />
-                <span className=' whitespace-nowrap text-black'>Machines</span>
+                <span className=' whitespace-nowrap text-white'>Machines</span>
               </li>
-              <li className='border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-red-600  flex flex-row items-center space-x-2'>
+              <li className='border-0 border-b-[1px] border-red-100 border-dotted p-2 text-center font-light   text-white  flex flex-row items-center space-x-2'>
                 <TickIcone />
-                <span className=' whitespace-nowrap text-black'>
+                <span className=' whitespace-nowrap text-white'>
                   Training plans
                 </span>
               </li>
-              <li className='border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-red-600  flex flex-row items-center space-x-2'>
+              <li className='border-0 border-b-[1px] border-red-100 border-dotted p-2 text-center font-light   text-white  flex flex-row items-center space-x-2'>
                 <TickIcone />
-                <span className=' whitespace-nowrap text-black'>
+                <span className=' whitespace-nowrap text-white'>
                   Meal plans
                 </span>
               </li>
               <li className='p-2 text-center font-light   text-gray-300  flex flex-row items-center space-x-2'>
                 <TickIcone />
-                <span className=' whitespace-nowrap text-black'>
+                <span className=' whitespace-nowrap text-white'>
                   Private clases
                 </span>
               </li>
@@ -272,7 +275,7 @@ export const Plans = () => {
                   const url = `https://wa.me/+256705746131?text=${encodeURIComponent("SUBSCRIBE siti gym Women Ugs 120,000")}`;
                   window.open(url, "_blank"); // Opens the WhatsApp chat in a new tab
                 }}
-                className='bg-red-600 md:w-[70%]  md:text-lg text-sm text-red-100 p-2 rounded-md text-center   hover:bg-white hover:text-red-600'
+                className='bg-white  text-red-600 md:w-[70%]  md:text-lg text-sm  p-2 rounded-md text-center   hover:bg-red-200 hover:text-red-600'
               >
                 SUBSCRIBE NOW
               </button>
@@ -302,7 +305,7 @@ export const Plans = () => {
           <h2 className='font-semibold title tracking-wider'>CORPORATE </h2>
           <p className=' text-center md:w-[55%] text-black'>
             Save up to
-            <span className='text-red-600 text-2xl font-bold mx-2'>20%</span> on
+            <span className='text-red-500 text-2xl font-bold mx-2'>20%</span> on
             memberships when you sign your employees up to one of our great
             corporate packages.
             <Link
@@ -316,55 +319,55 @@ export const Plans = () => {
 
         <div className='flex flex-col justify-center items-center my-3'>
           <div
-            className='text-lg font-semibold rounded-3xl  md:w-full max-w-sm p-2 bg-[#e1131308] border border-gray-200 hover:border-red-600   sm:p-8 
+            className='text-lg font-semibold rounded-3xl  md:w-full max-w-sm p-2 bg-red-600 border border-gray-200 hover:border-red-600   sm:p-8 
           '
           >
-            <h2 className='text-[#b62f2f] text-bold text-center text-lg'>
+            <h2 className='text-white text-bold text-center text-lg'>
               CORPORATE PLAN
             </h2>
-            <div className=' title  text-center  p-2 w-[100%]   rounded-md my-2'>
+            <div className=' text-white title  text-center  p-2 w-[100%]   rounded-md my-2'>
               Ugs 120,000 /<span className='text-sm'>MONTH</span>
             </div>
             <ul className=' text-sm md:text-lg'>
-              <li className=' border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-red-600  flex flex-row items-center space-x-2'>
+              <li className=' border-0 border-b-[1px] border-red-100 border-dotted p-2 text-center font-light   text-white  flex flex-row items-center space-x-2'>
                 <TickIcone />
-                <span className=' whitespace-nowrap text-black'>
+                <span className=' whitespace-nowrap text-white'>
                   {" "}
                   Fitness tips
                 </span>
               </li>
-              <li className='border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-red-600  flex flex-row items-center space-x-2'>
+              <li className='border-0 border-b-[1px] border-red-100 border-dotted p-2 text-center font-light   text-white  flex flex-row items-center space-x-2'>
                 <TickIcone />
-                <span className=' whitespace-nowrap text-black'>
+                <span className=' whitespace-nowrap text-white'>
                   {" "}
                   Group classes
                 </span>
               </li>
-              <li className='border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-red-600  flex flex-row items-center space-x-2'>
+              <li className='border-0 border-b-[1px] border-red-100 border-dotted p-2 text-center font-light   text-white  flex flex-row items-center space-x-2'>
                 <TickIcone />
-                <span className=' whitespace-nowrap text-black'>
+                <span className=' whitespace-nowrap text-white'>
                   Free weight
                 </span>
               </li>
-              <li className='border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-red-600  flex flex-row items-center space-x-2'>
+              <li className='border-0 border-b-[1px] border-red-100 border-dotted p-2 text-center font-light   text-white  flex flex-row items-center space-x-2'>
                 <TickIcone />
-                <span className=' whitespace-nowrap text-black'>Machines</span>
+                <span className=' whitespace-nowrap text-white'>Machines</span>
               </li>
-              <li className='border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-red-600  flex flex-row items-center space-x-2'>
+              <li className='border-0 border-b-[1px] border-red-100 border-dotted p-2 text-center font-light   text-white  flex flex-row items-center space-x-2'>
                 <TickIcone />
-                <span className=' whitespace-nowrap text-black'>
+                <span className=' whitespace-nowrap text-white'>
                   Training plans
                 </span>
               </li>
-              <li className='border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-red-600  flex flex-row items-center space-x-2'>
+              <li className='border-0 border-b-[1px] border-red-100 border-dotted p-2 text-center font-light   text-white  flex flex-row items-center space-x-2'>
                 <TickIcone />
-                <span className=' whitespace-nowrap text-black'>
+                <span className=' whitespace-nowrap text-white'>
                   Meal plans
                 </span>
               </li>
-              <li className='p-2 text-center font-light   text-gray-300  flex flex-row items-center space-x-2'>
+              <li className='p-2 text-center font-light   text-white  flex flex-row items-center space-x-2'>
                 <TickIcone />
-                <span className=' whitespace-nowrap text-black'>
+                <span className=' whitespace-nowrap text-white'>
                   Private clases
                 </span>
               </li>
@@ -375,7 +378,7 @@ export const Plans = () => {
                   const url = `https://wa.me/+256705746131?text=${encodeURIComponent("SUBSCRIBE siti gym  Corporate Ugs 120,000")}`;
                   window.open(url, "_blank"); // Opens the WhatsApp chat in a new tab
                 }}
-                className='bg-red-600 md:w-[70%]  md:text-lg text-sm text-red-100 p-2 rounded-md text-center   hover:bg-white hover:text-red-600'
+                className='bg-white  text-red-600 md:w-[70%]  md:text-lg text-sm  p-2 rounded-md text-center   hover:bg-red-200 hover:text-red-600'
               >
                 SUBSCRIBE NOW
               </button>
