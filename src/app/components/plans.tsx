@@ -7,7 +7,7 @@ export const Plans = () => {
     <>
       <div className=' text-black min-h-screen py-6'>
         <div className='flex flex-col justify-center items-center mb-4'>
-          <h1 className='text-2xl tracking-wide title bg-red-600 w-[95%] md:w-[60%] p-2 rounded-md  font-bold mb-3 text-center'>
+          <h1 className='text-2xl tracking-wide title bg-red-500 w-[95%] md:w-[60%] p-2 rounded-md  font-bold mb-3 text-center'>
             Offer: up to <span className='text-white'>50% off</span>
           </h1>
           <p className='w-[90%] md:w-[60%] text-center'>
@@ -33,7 +33,7 @@ export const Plans = () => {
         {/**men membership */}
         <div className='flex flex-row text-white  space-x-2   justify-center items-center'>
           <div
-            className='text-lg  font-semibold rounded-3xl w-[46%] md:w-full max-w-sm p-2 bg-red-600 border border-gray-200 hover:border-red-600   sm:p-8 
+            className='text-lg  font-semibold rounded-3xl w-[46%] md:w-full max-w-sm p-2 bg-red-500 border border-gray-200 hover:border-red-600   sm:p-8 
           '
           >
             <h2 className='text-white text-bold text-lg'>ONE DAY PASS</h2>
@@ -91,7 +91,7 @@ export const Plans = () => {
             </div>
           </div>
           <div
-            className='text-lg font-semibold rounded-3xl w-[46%] md:w-full max-w-sm p-2 bg-red-600 border border-gray-200 hover:border-red-600   sm:p-8 
+            className='text-lg font-semibold rounded-3xl w-[46%] md:w-full max-w-sm p-2 bg-red-500 border border-gray-200 hover:border-red-600   sm:p-8 
           '
           >
             <h2 className='text-white text-bold text-lg'>MEN'S PLAN</h2>
@@ -155,7 +155,7 @@ export const Plans = () => {
         </h2>
         <div className='flex flex-row text-white space-x-2   justify-center items-center'>
           <div
-            className='text-lg font-semibold rounded-3xl w-[46%] md:w-full max-w-sm p-2 bg-red-600 border border-gray-200 hover:border-red-600   sm:p-8 
+            className='text-lg font-semibold rounded-3xl w-[46%] md:w-full max-w-sm p-2 bg-red-500 border border-gray-200 hover:border-red-600   sm:p-8 
           '
           >
             <h2 className='text-white text-bold text-lg'>STUDENT'S PLAN</h2>
@@ -218,7 +218,7 @@ export const Plans = () => {
             </div>
           </div>
           <div
-            className='text-lg font-semibold rounded-3xl w-[46%] md:w-full max-w-sm p-2 bg-red-600 border border-gray-200 hover:border-red-600   sm:p-8 
+            className='text-lg font-semibold rounded-3xl w-[46%] md:w-full max-w-sm p-2 bg-red-500 border border-gray-200 hover:border-red-600   sm:p-8 
           '
           >
             <h2 className='text-white text-bold text-lg'>WOMEN'S PLAN</h2>
@@ -319,7 +319,7 @@ export const Plans = () => {
 
         <div className='flex flex-col justify-center items-center my-3'>
           <div
-            className='text-lg font-semibold rounded-3xl  md:w-full max-w-sm p-2 bg-red-600 border border-gray-200 hover:border-red-600   sm:p-8 
+            className='text-lg font-semibold rounded-3xl  md:w-full max-w-sm p-2 bg-red-500 border border-gray-200 hover:border-red-600   sm:p-8 
           '
           >
             <h2 className='text-white text-bold text-center text-lg'>

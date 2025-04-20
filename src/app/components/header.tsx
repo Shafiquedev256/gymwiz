@@ -183,7 +183,7 @@ const HeaderSection = () => {
                     href={"/carears"}
                     className={`${pathname === "/carears" ? " underline text-red-600" : " "} hover:underline`}
                   >
-                    Carears
+                    Careers
                   </Link>
                 </li>
                 <li>
@@ -274,7 +274,7 @@ const HeaderSection = () => {
                   </g>
                 </svg>
               </div>
-              <ul className=' flex flex-col justify-between space-y-4 text-lg items-center'>
+              <ul className='font-bold flex flex-col justify-between space-y-6  items-center'>
                 <li>
                   <Link
                     href={"/aboutus"}
@@ -304,7 +304,7 @@ const HeaderSection = () => {
                     <Link
                       href={"/classes"}
                       onClick={() => setOpen(!open)}
-                      className=' w-screen whitespace-nowrap  text-center lg:w-fit hover:underline block active:text-red-600 focus:text-red-600 hover:text-black'
+                      className='font-bold   w-screen whitespace-nowrap  text-center lg:w-fit hover:underline block active:text-red-600 focus:text-red-600 hover:text-black'
                     >
                       Classes
                     </Link>
@@ -331,7 +331,7 @@ const HeaderSection = () => {
                     href={"/carears"}
                     className={`${pathname === "/carears" && " bg-red-100 text-red-600 "} p-2  rounded-md hover:underline`}
                   >
-                    Carears
+                    Careers
                   </Link>
                 </li>
                 <li>
