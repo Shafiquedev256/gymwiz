@@ -13,7 +13,7 @@ const WomenClasses = () => {
       <div className='w-[100%] overflow-hidden'>
         <div className='min-h-screen bg-white'>
           {/* Hero Section */}
-          <div className='bg-[url("/image3.jpg")] bg-center  bg-cover bg-no-repeat w-[100%] h-[50vh] md:h-[40vh] lg:h-[70vh]'></div>
+          <div className='bg-[url("/image4.jpg")] bg-center  bg-cover bg-no-repeat w-[100%] h-[60vh] md:h-[50vh] lg:h-[80vh]'></div>
 
           <WeeklySchedule schedule={womenSchedule} />
           {/* Programs Section */}
@@ -223,13 +223,13 @@ const womenSchedule = [
 
 const workouts = [
   {
-    img: "/strengthwoman.jpg",
+    img: "/image6.jpg",
     workout: "Strength Training",
     description:
       " Build lean muscle and increase strength with this powerful workout. ",
   },
   {
-    img: "/womandoingcardio.jpg",
+    img: "/image5.jpg",
     workout: "Cardio Blast",
     description:
       " Boost your heart rate and burn calories with this high-intensity workout. ",
@@ -247,12 +247,12 @@ const workouts = [
       "  Push your limits with this high-intensity interval training workout. ",
   },
   {
-    img: "/cardio.jpg",
+    img: "/image6.jpg",
     workout: "Core Strength",
     description: " Strengthen your core with this targeted abdominal workout. ",
   },
   {
-    img: "/cardio.jpg",
+    img: "/image7.jpg",
     workout: "Pilates Flow",
     description:
       " Improve your posture and balance with this low-impact Pilates workout. ",

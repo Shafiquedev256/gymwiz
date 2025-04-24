@@ -6,7 +6,7 @@ const HeroSection = () => {
     <section className='bg-white text-black'>
       <div className='relative w-[100%] h-[70vh]  lg:h-[80vh] object-center md:h-[70vh] bg-[url("/herosection.jpeg")] bg-cover bg-center bg-no-repeat'>
         <div className=' absolute flex flex-col justify-center items-center top-0 left-0  w-[100%] h-[100%]'>
-          <div className='absolute top-2  md:right-2'>
+          <div className='absolute top-2 left-2   md:right-2'>
             <div className='w-fit relative'>
               <div className='bg-red-500 h-[120px] md:h-[150px] hexagon'></div>
               <div className='absolute text-lg  font-bold text-white   flex flex-col justify-center items-center  top-0 left-0 w-[100%] h-[100%]'>

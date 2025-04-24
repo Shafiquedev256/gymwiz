@@ -18,10 +18,10 @@ const OurFacilities = () => {
             </p>
             <div className='md:w-[70%] flex md:justify-center md:items-center'>
               <Link
-                href='/classes'
+                href={`https://wa.me/+256705746131?text=${encodeURIComponent("Hello! Get me a trainer.")}`}
                 className=' bg-[#f83131] px-3 w-fit hover:bg-red-600 text-white text-center rounded-full text-sm text-semibold p-2 my-2 md:m-4'
               >
-                SEE CLASSES
+                GET YOUR TRAINER
               </Link>
             </div>
           </div>
@@ -48,10 +48,10 @@ const OurFacilities = () => {
             </p>
             <div className='md:w-[100%] flex md:justify-center md:items-center'>
               <Link
-                href='/classes'
+                href={`https://wa.me/+256705746131?text=${encodeURIComponent("Hello! I'm interested in your  meal plans.")}`}
                 className=' bg-[#f83131] px-3 w-fit hover:bg-red-600 text-white text-center rounded-full text-sm text-semibold p-2 my-2 md:m-4'
               >
-                SEE CLASSES
+                GET YOUR PLAN!
               </Link>
             </div>
           </div>
@@ -73,13 +73,12 @@ const OurFacilities = () => {
               </Link>
             </div>
           </div>
-          <div className='w-3/4 mx-2'>
-            <img
-              src='/groupworkout.jpg'
-              alt=''
-              className='h-[50%] md:h-[80%] rounded-md '
-            />
-          </div>
+
+          <img
+            src='/groupclass1.jpg'
+            alt=''
+            className='h-[50%] md:h-[80%] rounded-md '
+          />
         </div>
       </div>
       <div className='flex justify-center items-center mb-4'>
