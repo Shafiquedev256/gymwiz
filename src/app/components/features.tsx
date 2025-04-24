@@ -21,7 +21,7 @@ const OurFacilities = () => {
                 href={`https://wa.me/+256705746131?text=${encodeURIComponent("Hello! Get me a trainer.")}`}
                 className=' bg-[#f83131] px-3 w-fit hover:bg-red-600 text-white text-center rounded-full text-sm text-semibold p-2 my-2 md:m-4'
               >
-                GET YOUR TRAINER
+                GET YOUR TRAINER!
               </Link>
             </div>
           </div>
