@@ -27,7 +27,7 @@ const HeroSection = () => {
             </p>
             <Link
               href={`https://wa.me/+256705746131?text=${encodeURIComponent("Hello! I'm interested in your services.")}`}
-              className='bg-red-600 font-bold font-body tracking-wide  text-sm my-2 w-[80%] md:w-[20%] rounded-full mb-3 text-center hover:bg-red-800 text-white p-3 '
+              className='bg-red-500 font-bold font-body tracking-wide  text-sm my-2 w-[80%] md:w-[20%] rounded-full mb-3 text-center hover:bg-red-600 text-white p-3 '
             >
               Try One Day Pass!
             </Link>

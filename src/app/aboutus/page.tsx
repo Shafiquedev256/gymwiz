@@ -11,12 +11,11 @@ const About_us_page = () => {
         {/** Hero section on the about us page  */}
         <div className=' h-[60vh] flex items-center justify-center bg-[url("/aboutus.jpg")]  bg-cover bg-center bg-no-repeat bg-aboutsection  w-[100%]   '></div>
         <section className='my-4 bg-white text-black'>
-          <div className='text-center text-red-600 text-lg'>Why chose us?</div>
           <h2 className='text-2xl text-center title md:text-3xl'>
             PUSH YOUR LIMITS FORWARD
           </h2>
           <div className='md:m-3 mx-2 grid grid-cols-2 grid-rows-2 md:flex md:flex-row md:space-x-5   md:justify-center py-8 gap-2.5 md:items-center '>
-            <div className='md:w-[230px] text-white md:h-[280px] w-[1fr] h-[290px] py-4 md:m-3 flex flex-col justify-center items-center rounded-md p-3 bg-red-600'>
+            <div className='md:w-[230px] text-white md:h-[280px] w-[1fr] h-[290px] py-4 md:m-3 flex flex-col justify-center items-center rounded-md p-3 bg-[#f83131]'>
               <div className='flex justify-center mb-3 mx-2 items-center'>
                 <span className='bg-white rounded-full justify-center items-center p-2'>
                   <img src='/cycle.svg' alt='' />
@@ -33,7 +32,7 @@ const About_us_page = () => {
                 </p>
               </div>
             </div>
-            <div className='md:m-3 md:w-[230px] md:h-[280px] w-[1fr] h-[290px] py-4 flex flex-col justify-center items-center rounded-lg p-3 bg-red-600 text-white'>
+            <div className='md:m-3 md:w-[230px] md:h-[280px] w-[1fr] h-[290px] py-4 flex flex-col justify-center items-center rounded-lg p-3 bg-[#f83131] text-white'>
               <div className='flex justify-center mb-3 mx-2 items-center'>
                 <span className='bg-white rounded-full justify-center items-center p-2'>
                   <svg
@@ -65,7 +64,7 @@ const About_us_page = () => {
               </div>
             </div>
 
-            <div className='md:w-[230px] md:h-[280px] m-3 py-4 col-span-full flex flex-col justify-center items-center rounded-lg p-3 bg-red-600 text-white'>
+            <div className='md:w-[230px] md:h-[280px] m-3 py-4 col-span-full flex flex-col justify-center items-center rounded-lg p-3 bg-[#f83131] text-white'>
               <div className='flex justify-center mb-3 mx-2 items-center'>
                 <span className='bg-white rounded-full justify-center items-center p-2'>
                   <img src='/trainers.svg' alt='' />
@@ -142,7 +141,7 @@ const About_us_page = () => {
             members.
             <Link
               href={"/gymrules"}
-              className='underline text-blue-700 font-semibold md:p-2'
+              className='underline text-[#f83131] font-semibold md:p-2'
             >
               Learn About Our Rules
             </Link>
@@ -152,7 +151,7 @@ const About_us_page = () => {
             {/* Community Work Section */}
 
             <div className='w-screen bg-[url("/nature.jpg")] bg-center bg-cover bg-no-repeat my-4   w4scre4n'>
-              <div className='bg-[#0000002f] bg-opacity-60 p-3 flex justify-center items-center flex-col w-[100%] h-[100%]'>
+              <div className='bg-[#00000075] bg-opacity-60 p-3 flex justify-center items-center flex-col w-[100%] h-[100%]'>
                 <h2 className=' font-semibold text-2xl text-center mb-2 py-3 text-white  md:my-3 '>
                   Community Work
                 </h2>
@@ -162,7 +161,7 @@ const About_us_page = () => {
                   support health and wellness in the broader community.
                   <Link
                     href={"/community"}
-                    className='underline  text-blue-700 m-2 md:whitespace-nowrap font-semibold '
+                    className='underline  text-[#f83131] m-2 md:whitespace-nowrap font-semibold '
                   >
                     Learn About Our Community Work
                   </Link>
@@ -226,7 +225,9 @@ const About_us_page = () => {
                   <img src='/towel.svg' alt='shower icone' />
                 </span>
                 <div className='ml-4'>
-                  <h3 className='font-semibold text-red-600'>Short Showers</h3>
+                  <h3 className='font-semibold text-[#f83131]'>
+                    Short Showers
+                  </h3>
                   <p className='text-sm'>
                     As water can be a scarce resource, even in Uganda, it&apos;s
                     best not to shower longer than necessary.
@@ -240,7 +241,7 @@ const About_us_page = () => {
                   <img src='/bottle.svg' alt='bottle icone' />
                 </span>
                 <div className='ml-4'>
-                  <h3 className='font-semibold text-red-600'>
+                  <h3 className='font-semibold text-[#f83131]'>
                     Bring Your Bottle
                   </h3>
                   <p className='text-sm'>
@@ -256,7 +257,7 @@ const About_us_page = () => {
                   <img src='/towel.svg' alt='towel icone' />
                 </span>
                 <div className='ml-4'>
-                  <h3 className='font-semibold text-red-600'>
+                  <h3 className='font-semibold text-[#f83131]'>
                     Bring Your Towel
                   </h3>
                   <p className='text-sm'>
@@ -271,7 +272,9 @@ const About_us_page = () => {
                   <img src='/riding.svg' alt='cycling icone' />
                 </span>
                 <div className='ml-4'>
-                  <h3 className='font-semibold text-red-600'>Avoid Driving</h3>
+                  <h3 className='font-semibold text-[#f83131]'>
+                    Avoid Driving
+                  </h3>
                   <p className='text-sm'>
                     Public transport, walking, jogging, or cycling are great
                     ways to travel sustainably to the gym.

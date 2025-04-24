@@ -23,7 +23,7 @@ const HeaderSection = () => {
               <img
                 src='/IMG-20250210-WA0000-removebg-preview.png'
                 alt='Wizz gym logo'
-                className='md:w-36 w-36'
+                className='md:w-36 w-36 ml-2'
               />
             </Link>
 
@@ -132,7 +132,7 @@ const HeaderSection = () => {
                     href={"/aboutus"}
                     className={`${pathname === "/aboutus" ? " underline text-red-600" : " "} hover:underline hover:text-red-500`}
                   >
-                    About Us
+                    About us
                   </Link>
                 </li>
                 <li>
@@ -280,7 +280,7 @@ const HeaderSection = () => {
                     href={"/aboutus"}
                     className={`${pathname === "/aboutus" && " bg-red-100 text-red-600 "} p-2  rounded-md hover:underline`}
                   >
-                    About Us
+                    About us
                   </Link>
                 </li>
                 <li>

@@ -70,10 +70,8 @@ const Testimonial = () => {
                       />
                     </div>
                   </div>
-                  <p className='font-body text-sm p-2 text-white '>
-                    {test.message}
-                  </p>
-                  <p className=' text-lg text-black font-bold font-body tracking-wide'>
+                  <p className='font-body text-sm p-2  '>{test.message}</p>
+                  <p className=' text-lg  font-bold font-body tracking-wide'>
                     - {test.name}
                   </p>
                 </div>

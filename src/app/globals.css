@@ -31,16 +31,44 @@ body {
   font-family: var(--font-orbitron);
 }*/
 .w {
-  background-color: #d20707;
+  background-color: #f83131;
 }
 
 /* HTML: <div class="hexagon"></div> */
 .hexagon {
   aspect-ratio: 1 / cos(30deg);
   clip-path: polygon(50% -50%, 100% 50%, 50% 150%, 0 50%);
-  background: #d20707;
+  background: #f83131;
 }
 
 .slick-slide > div {
   margin: 0px 15px 10px;
+}
+
+.google-map {
+  padding-bottom: 50%;
+  position: relative;
+}
+
+.google-map iframe {
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-150px * 2));
+  }
+}
+
+.slide-track {
+  animation: scroll 10s alternate-reverse infinite;
+  display: flex;
+  width: calc(150px * 3);
 }
