@@ -57,7 +57,7 @@ body {
   top: 0;
   position: absolute;
 }
-
+/* 
 @keyframes scroll {
   0% {
     transform: translateX(0);
@@ -71,4 +71,4 @@ body {
   animation: scroll 10s alternate-reverse infinite;
   display: flex;
   width: calc(150px * 3);
-}
+} */
