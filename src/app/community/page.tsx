@@ -34,8 +34,8 @@ const CommunityPage: React.FC = () => {
 
       <div className='bg-white font-body'>
         {/* Community Banner */}
-        <div className='relative w-full h-[60vh] bg-cover bg-center bg-[url("/communityhero1.jpeg")]'>
-          <div className='absolute inset-0 bg-[#00000034] flex items-center justify-center'>
+        <div className='relative w-full h-[60vh] bg-cover bg-center bg-[url("/image10.jpg")]'>
+          <div className='absolute inset-0 bg-[#0000000c] flex items-center justify-center'>
             <h1 className='text-4xl font-bold text-gray-100 font-custom'>
               Our Community
             </h1>
