@@ -8,7 +8,7 @@ export const Plans = () => {
       <div className=' text-black min-h-screen py-6'>
         <div className='flex flex-col justify-center items-center mb-4'>
           <h1 className='text-2xl tracking-wide title bg-red-500 w-[95%] md:w-[60%] p-2 rounded-md  font-bold mb-3 text-center'>
-            Offer: up to <span className='text-black'>50% off</span>
+            Offer: up to <span className='text-white'>50% off</span>
           </h1>
           <p className='w-[90%] md:w-[60%] text-center'>
             You might be taking the first step on your fitness journey or
@@ -310,7 +310,7 @@ export const Plans = () => {
             corporate packages.
             <Link
               href='/contact'
-              className='whitespace-nowrap text-blue-600 underline'
+              className='whitespace-nowrap text-red-600 underline'
             >
               Contact us for more information
             </Link>
