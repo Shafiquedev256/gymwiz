@@ -30,7 +30,7 @@ const HeaderSection = () => {
             <ul className='text-red-600 font-medium lg:hidden space-x-2 flex flex-row justify-center items-center md:space-x-8'>
               {/** facebook  */}
 
-              <li className='flex flex-row   items-center   lg:hover:underline lg:hover:text-black'>
+              <li className='flex flex-row   items-center   lg:hover:underline hover:text-red-600 lg:hover:text-red-600'>
                 <Link href={"/"} className='hover:text-black'>
                   <svg
                     width='23px'
@@ -55,7 +55,7 @@ const HeaderSection = () => {
                 </Link>
               </li>
               {/** instagram */}
-              <li className='flex  flex-row   items-center   lg:hover:underline lg:hover:text-black'>
+              <li className='flex  flex-row   items-center   lg:hover:underline hover:text-red-600 lg:hover:text-red-600'>
                 <Link
                   href={
                     "https://www.instagram.com/kampalasitigym?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
@@ -86,7 +86,7 @@ const HeaderSection = () => {
               </li>
               {/** tiktok */}
 
-              <li className='flex flex-row   items-center   lg:hover:underline lg:hover:text-black'>
+              <li className='flex flex-row   items-center   lg:hover:underline hover:text-red-600 lg:hover:text-red-600'>
                 <Link
                   href={
                     "https://www.tiktok.com/@sitigym_?is_from_webapp=1&sender_device=pc"
@@ -110,7 +110,7 @@ const HeaderSection = () => {
               </li>
               {/** whatsapp */}
 
-              <li className='flex flex-row   items-center   lg:hover:underline lg:hover:text-black'>
+              <li className='flex flex-row   items-center   lg:hover:underline hover:text-red-600 lg:hover:text-red-600'>
                 <Link href={"/"} className='hover:text-black'>
                   <svg
                     fill='currentColor'
@@ -130,7 +130,7 @@ const HeaderSection = () => {
                 <li>
                   <Link
                     href={"/aboutus"}
-                    className={`${pathname === "/aboutus" ? " underline text-red-600" : " "} hover:underline hover:text-red-500`}
+                    className={`${pathname === "/aboutus" ? " underline text-red-600" : " "} hover:underline  hover:text-red-500`}
                   >
                     About us
                   </Link>
@@ -138,13 +138,13 @@ const HeaderSection = () => {
                 <li>
                   <Link
                     href={"/pricing"}
-                    className={`${pathname === "/pricing" ? " underline text-red-600" : " "} hover:underline`}
+                    className={`${pathname === "/pricing" ? " underline text-red-600" : " "} hover:underline hover:text-red-600`}
                   >
                     Pricing
                   </Link>
                 </li>
 
-                <li className=' flex flex-col-reverse   '>
+                <li className=' flex flex-col-reverse   hover:underline hover:text-red-600'>
                   <div className='relative'>
                     {open && (
                       <div className=' lg:absolute lg:top-6 lg:z-20 text-black lg:bg-gray-100 shadow-md p-1 rounded mr-3 lg:shadow-lg flex-col flex'>
@@ -165,7 +165,7 @@ const HeaderSection = () => {
                 <li>
                   <Link
                     href={"/spa"}
-                    className={`${pathname === "/spa" ? " underline text-red-600" : " "} hover:underline`}
+                    className={`${pathname === "/spa" ? " underline text-red-600" : " "} hover:underline hover:text-red-600`}
                   >
                     Spa
                   </Link>
@@ -173,7 +173,7 @@ const HeaderSection = () => {
                 <li>
                   <Link
                     href={"/contact"}
-                    className={` ${pathname === "/contact" ? " underline text-red-600" : " "} hover:underline`}
+                    className={` ${pathname === "/contact" ? " underline text-red-600" : " "} hover:underline hover:text-red-600`}
                   >
                     Contact
                   </Link>
@@ -181,7 +181,7 @@ const HeaderSection = () => {
                 <li>
                   <Link
                     href={"/carears"}
-                    className={`${pathname === "/carears" ? " underline text-red-600" : " "} hover:underline`}
+                    className={`${pathname === "/carears" ? " underline text-red-600" : " "} hover:underline hover:text-red-600`}
                   >
                     Careers
                   </Link>
@@ -189,7 +189,7 @@ const HeaderSection = () => {
                 <li>
                   <Link
                     href={"/shop"}
-                    className={` ${pathname === "/shop" ? " underline text-red-600" : " "} hover:underline`}
+                    className={` ${pathname === "/shop" ? " underline text-red-600" : " "} hover:underline hover:text-red-600`}
                   >
                     Shop
                   </Link>
@@ -197,7 +197,7 @@ const HeaderSection = () => {
                 <li>
                   <Link
                     href={"/shop/cart"}
-                    className={`${pathname === "/shop/cart" ? " underline text-red-600" : " "} hover:underline`}
+                    className={`${pathname === "/shop/cart" ? " underline text-red-600" : " "} hover:underline hover:text-red-600`}
                   >
                     <div className='flex flex-row space-x-1 items-center'>
                       <span className=' text-center font-bold text-sm'>
@@ -278,7 +278,7 @@ const HeaderSection = () => {
                 <li>
                   <Link
                     href={"/aboutus"}
-                    className={`${pathname === "/aboutus" && " bg-red-100 text-red-600 "} p-2  rounded-md hover:underline`}
+                    className={`${pathname === "/aboutus" && " bg-red-100 text-red-600 "} p-2  rounded-md hover:underline hover:text-red-600`}
                   >
                     About us
                   </Link>
@@ -286,7 +286,7 @@ const HeaderSection = () => {
                 <li>
                   <Link
                     href={"/pricing"}
-                    className={`${pathname === "/pricing" && " bg-red-100 text-red-600 "} p-2  rounded-md hover:underline`}
+                    className={`${pathname === "/pricing" && " bg-red-100 text-red-600 "} p-2  rounded-md hover:underline hover:text-red-600`}
                   >
                     Pricing
                   </Link>
@@ -304,7 +304,7 @@ const HeaderSection = () => {
                     <Link
                       href={"/classes"}
                       onClick={() => setOpen(!open)}
-                      className='font-bold   w-screen whitespace-nowrap  text-center lg:w-fit hover:underline block active:text-red-600 focus:text-red-600 hover:text-black'
+                      className='font-bold    w-screen whitespace-nowrap  text-center lg:w-fit hover:underline block active:text-red-600 focus:text-red-600 hover:text-black'
                     >
                       Classes
                     </Link>
@@ -313,7 +313,7 @@ const HeaderSection = () => {
                 <li>
                   <Link
                     href={"/spa"}
-                    className={`${pathname === "/spa" && " bg-red-100 text-red-600 "} p-2  rounded-md hover:underline`}
+                    className={`${pathname === "/spa" && " bg-red-100 text-red-600 "} p-2  rounded-md hover:underline hover:text-red-600`}
                   >
                     Spa
                   </Link>
@@ -321,7 +321,7 @@ const HeaderSection = () => {
                 <li>
                   <Link
                     href={"/contact"}
-                    className={` ${pathname === "/contact" && " bg-red-100 text-red-600 "} p-2  rounded-md hover:underline`}
+                    className={` ${pathname === "/contact" && " bg-red-100 text-red-600 "} p-2  rounded-md hover:underline hover:text-red-600`}
                   >
                     Contact
                   </Link>
@@ -329,7 +329,7 @@ const HeaderSection = () => {
                 <li>
                   <Link
                     href={"/carears"}
-                    className={`${pathname === "/carears" && " bg-red-100 text-red-600 "} p-2  rounded-md hover:underline`}
+                    className={`${pathname === "/carears" && " bg-red-100 text-red-600 "} p-2  rounded-md hover:underline hover:text-red-600`}
                   >
                     Careers
                   </Link>
@@ -337,7 +337,7 @@ const HeaderSection = () => {
                 <li>
                   <Link
                     href={"/shop"}
-                    className={` ${pathname === "/shop" && " bg-red-100 text-red-600 "} p-2  rounded-md hover:underline`}
+                    className={` ${pathname === "/shop" && " bg-red-100 text-red-600 "} p-2  rounded-md hover:underline hover:text-red-600`}
                   >
                     Shop
                   </Link>
@@ -345,7 +345,7 @@ const HeaderSection = () => {
                 <li>
                   <Link
                     href={"/shop/cart"}
-                    className={`${pathname === "/shop/cart" && " bg-red-100 text-red-600 "} p-2  rounded-md hover:underline`}
+                    className={`${pathname === "/shop/cart" && " bg-red-100 text-red-600 "} p-2  rounded-md hover:underline hover:text-red-600`}
                   >
                     <div className='flex flex-row space-x-1 items-center'>
                       <span className=' text-center font-bold text-sm'>
