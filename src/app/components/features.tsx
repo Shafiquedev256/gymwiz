@@ -21,7 +21,7 @@ const OurFacilities = () => {
                 href='/classes'
                 className=' bg-red-600 px-3 w-fit hover:bg-red-500 text-white text-center rounded-full text-sm text-semibold p-2 my-2 md:m-4'
               >
-                SEE TRAINERS
+                SEE CLASSES
               </Link>
             </div>
           </div>
@@ -49,7 +49,7 @@ const OurFacilities = () => {
                 href='/classes'
                 className=' bg-red-600 px-3 w-fit hover:bg-red-500 text-white text-center rounded-full text-sm text-semibold p-2 my-2 md:m-4'
               >
-                SEE TRAINERS
+                SEE CLASSES
               </Link>
             </div>
           </div>
@@ -80,8 +80,12 @@ const OurFacilities = () => {
       </div>
       <div className='flex justify-center items-center mb-4'>
         <button className='w-fit rounded-full hover:bg-red-500 bg-red-600 text-white text-sm text-center text-semi-bold p-2 px-6'>
-          {" "}
-          START NOW
+          <Link
+            target='blank'
+            href={`https://wa.me/+256705746131?text=${encodeURIComponent("Hello! I'm interested in your services.")}`}
+          >
+            START NOW
+          </Link>
         </button>
       </div>
     </section>

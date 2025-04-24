@@ -56,7 +56,7 @@ const Testimonial = () => {
           {testmonialel.map((test) => (
             <div
               key={test.message}
-              className='flex flex-row items-center text-white w-[333px] p-2 h-[222px] rounded-md bg-red-600'
+              className='flex flex-row items-center text-white w-[333px] p-2 h-[222px] rounded-md bg-[#f83131]'
             >
               <div className=''>
                 <div className=' rounded-md '>
@@ -73,7 +73,7 @@ const Testimonial = () => {
                   <p className='font-body text-sm p-2 text-white '>
                     {test.message}
                   </p>
-                  <p className=' text-lg font-bold font-body tracking-wide'>
+                  <p className=' text-lg text-black font-bold font-body tracking-wide'>
                     - {test.name}
                   </p>
                 </div>

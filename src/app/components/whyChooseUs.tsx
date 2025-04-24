@@ -6,12 +6,12 @@ const WhyChooseUs = () => {
           Boost your fitness training with Us
         </h2>
         <p className='text-sm text-center text-gray-900 md:w-[30%]'>
-          Boost Your Fitness With Our Trainers And Enjoy Personalized Meals
-          Tailored To You
+          Join a community that supports your fitness journey where progress is
+          personal and everyone is welcome
         </p>
       </div>
       <div className='md:m-3 mx-2 grid grid-cols-2 grid-rows-2 md:flex md:flex-row md:space-x-5   md:justify-center py-8 gap-2.5 md:items-center '>
-        <div className='md:w-[230px] text-white md:h-[280px] w-[1fr] h-[290px] py-4 md:m-3 flex flex-col justify-center items-center rounded-md p-3 bg-red-600'>
+        <div className='md:w-[230px] text-white md:h-[280px] w-[1fr] h-[290px] py-4 md:m-3 flex flex-col justify-center items-center rounded-md p-3 bg-[#f83131]'>
           <div className='flex justify-center mb-3 mx-2 items-center'>
             <span className='bg-white rounded-full justify-center items-center p-2'>
               <img src='/cycle.svg' alt='' />
@@ -23,12 +23,12 @@ const WhyChooseUs = () => {
               Modern Facilities
             </h3>
             <p className=' text-sm text-center'>
-              Our gym is equipped with the latest technology to help you achieve
-              your fitness goals.
+              Clean, Spacious and equiped with everything you need, from weights
+              to cardio to recovery
             </p>
           </div>
         </div>
-        <div className='md:m-3 md:w-[230px] md:h-[280px] w-[1fr] h-[290px] py-4 flex flex-col justify-center items-center rounded-lg p-3 bg-red-600 text-white'>
+        <div className='md:m-3 md:w-[230px] md:h-[280px] w-[1fr] h-[290px] py-4 flex flex-col justify-center items-center rounded-lg p-3 bg-[#f83131] text-white'>
           <div className='flex justify-center mb-3 mx-2 items-center'>
             <span className='bg-white rounded-full justify-center items-center p-2'>
               <svg
@@ -54,13 +54,14 @@ const WhyChooseUs = () => {
               Certified Trainers
             </h3>
             <p className=' text-sm text-center'>
-              Our expert trainers are here to guide and motivate you every step
-              of the way.
+              You're never on your own, we've got your back. Our team is here to
+              hype you up, show you the ropes abd help you crush your goals
+              whatever they're.
             </p>
           </div>
         </div>
 
-        <div className='md:w-[230px] md:h-[280px] m-3 py-4 col-span-full flex flex-col justify-center items-center rounded-lg p-3 bg-red-600 text-white'>
+        <div className='md:w-[230px] md:h-[280px] m-3 py-4 col-span-full flex flex-col justify-center items-center rounded-lg p-3 bg-[#f83131] text-white'>
           <div className='flex justify-center mb-3 mx-2 items-center'>
             <span className='bg-white rounded-full justify-center items-center p-2'>
               <img src='/trainers.svg' alt='' />
@@ -72,8 +73,9 @@ const WhyChooseUs = () => {
               Variety of Classes
             </h3>
             <p className=' text-sm text-center'>
-              From yoga to high-intensity interval training, we offer classes
-              for all fitness levels.
+              From sweaty HIIT to chill yoga flows, our classes are fun,
+              welcoming and never boring. There's always something for everyone,
+              no matter your fitness levels and interests.
             </p>
           </div>
         </div>

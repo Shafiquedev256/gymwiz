@@ -33,6 +33,7 @@ export default function Home() {
                 look better naked <b>NOW!</b>
               </p>
               <a
+                target='blank'
                 href='https://www.google.com/maps/dir//SitiGym+Mwanga+II+Rd+Kampala/@0.3039633,32.5699984,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x177dbd75455a4a39:0x79e240ed20b9021d!2m2!1d32.5699984!2d0.3039633?entry=ttu&g_ep=EgoyMDI0MDgyMS4wIKXMDSoASAFQAw%3D%3D'
                 className='bg-red-600 my-5 text-sm  text-center hover:bg-[#850b0b] text-white py-3 px-6 rounded-full '
               >
@@ -51,7 +52,7 @@ export default function Home() {
           ></iframe>
         </div>
         <div className='w-screen overflow-hidden font-body'>
-          <div className='md:hidden w-screen overflow-hidden bg-black py-3'>
+          <div className='md:hidden w-screen overflow-hidden bg-black py-2'>
             <div className='md:hidden  slide-track flex flex-row items-center justify-center'>
               <Link href={"/"} className='slideel'>
                 <img
@@ -68,14 +69,7 @@ export default function Home() {
                   className='w-20 '
                 />
               </Link>
-              <Link href={"/"} className='slideel'>
-                <img
-                  src='/musc-removebg-preview.png'
-                  alt='muscl
-                e logo'
-                  className='w-28'
-                />
-              </Link>
+
               <Link href={"/"} className='slideel'>
                 <img
                   src='/openflow-removebg-preview.png'
