@@ -37,7 +37,7 @@ export const Plans = () => {
           '
           >
             <h2 className='text-black text-bold text-lg'>ONE DAY PASS</h2>
-            <div className=' title  text-center  p-2 w-[100%]   rounded-md my-2'>
+            <div className='text-white title  text-center  p-2 w-[100%]   rounded-md my-2'>
               Ugs 00.0000 /<span className='text-sm'>VISITOR</span>
             </div>
 
@@ -95,7 +95,7 @@ export const Plans = () => {
           '
           >
             <h2 className='text-black text-bold text-lg'>MEN'S PLAN</h2>
-            <div className=' title  text-center  p-2 w-[100%]   rounded-md my-2'>
+            <div className='text-white title  text-center  p-2 w-[100%]   rounded-md my-2'>
               Ugs 120,000 /<span className='text-sm'>MONTH</span>
             </div>
             <ul className=' text-sm md:text-lg'>
@@ -159,7 +159,7 @@ export const Plans = () => {
           '
           >
             <h2 className='text-black text-bold text-lg'>STUDENT'S PLAN</h2>
-            <div className=' title   p-2 w-[100%]   rounded-md my-2'>
+            <div className='text-white title   p-2 w-[100%]   rounded-md my-2'>
               Ugs 100,000 /<span className='text-sm'>MONTH</span>
             </div>
             <ul className=' text-sm md:text-lg'>
@@ -222,7 +222,7 @@ export const Plans = () => {
           '
           >
             <h2 className='text-black text-bold text-lg'>WOMEN'S PLAN</h2>
-            <div className=' title  text-center  p-2 w-[100%]   rounded-md my-2'>
+            <div className='text-white title  text-center  p-2 w-[100%]   rounded-md my-2'>
               Ugs 120,000 /<span className='text-sm'>MONTH</span>
             </div>
             <ul className=' text-sm md:text-lg'>
@@ -322,7 +322,7 @@ export const Plans = () => {
             className='text-lg font-semibold rounded-3xl  md:w-full max-w-sm p-2 bg-red-500 border border-gray-200 hover:border-red-600   sm:p-8 
           '
           >
-            <h2 className='text-black text-bold text-center text-lg'>
+            <h2 className='text-white text-bold text-center text-lg'>
               CORPORATE PLAN
             </h2>
             <div className=' text-black title  text-center  p-2 w-[100%]   rounded-md my-2'>
