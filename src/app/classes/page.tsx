@@ -33,12 +33,12 @@ const Classes = () => {
               {classes.map((gymClass, index) => (
                 <div
                   key={index}
-                  className='bg-[#f83131] md:w-[222px] h-[222px] rounded-lg hover:animate-pulse'
+                  className='bg-[#f83131] md:w-[222px] h-[300px] rounded-lg hover:animate-pulse'
                 >
                   <img
                     src={gymClass.img}
                     alt={gymClass.title}
-                    className='w-full h-2/5 md:h-[50%] object-cover rounded-t-lg'
+                    className='w-full h-[50%] object-cover rounded-t-lg'
                   />
                   <div className='p-3 text-white'>
                     <h2 className=' font-bold '>{gymClass.title}</h2>
