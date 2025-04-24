@@ -13,7 +13,7 @@ const WomenClasses = () => {
       <div className='w-[100%] overflow-hidden'>
         <div className='min-h-screen bg-white'>
           {/* Hero Section */}
-          <div className='bg-[url("/women1.jpg")] bg-center  bg-cover bg-no-repeat w-[100%] h-[50vh] md:h-[40vh] lg:h-[70vh]'></div>
+          <div className='bg-[url("/image3.jpg")] bg-center  bg-cover bg-no-repeat w-[100%] h-[50vh] md:h-[40vh] lg:h-[70vh]'></div>
 
           <WeeklySchedule schedule={womenSchedule} />
           {/* Programs Section */}
@@ -27,14 +27,14 @@ const WomenClasses = () => {
             {workouts.map((programe) => (
               <div
                 key={programe.workout + programe.description}
-                className=' md:w-[222px] mt-6   rounded-lg flex flex-col justify-center items-center'
+                className=' md:w-[222px] h-[300px] mt-6   rounded-lg flex flex-col justify-center items-center'
               >
                 <img
                   src={programe.img}
                   alt={`woman doing ${programe.workout}`}
-                  className='w-full h-[50%] md:h-[60%] object-cover rounded-t-lg'
+                  className='w-full h-2/5 md:h-[60%] object-cover rounded-t-lg'
                 />
-                <div className=' border-0 border-x border-b p-3 bg-pink-600 border-b-pink-600 rounded-b-lg border-x-pink-600'>
+                <div className='h-2/5 border-0 border-x border-b p-3 bg-pink-600 border-b-pink-600 rounded-b-lg border-x-pink-600'>
                   <h2 className=' font-bold text-white'>{programe.workout}</h2>
                   <p className='text-white  text-sm'>{programe.description}</p>
                 </div>
