@@ -102,9 +102,10 @@ const About_us_page = () => {
                 Our Story
               </h2>
               <p className=' mb-6 px-2 md:w-[70%] md:text-center'>
-                Wizz Gym began with a simple need. As students, we couldn’t find
-                a nearby gym that was affordable, modern, or welcoming. Most
-                options were too far, too expensive, or not student-friendly.
+                Wizz Gym began with a simple need. <br /> As students, we
+                couldn’t find a nearby gym that was affordable, modern, or
+                welcoming. Most options were too far, too expensive, or not
+                student-friendly.
                 <br />
                 So we decided to create our own. Wizz Gym is now a space where
                 anyone students, professionals, or first-timers can feel
@@ -124,8 +125,8 @@ const About_us_page = () => {
                   Where We're Headed
                 </h2>
                 <p className='  md:w-[70%] px-2'>
-                  Wizz Gym is just getting started. We’re building more than a
-                  gym—we’re creating a movement centered around accessible
+                  Wizz Gym is just getting started and we’re building more than
+                  a gym, we’re creating a movement centered around accessible
                   fitness, mental wellness, and strong community.
                 </p>
                 <p className=' md:w-[70%] p-2'>
@@ -134,18 +135,19 @@ const About_us_page = () => {
                   background.
                 </p>
                 <p className=' md:w-[70%] p-2'>
-                  But our vision goes beyond gym walls. We aim to actively
+                  But our vision goes beyond gym walls, we aim to actively
                   support Uganda’s health system by promoting preventative
                   wellness, collaborating with hospitals, and creating fitness
                   programs that complement public health efforts.
                 </p>
                 <p className=' md:w-[70%] p-2'>
-                  We’re growing with purpose: Expanding locations across Kampala
-                  and beyond Launching new classes and wellness programs
-                  Partnering with healthcare providers to bridge the gap between
-                  fitness and healthcare Our goal? To become one of Uganda’s
-                  most trusted fitness and wellness brands—supporting healthier
-                  lives, stronger communities, and a better tomorrow.
+                  We’re growing with purpose, expanding locations across Kampala
+                  and beyond launching new classes and wellness programs,
+                  partnering with healthcare providers to bridge the gap between
+                  fitness and healthcare. <br />
+                  Our goal is to become one of Uganda’s most trusted fitness and
+                  wellness brands supporting healthier lives, stronger
+                  communities, and a better tomorrow.
                 </p>
               </div>
             </div>
@@ -157,52 +159,83 @@ const About_us_page = () => {
               <h2 className='title font-semibold text-2xl rounded text-center mb-2 py-3  md:my-3 '>
                 Our Core Values
               </h2>
-              <div className='flex md:flex-row flex-col justify-center items-center  md:grid-col-2 md:grid-rows-2'>
-                <div className='flex flex-col space-y-3 px-2'>
-                  <div className=' px-2'>
-                    <span className='pr-2 font-semibold text-lg'>
-                      Strength in Unity
-                    </span>
-                    <span className='text-sm text-center'>
-                      We believe in the power of community. Together, we
-                      motivate, support, and grow—turning individual goals into
+              <div className='flex md:flex-row flex-col justify-center items-center  '>
+                <div className='flex flex-col justify-center px-2 my-2'>
+                  <div className='flex flex-row space-x-2 justify-center my-4 w-fit'>
+                    <img
+                      src='/zz.jpg'
+                      alt='/wizz gym logo'
+                      className='w-12 h-12 rounded-full'
+                    />
+
+                    <span className='text-sm'>
+                      <span className='pr-2 font-semibold text-lg'>
+                        Strength in Unity
+                      </span>{" "}
+                      <br />
+                      We believe in the power of community. <br /> Together, we
+                      motivate, support, and grow turning individual goals into
                       shared success.
                     </span>
                   </div>
-                  <div className=' px-2'>
-                    <span className='pr-2 font-semibold text-lg'>
-                      Growth Mindset
-                    </span>
-                    <span className='text-sm text-center'>
-                      We believe in constant progress. Whether you're chasing
-                      your first workout or your personal best, we’re here to
-                      support your journey—physically, mentally, and personally.
+
+                  <div className='flex my-4 flex-row space-x-2 justify-center w-fit'>
+                    <img
+                      src='/zz.jpg'
+                      alt='/wizz gym logo'
+                      className='w-12 h-12 rounded-full'
+                    />
+
+                    <span className='text-sm '>
+                      <span className='pr-2 font-semibold text-lg'>
+                        Growth Mindset
+                      </span>{" "}
+                      <br />
+                      We believe in constant progress. <br /> Whether you're
+                      chasing your first workout or your personal best, we’re
+                      here to support your journey physically, mentally, and
+                      personally.
                     </span>
                   </div>
                 </div>
 
                 <div className='flex flex-col space-y-3 px-2 '>
-                  <div className=' px-2'>
-                    <span className='pr-2 font-semibold text-lg'>
-                      Together, Stronger
-                    </span>
-                    <span className='text-sm text-center'>
-                      We’re more than a gym—we’re a family. We lift each other
-                      up, we celebrate effort, consistency together, and build
-                      strength as a united, supportive community.
+                  <div className='my-4 flex flex-row space-x-2 justify-center w-fit'>
+                    <img
+                      src='/zz.jpg'
+                      alt='/wizz gym logo'
+                      className='w-12 h-12 rounded-full'
+                    />
+
+                    <span className='text-sm '>
+                      <span className='pr-2 font-semibold text-lg'>
+                        Together, Stronger
+                      </span>
+                      <br />
+                      We’re more than a gym, we’re a family. <br /> We lift each
+                      other up, we celebrate effort, consistency together, and
+                      build strength as a united, supportive community.
                     </span>
                   </div>
-                  <p className='px-2'>
-                    <span className='pr-2 font-semibold text-lg'>
-                      Accessible Wellness
-                    </span>
-                    <span className='text-sm text-center'>
-                      Fitness should be for everyone. That’s why we offer
+
+                  <div className='my-4 flex flex-row space-x-2 justify-center  md:w-fit'>
+                    <img
+                      src='/zz.jpg'
+                      alt='/wizz gym logo'
+                      className='w-12 h-12 rounded-full'
+                    />
+
+                    <p className='text-sm '>
+                      <span className='pr-2 font-semibold text-lg'>
+                        Accessible Wellness
+                      </span>
+                      <br />
+                      Fitness should be for everyone. <br /> That’s why we offer
                       affordable membership options without compromising on
-                      quality, we uphold the highest standards—ensuring you get
+                      quality, we uphold the highest standards ensuring you get
                       the best environment to thrive in.
-                    </span>
-                  </p>
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -266,29 +299,54 @@ const About_us_page = () => {
             </div>
 
             <div className='md:4/5  p-8 '>
-              <ul className='space-y-2 text-left flex flex-col   '>
-                <li className='list-disc  md:p-2  '>
-                  Purchasing renewable energy equipment to reduce our carbon
-                  emissions.
-                </li>
-                <li className='list-disc  md:p-2  '>
-                  <span>
+              <div className='space-y-2 text-left flex flex-col   '>
+                <div className='flex flex-row space-x-2 justify-center mt-2 md:items-center w-fit'>
+                  <img
+                    src='/zz.jpg'
+                    alt='/wizz gym logo'
+                    className='w-12 h-12 rounded-full'
+                  />
+                  <p className=' '>
+                    Purchasing renewable energy equipment to reduce our carbon
+                    emissions.
+                  </p>
+                </div>
+
+                <div className=' flex flex-row space-x-2 justify-center mt-2 md:items-center w-fit'>
+                  <img
+                    src='/zz.jpg'
+                    alt='/wizz gym logo'
+                    className='w-12 h-12 rounded-full'
+                  />
+                  <p className=' '>
                     Installing LED energy-efficient lights to reduce energy
                     consumption.
-                  </span>
-                </li>
-                <li className='list-disc  md:p-2  '>
-                  <span>
+                  </p>
+                </div>
+
+                <div className='flex flex-row space-x-2 justify-center mt-2 w-fit md:items-center'>
+                  <img
+                    src='/zz.jpg'
+                    alt='/wizz gym logo'
+                    className='w-12 h-12 rounded-full'
+                  />
+                  <p className=' '>
                     Introducing high-efficiency showers to save water.
-                  </span>
-                </li>
-                <li className='list-disc  md:p-2  '>
-                  <span>
+                  </p>
+                </div>
+
+                <div className='flex flex-row space-x-2 justify-center mt-2  w-fit md:items-center'>
+                  <img
+                    src='/zz.jpg'
+                    alt='/wizz gym logo'
+                    className='w-12 h-12 rounded-full'
+                  />
+                  <p className=' '>
                     Maintaining a high-quality equipment maintenance program for
                     maximum efficiency.
-                  </span>
-                </li>
-              </ul>
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </section>

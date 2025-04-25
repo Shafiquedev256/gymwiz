@@ -13,15 +13,15 @@ const OurFacilities = () => {
               Expert Personal training
             </h4>
             <p className='text-sm md:text-lg md:w-[70%] md:text-center '>
-              Guided sessions with certified trainers for customized fitness
-              plans.
+              Reach your goals faster with guided sessions led by certified,
+              professional trainers.
             </p>
             <div className='md:w-[70%] flex md:justify-center md:items-center'>
               <Link
                 href={`https://wa.me/+256705746131?text=${encodeURIComponent("Hello! Get me a trainer.")}`}
                 className=' bg-[#f83131] px-3 w-fit hover:bg-red-600 text-white text-center rounded-full text-sm text-semibold p-2 my-2 md:m-4'
               >
-                GET YOUR TRAINER!
+                GET TRAINER!
               </Link>
             </div>
           </div>
@@ -44,14 +44,15 @@ const OurFacilities = () => {
               Healthy nutrition plan
             </h4>
             <p className='text-sm md:text-lg md:w-[100%] md:text-center '>
-              Expert advice for healthy eating and meal planning
+              Fuel your fitness with expert nutrition advice and smart meal
+              planning.
             </p>
             <div className='md:w-[100%] flex md:justify-center md:items-center'>
               <Link
                 href={`https://wa.me/+256705746131?text=${encodeURIComponent("Hello! I'm interested in your  meal plans.")}`}
                 className=' bg-[#f83131] px-3 w-fit hover:bg-red-600 text-white text-center rounded-full text-sm text-semibold p-2 my-2 md:m-4'
               >
-                GET YOUR PLAN!
+                GET PLAN!
               </Link>
             </div>
           </div>
@@ -62,7 +63,8 @@ const OurFacilities = () => {
               Group fitness classes
             </h4>
             <p className='text-sm md:text-lg md:w-[70%] md:text-center '>
-              Sessions for cardio , strength, and flexibility training.
+              Join our fun and energising group fitness classes designed to
+              boost your overall health.
             </p>
             <div className='md:w-[70%] flex md:justify-center md:items-center'>
               <Link
