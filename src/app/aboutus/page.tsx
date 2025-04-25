@@ -104,8 +104,8 @@ const About_us_page = () => {
               <p className=' mb-6 px-2 md:w-[70%] md:text-center'>
                 Wizz Gym began with a simple need. <br /> As students, we
                 couldn’t find a nearby gym that was affordable, modern, or
-                welcoming. Most options were too far, too expensive, or not
-                student-friendly.
+                welcoming. <br /> Most options were too far, too expensive, or
+                not student-friendly.
                 <br />
                 So we decided to create our own. Wizz Gym is now a space where
                 anyone students, professionals, or first-timers can feel
