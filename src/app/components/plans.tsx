@@ -160,7 +160,7 @@ export const Plans = () => {
           >
             <h2 className='text-black text-bold text-lg'>STUDENT'S PLAN</h2>
             <div className='text-white title   p-2 w-[100%]   rounded-md my-2'>
-              Ugs 100,000 /<span className='text-sm'>MONTH</span>
+              Ugs 200,000 /<span className='text-sm'>MONTH</span>
             </div>
             <ul className=' text-sm md:text-lg'>
               <li className='border-0 border-b-[1px] border-red-100 border-dotted p-2 text-center font-light   text-black  flex flex-row items-center space-x-2'>
@@ -223,7 +223,7 @@ export const Plans = () => {
           >
             <h2 className='text-black text-bold text-lg'>WOMEN'S PLAN</h2>
             <div className='text-white title  text-center  p-2 w-[100%]   rounded-md my-2'>
-              Ugs 120,000 /<span className='text-sm'>MONTH</span>
+              Ugs 180,000 /<span className='text-sm'>MONTH</span>
             </div>
             <ul className=' text-sm md:text-lg'>
               <li className=' border-0 border-b-[1px] border-red-100 border-dotted p-2 text-center font-light   text-black  flex flex-row items-center space-x-2'>
@@ -316,7 +316,7 @@ export const Plans = () => {
               CORPORATE PLAN
             </h2>
             <div className=' text-black title  text-center  p-2 w-[100%]   rounded-md my-2'>
-              Ugs 120,000 /<span className='text-sm'>MONTH</span>
+              Ugs 200,000 /<span className='text-sm'>MONTH</span>
             </div>
             <ul className=' text-sm md:text-lg'>
               <li className=' border-0 border-b-[1px] border-red-100 border-dotted p-2 text-center font-light   text-black  flex flex-row items-center space-x-2'>
