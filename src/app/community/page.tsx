@@ -12,13 +12,13 @@ const communityEvents: CommunityEvent[] = [
   {
     title: "School-Focused Fitness Programs",
     description:
-      "To further their mission, Siti Gym partners with local schools in Kampala, organizing school fairs and fitness programs aimed at encouraging students to embrace a healthy lifestyle. These programs are designed to be engaging and accessible, focusing on physical education, team-building exercises, and wellness activities that inspire young people to stay active. The goal is to foster a culture of fitness within the school environment, where students can take what they learn and apply it to their everyday lives.",
+      "To further their mission, Wizz Gym partners with local schools in Kampala, organizing school fairs and fitness programs aimed at encouraging students to embrace a healthy lifestyle. These programs are designed to be engaging and accessible, focusing on physical education, team-building exercises, and wellness activities that inspire young people to stay active. The goal is to foster a culture of fitness within the school environment, where students can take what they learn and apply it to their everyday lives.",
     imageUrl: "/image10.jpg",
   },
   {
     title: "Giving Back to the Community",
     description:
-      "Beyond fitness, Siti Gym is deeply invested in supporting the community. Through outreach programs and charity events, they ensure that youth from underserved backgrounds have the opportunity to access fitness resources. This includes offering scholarships for gym memberships, organizing free fitness classes, and hosting wellness events aimed at improving the overall health of the local population.",
+      "Beyond fitness, Wizz Gym is deeply invested in supporting the community. Through outreach programs and charity events, they ensure that youth from underserved backgrounds have the opportunity to access fitness resources. This includes offering scholarships for gym memberships, organizing free fitness classes, and hosting wellness events aimed at improving the overall health of the local population.",
     imageUrl: "/youth.webp",
   },
 ];
@@ -46,10 +46,10 @@ const CommunityPage: React.FC = () => {
             Empowering Youth in Kampala Through Fitness and Community Support
           </h2>
           <p className='text-gray-700 txt-sm mt-4'>
-            Siti Gym is a fitness center in Kampala dedicated to promoting
+            Wizz Gym is a fitness center in Kampala dedicated to promoting
             physical health, mental well-being, and personal development among
             youth. With a strong commitment to giving back to the community,
-            Siti Gym offers a variety of fitness programs designed not only to
+            Wizz Gym offers a variety of fitness programs designed not only to
             help individuals build strength and endurance but also to support
             the local youth in achieving their full potential.
           </p>
@@ -90,7 +90,7 @@ const CommunityPage: React.FC = () => {
             </h3>
             <div className='text-gray-700 space-y-2'>
               <p>
-                Siti Gym is more than just a fitness center; it is a
+                Wizz Gym is more than just a fitness center; it is a
                 community-driven initiative that focuses on the holistic
                 development of youth in Kampala.
               </p>
@@ -102,7 +102,7 @@ const CommunityPage: React.FC = () => {
               </p>
               <p>
                 Through their ongoing dedication to community service and youth
-                empowerment, Siti Gym continues to make a lasting impact in
+                empowerment, Wizz Gym continues to make a lasting impact in
                 Kampala.
               </p>
             </div>
