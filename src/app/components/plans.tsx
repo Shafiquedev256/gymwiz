@@ -158,7 +158,9 @@ export const Plans = () => {
             className='text-lg font-semibold rounded-3xl w-[46%] md:w-full max-w-sm p-2 bg-red-500 border border-gray-200 hover:border-red-600   sm:p-8 
           '
           >
-            <h2 className='text-black text-bold text-lg'>STUDENT'S PLAN</h2>
+            <h2 className='text-black text-bold md:text-lg whitespace-nowrap'>
+              STUDENT PLAN
+            </h2>
             <div className='text-white title   p-2 w-[100%]   rounded-md my-2'>
               Ugs 200,000 /<span className='text-sm'>MONTH</span>
             </div>
@@ -312,10 +314,10 @@ export const Plans = () => {
             className='text-lg font-semibold rounded-3xl  md:w-full max-w-sm p-2 bg-red-500 border border-gray-200 hover:border-red-600   sm:p-8 
           '
           >
-            <h2 className='text-white text-bold text-center text-lg'>
+            <h2 className='text-black text-bold text-center text-lg'>
               CORPORATE PLAN
             </h2>
-            <div className=' text-black title  text-center  p-2 w-[100%]   rounded-md my-2'>
+            <div className=' text-white title  text-center  p-2 w-[100%]   rounded-md my-2'>
               Ugs 200,000 /<span className='text-sm'>MONTH</span>
             </div>
             <ul className=' text-sm md:text-lg'>
