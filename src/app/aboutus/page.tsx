@@ -123,23 +123,23 @@ const About_us_page = () => {
                 <h2 className='title font-semibold text-2xl rounded text-center mb-2 py-3  md:my-3 '>
                   Where We're Headed
                 </h2>
-                <p className='md:text-center md:w-[70%] px-2'>
+                <p className='  md:w-[70%] px-2'>
                   Wizz Gym is just getting started. We’re building more than a
                   gym—we’re creating a movement centered around accessible
                   fitness, mental wellness, and strong community.
                 </p>
-                <p className='md:text-center md:w-[70%] p-2'>
+                <p className=' md:w-[70%] p-2'>
                   Our mission is to expand across Uganda, making modern,
                   affordable fitness available to everyone, no matter their
                   background.
                 </p>
-                <p className='md:text-center md:w-[70%] p-2'>
+                <p className=' md:w-[70%] p-2'>
                   But our vision goes beyond gym walls. We aim to actively
                   support Uganda’s health system by promoting preventative
                   wellness, collaborating with hospitals, and creating fitness
                   programs that complement public health efforts.
                 </p>
-                <p className='md:text-center md:w-[70%] p-2'>
+                <p className=' md:w-[70%] p-2'>
                   We’re growing with purpose: Expanding locations across Kampala
                   and beyond Launching new classes and wellness programs
                   Partnering with healthcare providers to bridge the gap between
