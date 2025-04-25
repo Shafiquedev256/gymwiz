@@ -95,7 +95,7 @@ const CommunityPage: React.FC = () => {
                 development of youth in Kampala.
               </p>
               <p>
-                By combining fitness with educational and outreach efforts, Siti
+                By combining fitness with educational and outreach efforts, Wizz
                 Gym is helping to shape the future of young people in the city,
                 equipping them with the skills, knowledge, and resources they
                 need to lead healthy, successful lives.
@@ -108,7 +108,7 @@ const CommunityPage: React.FC = () => {
             </div>
             <a
               href='/community'
-              className='inline-block mt-6 bg-red-600 text-white px-6 py-2 rounded-lg hover:bg-red-700 transition'
+              className='inline-block mt-6 bg-red-600 text-white px-6 py-2 rounded-lg hover:bg-red-700 tranWizzon'
             >
               Learn More
             </a>
