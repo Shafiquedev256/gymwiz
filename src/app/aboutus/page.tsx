@@ -85,7 +85,7 @@ const About_us_page = () => {
 
         <section className='mb-8'>
           <div className='flex flex-col md:flex-row items-center justify-between m-2'>
-            <div className='relative'>
+            <div className='relative md:w-[60%]'>
               <div className='absolute flex justify-center items-center z-10 text-6xl top-0 left-0 w-[100%] h-[100%]'>
                 <div className='bg-[#fefefe7e] hover:bg-[#fdfcfcd0] text-red-700 flex justify-center items-center w-32 h-32 rounded-full p-2'>
                   <img src='/play.svg' alt='play video' />
@@ -94,20 +94,22 @@ const About_us_page = () => {
               <img
                 src='/woman-teaching-yoga-pose-outdoors.jpg'
                 alt='woman-teaching-yoga-pose-outdoors'
-                className='rounded-md'
+                className='rounded-md '
               />
             </div>
             <div className='flex flex-col justify-center items-center'>
               <h2 className='title font-semibold text-2xl rounded text-center mb-2 py-3  md:my-3 '>
-                HOW IT STARTED ?
+                Our Story
               </h2>
               <p className=' mb-6 px-2 md:w-[70%] md:text-center'>
-                Located in the heart of Kampala, Uganda, Wizz GYM is a premier
-                fitness center dedicated to helping you achieve your health and
-                wellness goals. Whether you're a beginner or a seasoned athlete,
-                we provide a welcoming environment with top-notch equipment,
-                expert trainers, and a variety of classes tailored to meet your
-                individual needs.
+                Wizz Gym began with a simple need. As students, we couldn’t find
+                a nearby gym that was affordable, modern, or welcoming. Most
+                options were too far, too expensive, or not student-friendly.
+                <br />
+                So we decided to create our own. Wizz Gym is now a space where
+                anyone students, professionals, or first-timers can feel
+                supported, motivated, and part of a community that’s all about
+                healthy living.
               </p>
             </div>
           </div>
@@ -116,35 +118,116 @@ const About_us_page = () => {
             <div className='mx-3'>
               <img src='/about-us-img-2.jpg' alt='' className='rounded-md' />
             </div>
-            <div className='mx-3 flex flex-col justify-center items-center'>
-              <h2 className='title font-semibold text-2xl rounded text-center mb-2 py-3  md:my-3 '>
-                WHERE IT'S HEADING
-              </h2>
-              <p className=' mb-2 md:text-center md:w-[70%] px-2'>
-                Our mission is to empower you to become the best version of
-                yourself through fitness. We believe that everyone deserves the
-                chance to lead a healthy, active life, and we are here to
-                support you every step of the way.
-              </p>
+            <div className='md:w-[80%]'>
+              <div className='mx-3 flex flex-col justify-center items-center'>
+                <h2 className='title font-semibold text-2xl rounded text-center mb-2 py-3  md:my-3 '>
+                  Where We're Headed
+                </h2>
+                <p className='md:text-center md:w-[70%] px-2'>
+                  Wizz Gym is just getting started. We’re building more than a
+                  gym—we’re creating a movement centered around accessible
+                  fitness, mental wellness, and strong community.
+                </p>
+                <p className='md:text-center md:w-[70%] p-2'>
+                  Our mission is to expand across Uganda, making modern,
+                  affordable fitness available to everyone, no matter their
+                  background.
+                </p>
+                <p className='md:text-center md:w-[70%] p-2'>
+                  But our vision goes beyond gym walls. We aim to actively
+                  support Uganda’s health system by promoting preventative
+                  wellness, collaborating with hospitals, and creating fitness
+                  programs that complement public health efforts.
+                </p>
+                <p className='md:text-center md:w-[70%] p-2'>
+                  We’re growing with purpose: Expanding locations across Kampala
+                  and beyond Launching new classes and wellness programs
+                  Partnering with healthcare providers to bridge the gap between
+                  fitness and healthcare Our goal? To become one of Uganda’s
+                  most trusted fitness and wellness brands—supporting healthier
+                  lives, stronger communities, and a better tomorrow.
+                </p>
+              </div>
             </div>
           </div>
         </section>
         <section>
+          <div className='flex justify-center items-center'>
+            <div className='md:w-[60%]'>
+              <h2 className='title font-semibold text-2xl rounded text-center mb-2 py-3  md:my-3 '>
+                Our Core Values
+              </h2>
+              <div className='flex md:flex-row flex-col justify-center items-center  md:grid-col-2 md:grid-rows-2'>
+                <div className='flex flex-col space-y-3 px-2'>
+                  <div className=' px-2'>
+                    <span className='pr-2 font-semibold text-lg'>
+                      Strength in Unity
+                    </span>
+                    <span className='text-sm text-center'>
+                      We believe in the power of community. Together, we
+                      motivate, support, and grow—turning individual goals into
+                      shared success.
+                    </span>
+                  </div>
+                  <div className=' px-2'>
+                    <span className='pr-2 font-semibold text-lg'>
+                      Growth Mindset
+                    </span>
+                    <span className='text-sm text-center'>
+                      We believe in constant progress. Whether you're chasing
+                      your first workout or your personal best, we’re here to
+                      support your journey—physically, mentally, and personally.
+                    </span>
+                  </div>
+                </div>
+
+                <div className='flex flex-col space-y-3 px-2 '>
+                  <div className=' px-2'>
+                    <span className='pr-2 font-semibold text-lg'>
+                      Together, Stronger
+                    </span>
+                    <span className='text-sm text-center'>
+                      We’re more than a gym—we’re a family. We lift each other
+                      up, we celebrate effort, consistency together, and build
+                      strength as a united, supportive community.
+                    </span>
+                  </div>
+                  <p className='px-2'>
+                    <span className='pr-2 font-semibold text-lg'>
+                      Accessible Wellness
+                    </span>
+                    <span className='text-sm text-center'>
+                      Fitness should be for everyone. That’s why we offer
+                      affordable membership options without compromising on
+                      quality, we uphold the highest standards—ensuring you get
+                      the best environment to thrive in.
+                    </span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section>
           {/* Members Rules Section */}
 
           <h2 className='title font-semibold text-2xl text-center mb-2 py-3  md:my-3 '>
-            Members Rules
+            Member Guidelines
           </h2>
-          <p className='text-gray-700 mb-2 md:text-center  px-2'>
-            We aim to make our gyms a safe and enjoyable experience for all our
-            members.
-            <Link
-              href={"/gymrules"}
-              className='underline text-[#f83131] font-semibold md:p-2'
-            >
-              Learn About Our Rules
-            </Link>
-          </p>
+          <div className='flex justify-center items-center'>
+            <p className=' mb-2 w-[90%] md:w-[60%] md:text-center  px-2'>
+              We strive to make our gym a safe and enjoyable experience for all
+              members and staff. Please familiarise yourself with our Gym Rules
+              to ensure a positive environment for everyone.​
+              <Link
+                href={"/gymrules"}
+                className='underline text-[#f83131] font-semibold md:p-2'
+              >
+                Learn About Our Rules
+              </Link>
+            </p>
+          </div>
 
           <div className='w-[95%]'>
             {/* Community Work Section */}
@@ -228,8 +311,9 @@ const About_us_page = () => {
                     Short Showers
                   </h3>
                   <p className='text-sm'>
-                    As water can be a scarce resource, even in Uganda, it&apos;s
-                    best not to shower longer than necessary.
+                    As water can be a scarce resource, even in Kampala it’s best
+                    not to shower longer than necessary. Quick showers are a
+                    small habit that make a big difference for sustainability.
                   </p>
                 </div>
               </div>
@@ -241,11 +325,14 @@ const About_us_page = () => {
                 </span>
                 <div className='ml-4'>
                   <h3 className='font-semibold text-[#f83131]'>
-                    Bring Your Bottle
+                    Recycle Your Water Bottle
                   </h3>
                   <p className='text-sm'>
-                    All our gyms have water fountains, so don&apos;t forget your
-                    reusable bottle for refills.
+                    All our gyms have a recycling point, so don’t forget to
+                    always use the recycling bins provided and consider bringing
+                    a reusable bottle to reduce waste. Clean up after yourself
+                    and throw away any trash to keep the space tidy and
+                    enjoyable for everyone.
                   </p>
                 </div>
               </div>
@@ -260,8 +347,11 @@ const About_us_page = () => {
                     Bring Your Towel
                   </h3>
                   <p className='text-sm'>
-                    We have vending machines for towels but do bring your own
-                    along if you can.
+                    Using your own towel to wipe down machines after use helps
+                    prevent the spread of bacteria and keeps the equipment clean
+                    for the next person. Sweat left on machines isn’t just
+                    unpleasant — it can lead to skin infections and damage the
+                    equipment over time.
                   </p>
                 </div>
               </div>
@@ -275,8 +365,11 @@ const About_us_page = () => {
                     Avoid Driving
                   </h3>
                   <p className='text-sm'>
-                    Public transport, walking, jogging, or cycling are great
-                    ways to travel sustainably to the gym.
+                    Walk or Jog: If you live nearby, turn your commute into a
+                    warm-up! Walking or jogging to the gym is a great way to get
+                    your body moving before your workout even begins. Cycle In:
+                    Cycling is not only eco-friendly, but also a great way to
+                    build stamina and burn extra calories.
                   </p>
                 </div>
               </div>
