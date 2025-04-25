@@ -14,6 +14,33 @@ const WomenClasses = () => {
         <div className='min-h-screen bg-white'>
           {/* Hero Section */}
           <div className='bg-[url("/image4.jpg")] bg-center  bg-cover bg-no-repeat w-[100%] h-[60vh] md:h-[50vh] lg:h-[80vh]'></div>
+          <div className='flex flex-col justify-center mt-4 items-center '>
+            <h1 className=' text-center text-2xl tex-black title '>
+              Be part of the Kampala’s Biggest Class Community
+            </h1>
+            <div className=' py-4 mb-8 text-center text-black md:w-[50%]'>
+              <p>
+                Every woman deserves a space where she can focus on her health
+                and well-being without judgment, discomfort. Inclusive and
+                culturally mindful emphasising modesty, privacy, and respect.{" "}
+              </p>
+              <p>
+                Our women-only fitness hours are designed to create a safe,
+                private, and empowering environment where you can train
+                confidently, be yourself fully, and connect with a community of
+                strong, supportive women.
+              </p>
+              <p>
+                This dedicated time is more than just a workout session it’s a
+                statement
+              </p>
+              <p className='font-bold text-gray-800'>
+                See the classes timetable at your gym and book your spot at the
+                reception Your comfort matters. Your strength matters. You
+                deserve this space
+              </p>
+            </div>
+          </div>
 
           <WeeklySchedule schedule={womenSchedule} />
           {/* Programs Section */}
