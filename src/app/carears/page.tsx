@@ -5,10 +5,6 @@ import { FooterSection } from "../components/footer";
 import HeaderSection from "../components/header";
 
 function Carears() {
-  const handleApplyClick = () => {
-    window.location.href =
-      "mailto:hr@example.com?subject=Job Application&body=Dear HR,%0D%0A%0D%0A I am interested in applying for the position. Please find my details attached.%0D%0A%0D%0A Best regards,%0D%0A[Your Name]";
-  };
   return (
     <>
       <HeaderSection />
