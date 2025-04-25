@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { FooterSection } from "../components/footer";
 import HeaderSection from "../components/header";
 
@@ -65,12 +66,13 @@ function Carears() {
               <h3 className='text-gray-900 md:text-xl whitespace-nowrap font-medium leading-8'>
                 {job.title}
               </h3>
-              <button
-                onClick={handleApplyClick}
-                className='w-20 h-9 rounded-full bg-red-50 hover:bg-red-100 transition-all duration-700 text-red-600 text-xs font-semibold leading-4'
+              <Link
+                target='blank'
+                href={`https://wa.me/+256705746131?text=${encodeURIComponent("Hello! I'm interested in working for wizz Gym.")}`}
+                className='w-20 h-9 rounded-full bg-red-50 hover:bg-red-100 transition-all text-center  justify-center items-center flex duration-700 text-red-600 text-xs font-semibold leading-4'
               >
-                Apply
-              </button>
+                <span>Apply</span>
+              </Link>
             </div>
           ))}
         </div>
