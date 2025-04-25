@@ -16,7 +16,7 @@ const WomenClasses = () => {
           <div className='bg-[url("/image4.jpg")] bg-center  bg-cover bg-no-repeat w-[100%] h-[60vh] md:h-[50vh] lg:h-[80vh]'></div>
           <div className='flex flex-col justify-center mt-4 items-center '>
             <h1 className=' text-center text-2xl tex-black title '>
-              Be part of the Kampala’s Biggest Class Community
+              Be part of the Kampala’s Biggest Fitness Community
             </h1>
             <div className=' py-4 mb-8 text-center text-black md:w-[50%]'>
               <p>
@@ -34,7 +34,7 @@ const WomenClasses = () => {
                 This dedicated time is more than just a workout session it’s a
                 statement
               </p>
-              <p className='font-bold text-gray-800'>
+              <p className='font-bold mt-3 text-gray-800'>
                 See the classes timetable at your gym and book your spot at the
                 reception Your comfort matters. Your strength matters. You
                 deserve this space

@@ -22,7 +22,7 @@ const Classes = () => {
         <div className=''>
           <div className='flex flex-col justify-center items-center '>
             <h1 className=' text-center text-2xl tex-black title '>
-              Be part of the Kampala’s Biggest Class Community
+              Be part of the Kampala’s Biggest Fitness Community
             </h1>
             <div className=' py-4 mb-8 text-center text-gray-700 md:w-[50%]'>
               <p>
@@ -32,7 +32,7 @@ const Classes = () => {
                 something for everyone. Our Fitness Class Coaches will empower
                 you to reach your goals in a fun and supportive community.
               </p>
-              <p className='font-bold  text-center text-gray-800  '>
+              <p className='font-bold mt-3  text-center text-gray-800  '>
                 See the class timetable at your gym and book your spot at
                 reception.
               </p>
