@@ -38,7 +38,7 @@ export const Plans = () => {
           >
             <h2 className='text-black text-bold text-lg'>ONE DAY PASS</h2>
             <div className='text-white title  text-center  p-2 w-[100%]   rounded-md my-2'>
-              Ugs 00.0000 /<span className='text-sm'>VISITOR</span>
+              Ugs 20,000 /<span className='text-sm'>VISITOR</span>
             </div>
 
             <ul className=' text-sm md:text-lg'>
@@ -96,7 +96,7 @@ export const Plans = () => {
           >
             <h2 className='text-black text-bold text-lg'>MEN'S PLAN</h2>
             <div className='text-white title  text-center  p-2 w-[100%]   rounded-md my-2'>
-              Ugs 120,000 /<span className='text-sm'>MONTH</span>
+              Ugs 200,000 /<span className='text-sm'>MONTH</span>
             </div>
             <ul className=' text-sm md:text-lg'>
               <li className=' border-0 border-b-[1px] border-red-100 border-dotted p-2 text-center font-light   text-black  flex flex-row items-center space-x-2'>
@@ -283,17 +283,7 @@ export const Plans = () => {
           </div>
         </div>
         <div className='flex flex-col justify-center items-center p-4 mx-2'>
-          <h2 className='font-semibold'>A SOLUTION FOR EVERYONE.</h2>
           <div className='md:w-[56%] flex flex-col space-y-3 md:space-y-1 text-center '>
-            <p>
-              Here at Wizz Gym we want to be able to offer individuals and
-              companies a gym option that is flexible, easy to set up and with
-              no hidden clauses.
-            </p>
-            <p>
-              That's why we tell you from the start what our corporate packages
-              are, no lengthy emails and no messing around!
-            </p>
             <p>
               You choose the option that works best for your business. To set up
               a corporate package or to find out more please email us.
