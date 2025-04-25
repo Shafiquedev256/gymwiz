@@ -43,6 +43,7 @@ const WomenClasses = () => {
           </div>
 
           <WeeklySchedule schedule={womenSchedule} />
+
           {/* Programs Section */}
           <h3 className='text-center  text-2xl md:text-3xl title tracking-wide'>
             Fit, Fierce ,and Fearless
@@ -217,6 +218,15 @@ const womenSchedule = [
         time: "02:30 PM",
         duration: "45 MIN",
         coach: "Emily",
+        description:
+          "A guided session on gym machines designed for strength and conditioning.",
+        finished: false,
+      },
+      {
+        name: "LOWER BODY",
+        time: "6:30 PM",
+        duration: "45 MIN",
+        coach: "Henry",
         description:
           "A guided session on gym machines designed for strength and conditioning.",
         finished: false,

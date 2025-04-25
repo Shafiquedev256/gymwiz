@@ -76,7 +76,7 @@ const WeeklySchedule = ({ schedule }: Props) => {
   };
 
   return (
-    <div className=' font-body p-4 md:p-8 bg-white'>
+    <div className=' font-body p-4 md:p-8 bg-white '>
       {selectedDay == "SUNDAY" && (
         <div className='flex justify-center items-center'>
           <div className='w-fit relative'>
@@ -95,7 +95,7 @@ const WeeklySchedule = ({ schedule }: Props) => {
             <h2 className='text-2xl text-black title text-center  mb-4'>
               {day.day}
             </h2>
-            <div className='grid grid-cols-2 md:grid-cols-3 justify-center items-center lg:grid-cols-4 gap-4'>
+            <div className='grid grid-cols-2 md:grid-cols-3  lg:grid-cols-4 gap-4'>
               {day.programs.map((program, index) => (
                 <div
                   key={index}
