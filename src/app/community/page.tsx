@@ -13,7 +13,7 @@ const communityEvents: CommunityEvent[] = [
     title: "School-Focused Fitness Programs",
     description:
       "To further their mission, Siti Gym partners with local schools in Kampala, organizing school fairs and fitness programs aimed at encouraging students to embrace a healthy lifestyle. These programs are designed to be engaging and accessible, focusing on physical education, team-building exercises, and wellness activities that inspire young people to stay active. The goal is to foster a culture of fitness within the school environment, where students can take what they learn and apply it to their everyday lives.",
-    imageUrl: "/fittnessscholaship.jpg",
+    imageUrl: "/image10.jpg",
   },
   {
     title: "Giving Back to the Community",
@@ -34,11 +34,9 @@ const CommunityPage: React.FC = () => {
 
       <div className='bg-white font-body'>
         {/* Community Banner */}
-        <div className='relative w-full h-[60vh] bg-cover bg-center bg-[url("/image10.jpg")]'>
-          <div className='absolute inset-0 bg-[#0000000c] flex items-center justify-center'>
-            <h1 className='text-4xl font-bold text-gray-100 font-custom'>
-              Our Community
-            </h1>
+        <div className='relative w-full h-[60vh] bg-cover bg-center bg-[url("/image12.jpg")]'>
+          <div className='absolute inset-0  flex items-center justify-center'>
+            <h1 className='text-4xl font-bold text-black font-custom'></h1>
           </div>
         </div>
 
