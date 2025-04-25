@@ -20,6 +20,25 @@ const Classes = () => {
       <HeaderSection />
       <div className='w-[100%] overflow-hidden'>
         <div className=''>
+          <div className='flex flex-col justify-center items-center '>
+            <h1 className=' text-center text-2xl tex-black title '>
+              Be part of the Kampala’s Biggest Class Community
+            </h1>
+            <div className=' py-4 mb-8 text-center text-gray-700 md:w-[50%]'>
+              <p>
+                Choose from a wide range of Fitness Classes to suit every
+                ability and every goal. Whether you want to lose weight, tone
+                up, improve strength, or just have fun with others, there's
+                something for everyone. Our Fitness Class Coaches will empower
+                you to reach your goals in a fun and supportive community.
+              </p>
+              <p className='font-bold  text-center text-gray-800  '>
+                See the class timetable at your gym and book your spot at
+                reception.
+              </p>
+            </div>
+          </div>
+
           <WeeklySchedule schedule={schedule} />
           <div className=' md:p-8 p-3 pt-10 text-black font-body'>
             <h4 className=' title tracking-wide text-center md:text-3xl text-lg font-semibold   md:whitespace-nowrap'>
