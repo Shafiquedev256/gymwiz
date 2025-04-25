@@ -11,7 +11,7 @@ const WhyChooseUs = () => {
         </p>
       </div>
       <div className='md:m-3 mx-2 grid grid-cols-2 grid-rows-2 md:flex md:flex-row md:space-x-5   md:justify-center py-8 gap-2.5 md:items-center '>
-        <div className='md:w-[230px] text-white md:h-[280px] w-[1fr] h-[290px] py-4 md:m-3 flex flex-col justify-center items-center rounded-md p-3 bg-[#f83131]'>
+        <div className='md:w-[230px] text-white md:h-[280px] w-[1fr] h-[300px] py-4 md:m-3 flex flex-col justify-center items-center rounded-md p-3 bg-[#f83131]'>
           <div className='flex justify-center mb-3   items-center h-2/5'>
             <span className='bg-white rounded-full justify-center items-center p-2'>
               <img src='/cycle.svg' alt='' />
@@ -27,8 +27,8 @@ const WhyChooseUs = () => {
             </p>
           </div>
         </div>
-        <div className='md:m-3 md:w-[230px] md:h-[280px] w-[1fr] h-[290px] py-4 flex flex-col justify-center items-center rounded-lg p-3 bg-[#f83131] text-white'>
-          <div className='flex justify-center mb-3  items-center h-2/5'>
+        <div className='md:m-3 md:w-[230px] md:h-[280px] w-[1fr] h-[300px] py-4 flex flex-col justify-center items-center rounded-lg p-3 bg-[#f83131] text-white'>
+          <div className='flex justify-center   items-center h-2/5'>
             <div className='bg-white rounded-full justify-center items-center p-2'>
               <svg
                 width='50px'
