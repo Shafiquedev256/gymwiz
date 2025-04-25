@@ -37,15 +37,24 @@ function Carears() {
           <h2 className='title font-semibold text-2xl rounded text-center mb-2 py-3  md:my-3 '>
             Why Choose Us ?
           </h2>
-          <p className=' mb-6 px-2 md:w-[70%] md:text-center'>
-            We offer some great benefits for you and your family. Whoever you
-            are and whatever your role, Siti Gym is with you and will help you
-            succeed. We’ll support you every step of the way along your career
-            adventure, so that you can achieve your goals. We’ll stand with you
-            to remove barriers that get in the way of progress, opening doors to
-            new opportunities and we will always strive to make your workplace a
-            truly inclusive and friendly space to work, so that we can all feel
-            proud to be a part of this family and company’s great values.
+          <p className=' flex flex-col space-y-2 mb-6 px-2 md:w-[70%] md:text-center'>
+            We offer some great benefits for you and your family.{" "}
+            <span>
+              {" "}
+              Whoever you are and whatever your role, Siti Gym is with you and
+              will help you succeed.
+            </span>
+            <span>
+              We’ll support you every step of the way along your career
+              adventure, so that you can achieve your goals.
+            </span>
+            <span>
+              We’ll stand with you to remove barriers that get in the way of
+              progress, opening doors to new opportunities and we will always
+              strive to make your workplace a truly inclusive and friendly space
+              to work, so that we can all feel proud to be a part of this family
+              and company’s great values.
+            </span>
           </p>
         </div>
       </div>
