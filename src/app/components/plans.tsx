@@ -161,9 +161,12 @@ export const Plans = () => {
             <h2 className='text-black text-bold md:text-lg whitespace-nowrap'>
               STUDENT PLAN
             </h2>
-            <div className='text-white title   p-2 w-[100%]   rounded-md my-2'>
+            <div className='text-white title    w-[100%]   rounded-md my-2'>
               Ugs 200,000 /<span className='text-sm'>MONTH</span>
             </div>
+            <p className='text-xs bg-red-100 text-red-600 text-center rounded-md p-2'>
+              20% off with valid student credentials
+            </p>
             <ul className=' text-sm md:text-lg'>
               <li className='border-0 border-b-[1px] border-red-100 border-dotted p-2 text-center font-light   text-black  flex flex-row items-center space-x-2'>
                 <TickIcone />
@@ -224,9 +227,12 @@ export const Plans = () => {
           '
           >
             <h2 className='text-black text-bold text-lg'>WOMEN'S PLAN</h2>
-            <div className='text-white title  text-center  p-2 w-[100%]   rounded-md my-2'>
+            <div className='text-white title  text-center   w-[100%]   rounded-md my-2'>
               Ugs 180,000 /<span className='text-sm'>MONTH</span>
             </div>
+            <p className='text-xs bg-red-500 text-red-500 rounded-md p-2'>
+              20% off with valid student credentials
+            </p>
             <ul className=' text-sm md:text-lg'>
               <li className=' border-0 border-b-[1px] border-red-100 border-dotted p-2 text-center font-light   text-black  flex flex-row items-center space-x-2'>
                 <TickIcone />
@@ -320,6 +326,9 @@ export const Plans = () => {
             <div className=' text-white title  text-center  p-2 w-[100%]   rounded-md my-2'>
               Ugs 200,000 /<span className='text-sm'>MONTH</span>
             </div>
+            <p className='text-xs bg-red-100 text-red-600 text-center rounded-md p-2'>
+              30% off
+            </p>
             <ul className=' text-sm md:text-lg'>
               <li className=' border-0 border-b-[1px] border-red-100 border-dotted p-2 text-center font-light   text-black  flex flex-row items-center space-x-2'>
                 <TickIcone />
