@@ -23,7 +23,7 @@ const FranchiseAndInvestment: React.FC = () => {
         </section>
 
         {/* Introduction Section */}
-        <section className='py-12 px-6 md:px-12 text-gray-600 bg-white'>
+        <section className='py-12 px-6 md:px-12 text-black bg-white'>
           <div className='max-w-4xl mx-auto text-center bg-white'>
             <h2 className='text-3xl   mb-6 text-red-700'>Welcome!</h2>
             <p>
@@ -45,7 +45,7 @@ const FranchiseAndInvestment: React.FC = () => {
             </h2>
             <div className=''>
               <ul className='grid grid-cols-1 md:grid-cols-2 lg:md:grid-cols-3 gap-3'>
-                <li className=' bg-white text-gray-600 rounded-md w-fit p-2 m-2'>
+                <li className=' bg-white text-black rounded-md w-fit p-2 m-2'>
                   <div className='w-[100%] flex justify-center items-center'>
                     <div className='bg-red-600 w-12 h-12 flex items-center justify-center rounded-full'>
                       <span className='text-3xl text-white  text-center  '>
@@ -63,7 +63,7 @@ const FranchiseAndInvestment: React.FC = () => {
                     tools for a world-class workout experience.
                   </p>
                 </li>
-                <li className=' bg-white text-gray-600 rounded-md w-fit p-2 m-2'>
+                <li className=' bg-white text-black rounded-md w-fit p-2 m-2'>
                   <div className='w-[100%] flex justify-center items-center'>
                     <div className='bg-red-600 w-12 h-12 flex items-center justify-center rounded-full'>
                       <span className='text-3xl text-white  text-center  '>
@@ -81,7 +81,7 @@ const FranchiseAndInvestment: React.FC = () => {
                     benefit from healthier lifestyles.
                   </p>
                 </li>
-                <li className=' bg-white text-gray-600 rounded-md w-fit p-2 m-2'>
+                <li className=' bg-white text-black rounded-md w-fit p-2 m-2'>
                   <div className='w-[100%] flex justify-center items-center'>
                     <div className='bg-red-600 w-12 h-12 flex items-center justify-center rounded-full'>
                       <span className='text-3xl text-white  text-center  '>
@@ -100,7 +100,7 @@ const FranchiseAndInvestment: React.FC = () => {
                     people can improve their physical and mental health.
                   </p>
                 </li>
-                <li className=' bg-white text-gray-600 rounded-md w-fit p-2 m-2'>
+                <li className=' bg-white text-black rounded-md w-fit p-2 m-2'>
                   <div className='w-[100%] flex justify-center items-center'>
                     <div className='bg-red-600 w-12 h-12 flex items-center justify-center rounded-full'>
                       <span className='text-3xl text-white  text-center  '>
@@ -119,7 +119,7 @@ const FranchiseAndInvestment: React.FC = () => {
                     levels.
                   </p>
                 </li>
-                <li className=' bg-white text-gray-600 rounded-md w-fit p-2 m-2'>
+                <li className=' bg-white text-black rounded-md w-fit p-2 m-2'>
                   <div className='w-[100%] flex justify-center items-center'>
                     <div className='bg-red-600 w-12 h-12 flex items-center justify-center rounded-full'>
                       <span className='text-3xl text-white  text-center  '>
@@ -143,7 +143,7 @@ const FranchiseAndInvestment: React.FC = () => {
         </section>
 
         {/* Benefits Section */}
-        <section className='py-12 px-6 md:px-12 text-gray-500 bg-white'>
+        <section className='py-12 px-6 md:px-12 text-black bg-white'>
           <div className='max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8'>
             <div>
               <h3 className='text-red-700 text-2xl   text-center mb-4'>
@@ -188,14 +188,14 @@ const FranchiseAndInvestment: React.FC = () => {
 
         {/* Call-to-Action Section */}
         <section className='relative  bg-[url("/handshake.webp")] bg-center bg-cover bg-no-repeat'>
-          <div className='w-[100%] h-[100%] bg-[#4140402d] bg-opacity-60  py-12 px-6 md:px-12'>
+          <div className='w-[100%] h-[100%] bg-[#41404084] bg-opacity-60  py-12 px-6 md:px-12'>
             <div className='max-w-4xl mx-auto text-center text-gray-100  flex flex-col justify-center items-center'>
               <h3 className='text-2xl   mb-4'>Get Started Today</h3>
               <p className='mb-6  lg:w-[60%]'>
                 Are you ready to make a meaningful impact on community health
                 and wellbeing? Join our growing fitness family and bring a
                 state-of-the-art gym to your community.
-                <a href='/contact' className=' text-blue-600 underline'>
+                <a href='/contact' className=' text-red-600 underline'>
                   Contact Us Today
                 </a>
                 to Learn More!
