@@ -98,14 +98,13 @@ const WomenClasses = () => {
 };
 
 export default WomenClasses;
-
 const womenSchedule = [
   {
     day: "Monday",
     programs: [
       {
         name: "CARDIO",
-        time: "12:55 PM",
+        time: "08:00 AM",
         duration: "45 MIN",
         coach: "Emily",
         description:
@@ -114,7 +113,7 @@ const womenSchedule = [
       },
       {
         name: "LOWER BODY",
-        time: "01:45 PM",
+        time: "09:00 AM",
         duration: "45 MIN",
         coach: "Emily",
         description:
@@ -123,11 +122,38 @@ const womenSchedule = [
       },
       {
         name: "AEROBIC",
-        time: "02:30 PM",
+        time: "10:00 AM",
         duration: "45 MIN",
         coach: "Emily",
         description:
           "A dynamic aerobic workout to boost fitness levels and improve cardiovascular health.",
+        finished: false,
+      },
+      {
+        name: "CORE TRAINING",
+        time: "11:00 AM",
+        duration: "45 MIN",
+        coach: "Emily",
+        description:
+          "Core-focused exercises to sculpt and stabilize your midsection.",
+        finished: false,
+      },
+      {
+        name: "YOGA",
+        time: "01:00 PM",
+        duration: "45 MIN",
+        coach: "Emily",
+        description:
+          "A calming yoga session to improve flexibility and mental clarity.",
+        finished: false,
+      },
+      {
+        name: "FULL BODY STRENGTH",
+        time: "02:30 PM",
+        duration: "45 MIN",
+        coach: "Emily",
+        description:
+          "Total-body strength exercises aimed at toning and building endurance.",
         finished: false,
       },
     ],
@@ -137,7 +163,7 @@ const womenSchedule = [
     programs: [
       {
         name: "CARDIO",
-        time: "12:55 PM",
+        time: "08:00 AM",
         duration: "45 MIN",
         coach: "Emily",
         description:
@@ -146,11 +172,46 @@ const womenSchedule = [
       },
       {
         name: "AEROBIC",
-        time: "02:30 PM",
+        time: "09:00 AM",
         duration: "45 MIN",
         coach: "Emily",
         description:
           "A dynamic aerobic workout to boost fitness levels and improve cardiovascular health.",
+        finished: false,
+      },
+      {
+        name: "UPPER BODY SCULPT",
+        time: "10:00 AM",
+        duration: "45 MIN",
+        coach: "Emily",
+        description:
+          "Sculpt and tone your arms, shoulders, and back with focused exercises.",
+        finished: false,
+      },
+      {
+        name: "PILATES",
+        time: "11:00 AM",
+        duration: "45 MIN",
+        coach: "Emily",
+        description:
+          "A mat-based pilates session for core strength and posture improvement.",
+        finished: false,
+      },
+      {
+        name: "YOGA FLOW",
+        time: "01:00 PM",
+        duration: "45 MIN",
+        coach: "Emily",
+        description:
+          "Flow through a sequence of yoga poses designed to energize and stretch.",
+        finished: false,
+      },
+      {
+        name: "GLUTES & THIGHS",
+        time: "02:30 PM",
+        duration: "45 MIN",
+        coach: "Emily",
+        description: "Targeted workout to tone glutes and thighs effectively.",
         finished: false,
       },
     ],
@@ -159,21 +220,55 @@ const womenSchedule = [
     day: "Wednesday",
     programs: [
       {
-        name: "CARDIO",
-        time: "12:55 PM",
+        name: "CARDIO BLAST",
+        time: "08:00 AM",
         duration: "45 MIN",
         coach: "Emily",
         description:
-          "An engaging cardio session tailored for women to improve endurance and burn calories.",
+          "High-intensity cardio training to boost endurance and burn fat fast.",
+        finished: false,
+      },
+      {
+        name: "LOWER BODY STRENGTH",
+        time: "09:00 AM",
+        duration: "45 MIN",
+        coach: "Emily",
+        description:
+          "Strength and resistance training focused on the legs and glutes.",
+        finished: false,
+      },
+      {
+        name: "PILATES CORE",
+        time: "10:00 AM",
+        duration: "45 MIN",
+        coach: "Emily",
+        description: "Pilates moves to enhance core strength and control.",
+        finished: false,
+      },
+      {
+        name: "FUNCTIONAL TRAINING",
+        time: "11:00 AM",
+        duration: "45 MIN",
+        coach: "Emily",
+        description:
+          "Improve strength, coordination, and mobility for everyday activities.",
         finished: false,
       },
       {
         name: "AEROBIC",
-        time: "02:30 PM",
+        time: "01:00 PM",
         duration: "45 MIN",
         coach: "Emily",
         description:
           "A dynamic aerobic workout to boost fitness levels and improve cardiovascular health.",
+        finished: false,
+      },
+      {
+        name: "YOGA STRETCH",
+        time: "02:30 PM",
+        duration: "45 MIN",
+        coach: "Emily",
+        description: "Gentle yoga focused on flexibility and muscle recovery.",
         finished: false,
       },
     ],
@@ -182,12 +277,102 @@ const womenSchedule = [
     day: "Thursday",
     programs: [
       {
-        name: "CARDIO",
-        time: "12:55 PM",
+        name: "MORNING CARDIO",
+        time: "08:00 AM",
+        duration: "45 MIN",
+        coach: "Emily",
+        description: "Start your day with a heart-pumping cardio routine.",
+        finished: false,
+      },
+      {
+        name: "BOOTY BLAST",
+        time: "09:00 AM",
+        duration: "45 MIN",
+        coach: "Emily",
+        description: "Glute-focused training designed to lift and tone.",
+        finished: false,
+      },
+      {
+        name: "TOTAL BODY SCULPT",
+        time: "10:00 AM",
+        duration: "45 MIN",
+        coach: "Emily",
+        description: "A complete workout to tone all major muscle groups.",
+        finished: false,
+      },
+      {
+        name: "AEROBIC DANCE",
+        time: "11:00 AM",
         duration: "45 MIN",
         coach: "Emily",
         description:
-          "An engaging cardio session tailored for women to improve endurance and burn calories.",
+          "Fun, dance-based aerobic class to energize and burn calories.",
+        finished: false,
+      },
+      {
+        name: "PILATES FLOW",
+        time: "01:00 PM",
+        duration: "45 MIN",
+        coach: "Emily",
+        description: "Smooth transitions and movements to strengthen and tone.",
+        finished: false,
+      },
+      {
+        name: "EVENING YOGA",
+        time: "02:30 PM",
+        duration: "45 MIN",
+        coach: "Emily",
+        description:
+          "Wind down with a peaceful yoga session to relax body and mind.",
+        finished: false,
+      },
+    ],
+  },
+  {
+    day: "Friday",
+    programs: [
+      {
+        name: "HIIT CARDIO",
+        time: "08:00 AM",
+        duration: "45 MIN",
+        coach: "Emily",
+        description:
+          "High-intensity interval training to maximize fat burning.",
+        finished: false,
+      },
+      {
+        name: "MACHINES",
+        time: "09:00 AM",
+        duration: "45 MIN",
+        coach: "Emily",
+        description:
+          "A guided session on gym machines designed for strength and conditioning.",
+        finished: false,
+      },
+      {
+        name: "LOWER BODY",
+        time: "10:00 AM",
+        duration: "45 MIN",
+        coach: "Henry",
+        description:
+          "Strengthen and tone lower body muscles with targeted exercises for women.",
+        finished: false,
+      },
+      {
+        name: "CORE BLAST",
+        time: "11:00 AM",
+        duration: "45 MIN",
+        coach: "Emily",
+        description: "Intensive core training for stability and definition.",
+        finished: false,
+      },
+      {
+        name: "YOGA RECOVERY",
+        time: "01:00 PM",
+        duration: "45 MIN",
+        coach: "Emily",
+        description:
+          "Gentle stretching and breathing techniques for recovery and flexibility.",
         finished: false,
       },
       {
@@ -202,47 +387,49 @@ const womenSchedule = [
     ],
   },
   {
-    day: "Friday",
-    programs: [
-      {
-        name: "CARDIO",
-        time: "12:55 PM",
-        duration: "45 MIN",
-        coach: "Emily",
-        description:
-          "An engaging cardio session tailored for women to improve endurance and burn calories.",
-        finished: false,
-      },
-      {
-        name: "MACHINES",
-        time: "02:30 PM",
-        duration: "45 MIN",
-        coach: "Emily",
-        description:
-          "A guided session on gym machines designed for strength and conditioning.",
-        finished: false,
-      },
-      {
-        name: "LOWER BODY",
-        time: "6:30 PM",
-        duration: "45 MIN",
-        coach: "Henry",
-        description:
-          "A guided session on gym machines designed for strength and conditioning.",
-        finished: false,
-      },
-    ],
-  },
-  {
     day: "Saturday",
     programs: [
       {
-        name: "CARDIO",
-        time: "12:55 PM",
+        name: "SATURDAY CARDIO",
+        time: "08:00 AM",
+        duration: "45 MIN",
+        coach: "Emily",
+        description: "An energizing cardio session to start the weekend right.",
+        finished: false,
+      },
+      {
+        name: "BODYWEIGHT STRENGTH",
+        time: "09:00 AM",
         duration: "45 MIN",
         coach: "Emily",
         description:
-          "An engaging cardio session tailored for women to improve endurance and burn calories.",
+          "Strength workout using only your body weight — ideal for tone and balance.",
+        finished: false,
+      },
+      {
+        name: "YOGA CORE",
+        time: "10:00 AM",
+        duration: "45 MIN",
+        coach: "Emily",
+        description: "Core-focused yoga poses for stability and strength.",
+        finished: false,
+      },
+      {
+        name: "PILATES POWER",
+        time: "11:00 AM",
+        duration: "45 MIN",
+        coach: "Emily",
+        description:
+          "Mat pilates focused on toning and strengthening the core.",
+        finished: false,
+      },
+      {
+        name: "DANCE FITNESS",
+        time: "01:00 PM",
+        duration: "45 MIN",
+        coach: "Emily",
+        description:
+          "A fun, high-energy dance workout to burn calories and boost mood.",
         finished: false,
       },
       {
