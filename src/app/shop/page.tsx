@@ -54,35 +54,90 @@ export default StorePage;
 
 const products = [
   {
-    name: "Protein Powder",
-    image: "/sup1.jpg",
+    name: "GOLD STANDARD 100% WHEY™",
+    image:
+      "https://content.optimumnutrition.com/i/on/on-gold-standard-100-whey-protein_Image_01?$TTL_PRODUCT_IMAGES$&locale=en-us,en-gb,*&w=509&sm=aspect&aspect=1:1&fmt=webp",
     price: 29.99,
     quantity: 0,
     id: 1,
   },
   {
-    name: "Dumbbells (Set of 2)",
+    name: "Serious Mass",
     image:
-      "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6545/6545965_sd.jpg",
+      "https://content.optimumnutrition.com/i/on/on-serious-mass_Image_01?$TTL_PRODUCT_IMAGES$&locale=en-us,en-gb,*&w=509&sm=aspect&aspect=1:1&fmt=webp",
     price: 49.99,
     quantity: 0,
     id: 2,
   },
   {
-    name: "Yoga Mat",
+    name: "GOLD STANDARD® Pre-Workout",
     image:
-      "https://img.freepik.com/free-photo/rolled-up-yoga-mat-floor_23-2147802572.jpg?ga=GA1.1.338249258.1711012052&semt=ais_hybrid",
+      "https://content.optimumnutrition.com/i/on/on-gold-standard-pre-workout_Image_01?$TTL_PRODUCT_IMAGES$&locale=en-us,en-gb,*&w=509&sm=aspect&aspect=1:1&fmt=webp",
     price: 19.99,
     quantity: 0,
     id: 3,
   },
   {
-    name: "Creatine Supplement",
+    name: "OPTI-WOMEN®",
     image:
-      "https://img.freepik.com/free-psd/protein-powder-container-3d-illustration_1419-2944.jpg?ga=GA1.1.338249258.1711012052&semt=ais_hybrid",
+      "https://content.optimumnutrition.com/i/on/on-opti-women_Image_01?$TTL_PRODUCT_IMAGES$&locale=en-us,en-gb,*&w=509&sm=aspect&aspect=1:1&fmt=webp",
     price: 24.99,
     quantity: 0,
     id: 4,
+  },
+  {
+    name: "OPTI-MEN®",
+    image:
+      "https://content.optimumnutrition.com/i/on/on-opti-men_Image_01?$TTL_PRODUCT_IMAGES$&locale=en-us,en-gb,*&w=509&sm=aspect&aspect=1:1&fmt=webp",
+    price: 24.99,
+    quantity: 0,
+    id: 5,
+  },
+  {
+    name: "PRO GAINER",
+    image: "/store-asset3.jpg",
+    price: 24.99,
+    quantity: 0,
+    id: 6,
+  },
+  {
+    name: "EXTREME MASS",
+    image: "/store-asset4.jpg",
+    price: 24.99,
+    quantity: 0,
+    id: 7,
+  },
+  {
+    name: "Vimto® Bundle",
+    image:
+      "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nrx/nrx02906/g/24.jpg",
+    price: 24.99,
+    quantity: 0,
+    id: 8,
+  },
+  {
+    name: "BlueLab Whey",
+    image:
+      "https://www.usn.co.uk/cdn/shop/files/UK_BlueLabWhey_908g_Straw.webp?v=1743670811&width=493",
+    price: 24.99,
+    quantity: 0,
+    id: 9,
+  },
+  {
+    name: "Muscle Fuel Anabolic",
+    image:
+      "https://www.usn.co.uk/cdn/shop/files/Productonwhite-2kg-Ban.webp?v=1737700277&width=493",
+    price: 24.99,
+    quantity: 0,
+    id: 10,
+  },
+  {
+    name: "Diet Fuel Ultralean",
+    image:
+      "https://www.usn.co.uk/cdn/shop/files/Productonwhite1kgStraw.webp?v=1737973744&width=493",
+    price: 24.99,
+    quantity: 0,
+    id: 11,
   },
 ];
 
@@ -126,15 +181,14 @@ const ProductCard: React.FC<ProductCardPropsEL> = ({
 
   return (
     <>
-      <div className=' flex flex-col  m-3   text-black w-[280px]  h-[299px] rounded-md bg-white '>
+      <div className=' flex flex-col justify-between m-3   text-black w-[280px]  h-[299px] rounded-md bg-white '>
         <img
-          className='w-full h-[60%] rounded-t-md'
+          className='w-full h-3/6 rounded-t-md'
           src={image}
           alt={name + quantity}
         />
-        <div className='p-3 h-[30%]'>
+        <div className='p-3'>
           <div className='font-bold text-lg mb-2'>{name}</div>
-          <p className='text-gray-600'>${price.toFixed(2)}</p>
           <div className='  flex flex-row justify-center items-center'>
             <button
               onClick={handleItems}
