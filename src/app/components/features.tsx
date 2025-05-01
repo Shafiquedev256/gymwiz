@@ -27,14 +27,14 @@ const OurFacilities = () => {
           </div>
 
           <img
-            src='/image1.jpg'
+            src='/image2.jpg'
             alt=''
             className='h-[50%] md:h-[80%]  rounded-md'
           />
         </div>
         <div className='md:w-[70%] flex my-2 flex-row-reverse md:flex-row h-[200px] md:h-[300px] justify-between items-center p-2  rounded-md to-red-400'>
           <img
-            src='/image2.jpg'
+            src='/3863eeed-070d-4238-a50d-e6af309fb334.jpg'
             alt=''
             className='h-[50%] md:h-[80%] rounded-md '
           />

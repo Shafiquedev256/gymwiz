@@ -62,6 +62,9 @@ export default function Home() {
                 />
               </Link>
               <Link href={"/"} className='slideel'>
+                <img src='/matrix2.png' alt='logo' className=' w-36 ' />
+              </Link>
+              <Link href={"/"} className='slideel'>
                 <img
                   src='/gym80.png'
                   alt='USN l

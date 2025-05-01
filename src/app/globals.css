@@ -37,8 +37,6 @@ body {
 /* HTML: <div class="hexagon"></div> */
 .hexagon {
   aspect-ratio: 1 / cos(30deg);
-  clip-path: polygon(50% -50%, 100% 50%, 50% 150%, 0 50%);
-  background: #f83131;
 }
 
 .slick-slide > div {

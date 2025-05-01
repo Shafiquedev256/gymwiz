@@ -299,7 +299,7 @@ const ContactUsPage = () => {
                   <li>Book Trainer</li>
                   <li>Customer Service</li>
                 </ul>
-                <p className='text-gray-600 mt-2 '>wizzgym@gmail.com</p>
+                <p className='text-gray-600 mt-2 '>info@wizzgym.com</p>
               </section>
               {/* Call Section */}
               <section className='  rounded-lg p-4 m-3 bg-white flex flex-col  '>
@@ -336,7 +336,7 @@ const ContactUsPage = () => {
                 <p className='text-gray-600'>
                   <strong>Customer Service:</strong>
                 </p>
-                <p className='text-gray-700 mb-2'>+256 705 746131</p>
+                <p className='text-gray-700 mb-2'>+256 702 329631</p>
                 <p className='text-gray-700'>
                   Questions and support for classes, delivery, and payments.
                 </p>

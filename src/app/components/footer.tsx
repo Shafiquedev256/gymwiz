@@ -17,6 +17,15 @@ export const FooterSection = () => {
                   className='w-26   p-2'
                 />
               </Link>
+              <Link href={"/"} className='object-center'>
+                <img
+                  src='/matrix2.png'
+                  alt='logo'
+                  width={50}
+                  height={50}
+                  className='w-42   p-2'
+                />
+              </Link>
               <Link href={"/"}>
                 <img
                   src={"/gym80.png"}
@@ -89,8 +98,8 @@ export const FooterSection = () => {
                       className='hover:text-red-600'
                     >
                       <svg
-                        width='23px'
-                        height='23px'
+                        width='33px'
+                        height='33px'
                         fill='currentColor'
                         viewBox='0 0 1920 1920'
                         xmlns='http://www.w3.org/2000/svg'
@@ -120,8 +129,8 @@ export const FooterSection = () => {
                     >
                       <svg
                         fill='currentColor'
-                        width='28px'
-                        height='28px'
+                        width='40px'
+                        height='40px'
                         viewBox='0 0 32 32'
                         xmlns='http://www.w3.org/2000/svg'
                         stroke='currentColor'
@@ -150,8 +159,8 @@ export const FooterSection = () => {
                       className='hover:text-red-600'
                     >
                       <svg
-                        width='28px'
-                        height='28px'
+                        width='40px'
+                        height='40px'
                         viewBox='0 0 24 24'
                         fill='none'
                         xmlns='http://www.w3.org/2000/svg'
@@ -170,8 +179,8 @@ export const FooterSection = () => {
                     <Link href={"/"} className='hover:text-red-600'>
                       <svg
                         fill='currentColor'
-                        width='28px'
-                        height='28px'
+                        width='40px'
+                        height='40px'
                         viewBox='0 0 256 256'
                         xmlns='http://www.w3.org/2000/svg'
                       >

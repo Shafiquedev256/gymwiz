@@ -91,10 +91,10 @@ export default Carears;
 
 const jobs = [
   {
-    title: "Personal Trainer",
+    title: "Female Instructor",
   },
   {
-    title: "Fitness Instructor",
+    title: "Male Instructor",
   },
   {
     title: "Gym Manager",
@@ -103,6 +103,6 @@ const jobs = [
     title: "Nutrition Coach",
   },
   {
-    title: "Sales Associate",
+    title: "Sales & Marketing",
   },
 ];
