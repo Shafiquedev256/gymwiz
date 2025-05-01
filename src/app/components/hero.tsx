@@ -8,11 +8,13 @@ const HeroSection = () => {
         <div className=' absolute flex flex-col justify-center items-center top-0 left-0  w-[100%] h-[100%]'>
           <div className='absolute top-8 left-1 '>
             <div className='w-fit relative'>
-              <div className='bg-red-500 h-[120px] md:h-[150px] hexagon'></div>
-              <div className='absolute text-lg  font-bold text-white   flex flex-col justify-center items-center  top-0 left-0 w-[100%] h-[100%]'>
-                <span>Offer :</span>
+              <div className='h-[180px]  w-[180px] md:w-[200px] md:h-[200px] bg-[#01077d] hexagon rounded-full'></div>
+              <div className='absolute   font-bold text-white   flex flex-col justify-center items-center  top-0 left-0 w-[100%] h-[100%]'>
                 <span>up to</span>
-                <span className='font-bold'>50% off</span>
+                <span className='font-bold text-4xl md:text-5xl text-red-600'>
+                  50% <br /> off
+                </span>
+                <span>& no joining fee</span>
               </div>
             </div>
           </div>
@@ -22,8 +24,8 @@ const HeroSection = () => {
               Unleash Your Potential
             </h1>
             <p className=' py-2 text-center font-body text-white'>
-              Expert Training , Cutting-Edge Facilities ,<br /> and a Supportive
-              Community
+              Affordable Training , Cutting-Edge Facilities ,<br /> and a
+              Supportive Community
             </p>
             <Link
               href={`https://wa.me/+256705746131?text=${encodeURIComponent("Hello! I'm interested in your services.")}`}

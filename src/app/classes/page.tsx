@@ -22,7 +22,7 @@ const Classes = () => {
         <div className=''>
           <div className='flex flex-col justify-center items-center '>
             <h1 className=' text-center text-2xl tex-black title '>
-              Be part of the Kampala’s Biggest Fitness Community
+              Be part of Kampala’s Biggest Fitness Community
             </h1>
             <div className=' py-4 mb-8 text-center text-gray-700 md:w-[50%]'>
               <p>

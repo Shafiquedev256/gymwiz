@@ -16,7 +16,7 @@ const WomenClasses = () => {
           <div className='bg-[url("/image4.jpg")] bg-center  bg-cover bg-no-repeat w-[100%] h-[60vh] md:h-[50vh] lg:h-[80vh]'></div>
           <div className='flex flex-col justify-center mt-4 items-center '>
             <h1 className=' text-center text-2xl tex-black title '>
-              Be part of the Kampala’s Biggest Fitness Community
+              Be part of Kampala’s Biggest Fitness Community
             </h1>
             <div className=' py-4 mb-8 text-center text-black md:w-[50%]'>
               <p>
@@ -98,6 +98,7 @@ const WomenClasses = () => {
 };
 
 export default WomenClasses;
+
 const womenSchedule = [
   {
     day: "Monday",

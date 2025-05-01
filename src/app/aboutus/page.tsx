@@ -266,14 +266,22 @@ const About_us_page = () => {
             {/* Community Work Section */}
 
             <div className='w-screen bg-[url("/nature.jpg")] bg-center bg-cover bg-no-repeat my-4   w4scre4n'>
-              <div className='bg-[#00000075] bg-opacity-60 p-3 flex justify-center items-center flex-col w-[100%] h-[100%]'>
+              <div className='bg-[#00000085] bg-opacity-60 p-3 flex justify-center items-center flex-col w-[100%] h-[100%]'>
                 <h2 className=' font-semibold text-2xl text-center mb-2 py-3 text-white  md:my-3 '>
                   Community Work
                 </h2>
                 <p className=' text-gray-100   md:text-center md:w-[50%] mb-6'>
-                  At Siti Gym, we believe in giving back to the community. We
-                  actively contribute to local projects and initiatives that
-                  support health and wellness in the broader community.
+                  At Wizz Gym, we're driven by more than fitness; we're driven
+                  by purpose. We proudly support local schools, youth programs,
+                  and grassroots health initiatives that uplift our community.
+                  From sponsoring wellness events to partnering with
+                  neighborhood projects, we’re committed to creating real,
+                  lasting change.
+                  <br />
+                  <span className='font-semibold py-3'>
+                    Because when we lift each other up, we all grow stronger
+                    together.
+                  </span>
                   <Link
                     href={"/community"}
                     className='underline  text-[#f83131] m-2 md:whitespace-nowrap font-semibold '
@@ -354,7 +362,7 @@ const About_us_page = () => {
         <section>
           <div>
             <h2 className='title font-semibold text-lg rounded text-center  '>
-              WHAT OUR MEMBERS DO TO HELP !
+              WHAT OUR MEMBERS CAN DO TO HELP !
             </h2>
           </div>
           <div className='flex flex-col justify-center items-center  mx-2'>
