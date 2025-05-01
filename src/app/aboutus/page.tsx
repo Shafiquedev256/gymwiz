@@ -12,7 +12,7 @@ const About_us_page = () => {
         <div className=' h-[60vh] flex items-center justify-center bg-[url("/aboutus.jpg")]  bg-cover bg-center bg-no-repeat bg-aboutsection  w-[100%]   '></div>
         <section className='my-4 bg-white text-black'>
           <h2 className='text-2xl text-center title md:text-3xl'>
-            PUSH YOUR LIMITS FORWARD
+            STRONGER SMARTER TOGETHER
           </h2>
           <div className='md:m-3 mx-2 grid grid-cols-2 grid-rows-2 md:flex md:flex-row md:space-x-5   md:justify-center py-8 gap-2.5 md:items-center '>
             <div className='md:w-[230px] text-white md:h-[280px] w-[1fr] h-[300px] py-4 md:m-3 flex flex-col justify-center items-center rounded-md p-3 bg-[#f83131]'>
