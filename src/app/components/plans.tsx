@@ -8,7 +8,7 @@ export const Plans = () => {
       <div className=' text-black min-h-screen py-6'>
         <div className='flex flex-col justify-center items-center mb-4'>
           <h1 className='text-2xl tracking-wide title bg-red-500 w-[95%] md:w-[60%] p-2 rounded-md  font-bold mb-3 text-center'>
-            Offer: up to <span className='text-white'>50% off</span>
+            Offer: Up to <span className='text-white'>50% off</span>
           </h1>
           <p className='w-[90%] md:w-[60%] text-center'>
             You might be taking the first step on your fitness journey or
@@ -22,11 +22,15 @@ export const Plans = () => {
           </h2>
         </div>
 
-        <div className='flex items-center justify-center'>
-          <p className=' txt-lg text-center p-3 mb-8  md:w-[50%]'>
-            Our plans are inclusive with professional coaches, access to every
-            equipment and machines . We offer value for money and state of the
-            art equipment from UK !
+        <div className='flex flex-col items-center justify-center'>
+          <p className=' txt-lg text-center p-3   md:w-[50%]'>
+            Our comprehensive plans are designed to offer maximum value, giving
+            you access to state-of-the-art equipment and expert guidance from
+            professional coaches.
+          </p>
+          <p className=' txt-lg text-center  mb-8  md:w-[50%]'>
+            Experience the perfect blend of affordability and excellence in a
+            fitness environment tailored to help you achieve your goals!
           </p>
         </div>
 
@@ -231,7 +235,7 @@ export const Plans = () => {
               Ugs 180,000 /<span className='text-sm'>MONTH</span>
             </div>
             <p className='text-xs bg-red-500 text-red-500 rounded-md p-2'>
-              20% off with valid student credentials
+              00% off with valid student credentials
             </p>
             <ul className=' text-sm md:text-lg'>
               <li className=' border-0 border-b-[1px] border-red-100 border-dotted p-2 text-center font-light   text-black  flex flex-row items-center space-x-2'>
@@ -303,7 +307,7 @@ export const Plans = () => {
           <h2 className='font-semibold title tracking-wider'>CORPORATE </h2>
           <p className=' text-center md:w-[55%] text-black'>
             Save up to
-            <span className='text-red-500 text-2xl font-bold mx-2'>20%</span> on
+            <span className='text-red-500 text-2xl font-bold mx-2'>30%</span> on
             memberships when you sign your employees up to one of our great
             corporate packages.
             <Link

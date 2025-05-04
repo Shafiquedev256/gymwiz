@@ -16,21 +16,29 @@ export default function Home() {
         <WhyChooseUs />
         <OurFacilities />
         <section className='bg-[url("/bg-8.jpg")] bg-center font-body bg-cover bg-no-repeat '>
-          <div className='py-16 px-8 bg-[#0b0b0b5b] text-center text-white '>
+          <div className='py-16 px-8 bg-[#0b0b0b79] text-center text-white '>
             <h2 className='text-2xl md:text-3xl font-bold title  mb-2'>
               Ready to Join Us Today?
             </h2>
             <h3 className=' text-white  '>
-              <span className=' w-fit'>LOOK, WORKING OUT SUCKS SOMETIMES!</span>
+              <span className=' w-fit'>
+                We’re all about good vibes, great workouts, and even better
+                people. No judgment. No pressure.
+              </span>
             </h3>
 
             <div className='text-white'>
               <p>
-                But <span className=' '>you don't have to do it alone!</span>
+                Just a bunch of awesome humans lifting each other up (sometimes
+                literally).
               </p>
-              <p className=' mb-4'>
-                Let us programe and coach you through all of your workouts and
-                look better naked <b>NOW!</b>
+              <p>
+                Our friendly coaches will guide you, cheer you on, and help you
+                smash your goals your way.
+              </p>
+              <p className='mb-4'>
+                So, what do you say? <br />
+                <b>Come sweat, smile, and thrive with us.</b>
               </p>
               <a
                 target='blank'

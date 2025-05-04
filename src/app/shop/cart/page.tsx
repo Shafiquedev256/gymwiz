@@ -53,7 +53,7 @@ const Cart = () => {
               </div>
               <div className='flex flex-row w-[100%] items-center justify-between p-2 bg-gray-100 '>
                 <div className='font-bold text-sm  '>subtotal</div>
-                <div className='font-bold '>${totalPrice}</div>
+                <div className='font-bold '>Ugs {totalPrice}</div>
               </div>
               <div className='font-bold text-sm text-gray-400 p-2'>
                 CART({cartItems.length})
@@ -62,7 +62,7 @@ const Cart = () => {
                 onClick={handleWhatsAppRedirect}
                 className=' md:bg-red-500 md:w-[100%] md:p-3 md:m-2 md:rounded md:text-white md:font-bold hidden  md:block '
               >
-                check out (USD {totalPrice})
+                check out (Ugs {totalPrice})
               </button>
             </div>
 
@@ -76,7 +76,7 @@ const Cart = () => {
                     <img src={item.image} className='w-36 md:w-44 rounded' />
                     <div className='ml-2'>
                       <div className='text-sm text-gray-700'>{item.name}</div>
-                      <div className='font-bold'>${item.price}</div>
+                      <div className='font-bold'>Ugs {item.price}</div>
                     </div>
                   </div>
 

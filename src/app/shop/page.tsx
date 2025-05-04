@@ -27,9 +27,9 @@ const StorePage: React.FC = () => {
       <HeaderSection />
       <div className=' min-h-screen'>
         <h1 className='title tracking-wide text-2xl md:text-3xl font-bold text-center my-8'>
-          Supplements and Gym Equipment
+          Supplements and Accessories
         </h1>
-        <div className='md:grid flex flex-col   justify-center items-center  md:grid-cols-3 lg:grid-cols-4 md:gap-6'>
+        <div className='grid grid-cols-2 mx-2 mb-8 md:grid-cols-3 lg:grid-cols-4 gap-2 md:gap-6'>
           {products.map((product, index) => (
             <div key={product.id}>
               <ProductCard
@@ -57,7 +57,7 @@ const products = [
     name: "GOLD STANDARD 100% WHEY™",
     image:
       "https://content.optimumnutrition.com/i/on/on-gold-standard-100-whey-protein_Image_01?$TTL_PRODUCT_IMAGES$&locale=en-us,en-gb,*&w=509&sm=aspect&aspect=1:1&fmt=webp",
-    price: 29.99,
+    price: 0,
     quantity: 0,
     id: 1,
   },
@@ -65,7 +65,7 @@ const products = [
     name: "Serious Mass",
     image:
       "https://content.optimumnutrition.com/i/on/on-serious-mass_Image_01?$TTL_PRODUCT_IMAGES$&locale=en-us,en-gb,*&w=509&sm=aspect&aspect=1:1&fmt=webp",
-    price: 49.99,
+    price: 0,
     quantity: 0,
     id: 2,
   },
@@ -73,7 +73,7 @@ const products = [
     name: "GOLD STANDARD® Pre-Workout",
     image:
       "https://content.optimumnutrition.com/i/on/on-gold-standard-pre-workout_Image_01?$TTL_PRODUCT_IMAGES$&locale=en-us,en-gb,*&w=509&sm=aspect&aspect=1:1&fmt=webp",
-    price: 19.99,
+    price: 0,
     quantity: 0,
     id: 3,
   },
@@ -81,7 +81,7 @@ const products = [
     name: "OPTI-WOMEN®",
     image:
       "https://content.optimumnutrition.com/i/on/on-opti-women_Image_01?$TTL_PRODUCT_IMAGES$&locale=en-us,en-gb,*&w=509&sm=aspect&aspect=1:1&fmt=webp",
-    price: 24.99,
+    price: 0,
     quantity: 0,
     id: 4,
   },
@@ -89,21 +89,21 @@ const products = [
     name: "OPTI-MEN®",
     image:
       "https://content.optimumnutrition.com/i/on/on-opti-men_Image_01?$TTL_PRODUCT_IMAGES$&locale=en-us,en-gb,*&w=509&sm=aspect&aspect=1:1&fmt=webp",
-    price: 24.99,
+    price: 0,
     quantity: 0,
     id: 5,
   },
   {
     name: "PRO GAINER",
     image: "/store-asset3.jpg",
-    price: 24.99,
+    price: 0,
     quantity: 0,
     id: 6,
   },
   {
     name: "EXTREME MASS",
     image: "/store-asset4.jpg",
-    price: 24.99,
+    price: 0,
     quantity: 0,
     id: 7,
   },
@@ -111,7 +111,7 @@ const products = [
     name: "Vimto® Bundle",
     image:
       "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nrx/nrx02906/g/24.jpg",
-    price: 24.99,
+    price: 0,
     quantity: 0,
     id: 8,
   },
@@ -119,7 +119,7 @@ const products = [
     name: "BlueLab Whey",
     image:
       "https://www.usn.co.uk/cdn/shop/files/UK_BlueLabWhey_908g_Straw.webp?v=1743670811&width=493",
-    price: 24.99,
+    price: 0,
     quantity: 0,
     id: 9,
   },
@@ -127,7 +127,7 @@ const products = [
     name: "Muscle Fuel Anabolic",
     image:
       "https://www.usn.co.uk/cdn/shop/files/Productonwhite-2kg-Ban.webp?v=1737700277&width=493",
-    price: 24.99,
+    price: 0,
     quantity: 0,
     id: 10,
   },
@@ -135,7 +135,7 @@ const products = [
     name: "Diet Fuel Ultralean",
     image:
       "https://www.usn.co.uk/cdn/shop/files/Productonwhite1kgStraw.webp?v=1737973744&width=493",
-    price: 24.99,
+    price: 0,
     quantity: 0,
     id: 11,
   },
@@ -181,7 +181,7 @@ const ProductCard: React.FC<ProductCardPropsEL> = ({
 
   return (
     <>
-      <div className=' flex flex-col justify-between m-3   text-black w-[280px]  h-[299px] rounded-md bg-white '>
+      <div className=' flex flex-col  justify-between md:m-3 m-2 w-[1fr] h-[100%]   text-black md:w-[280px]  md:h-[299px] rounded-md bg-white '>
         <img
           className='w-full h-3/6 rounded-t-md'
           src={image}
@@ -189,6 +189,7 @@ const ProductCard: React.FC<ProductCardPropsEL> = ({
         />
         <div className='p-3'>
           <div className='font-bold text-lg mb-2'>{name}</div>
+          <p className='text-sm text-gray-500'>Ugs {price}</p>
           <div className='  flex flex-row justify-center items-center'>
             <button
               onClick={handleItems}
