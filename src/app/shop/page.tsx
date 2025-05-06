@@ -93,16 +93,10 @@ const products = [
     quantity: 0,
     id: 5,
   },
+
   {
-    name: "PRO GAINER",
-    image: "/store-asset3.jpg",
-    price: 0,
-    quantity: 0,
-    id: 6,
-  },
-  {
-    name: "EXTREME MASS",
-    image: "/store-asset4.jpg",
+    name: "CREATINE",
+    image: "/store11.jpg",
     price: 0,
     quantity: 0,
     id: 7,
@@ -208,6 +202,20 @@ const products = [
     price: 0,
     quantity: 0,
     id: 21,
+  },
+  {
+    name: "NITROTECH RIPPED (4LBS)",
+    image: "/store9.jpg",
+    price: 0,
+    quantity: 0,
+    id: 22,
+  },
+  {
+    name: "Cap",
+    image: "/store10.png",
+    price: 0,
+    quantity: 0,
+    id: 23,
   },
 ];
 

@@ -10,7 +10,7 @@ const HeroSection = () => {
             <div className='w-fit relative'>
               <div className='h-[180px]  w-[180px] md:w-[200px] md:h-[200px] bg-red-600 hexagon rounded-full'></div>
               <div className='absolute   font-bold text-black   flex flex-col justify-center items-center  top-0 left-0 w-[100%] h-[100%]'>
-                <span>up to</span>
+                <span>Hurry Up to</span>
                 <span className='font-bold text-4xl md:text-5xl text-white'>
                   50% <br /> off
                 </span>
@@ -28,7 +28,7 @@ const HeroSection = () => {
               Supportive Community
             </p>
             <Link
-              href={`https://wa.me/+256705746131?text=${encodeURIComponent("Hello! I'm interested in your services.")}`}
+              href={`https://wa.me/+256702329631?text=${encodeURIComponent("Hello! I'm interested in your services.")}`}
               className='bg-red-500 font-bold font-body tracking-wide  text-sm my-2 w-[80%] md:w-[20%] rounded-full mb-3 text-center hover:bg-red-600 text-white p-3 '
             >
               Try One Day Pass!
