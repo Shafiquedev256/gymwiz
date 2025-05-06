@@ -51,7 +51,7 @@ const OurFacilities = () => {
             </div>
           </div>
           <img
-            src='/image23 (1).jpg'
+            src='/health.jpg'
             alt=''
             className='h-[50%]  md:h-[80%] rounded-md '
           />
