@@ -16,7 +16,7 @@ export type ProductCardPropsEL = {
 const StorePage: React.FC = () => {
   const [added, setAdded] = useState(false);
   return (
-    <section className='bg-gray-100'>
+    <section className='bg-white'>
       {added && (
         <div className=' font-body fixed top-8 z-50 left-0 w-[100%] flex items-center justify-center'>
           <div className=' bg-green-600 rounded-md text-white font-semibold  p-2 my-4 text-center'>
@@ -54,7 +54,7 @@ export default StorePage;
 
 const products = [
   {
-    name: "GOLD STANDARD 100% WHEY™",
+    name: "GS 100% WHEY™",
     image:
       "https://content.optimumnutrition.com/i/on/on-gold-standard-100-whey-protein_Image_01?$TTL_PRODUCT_IMAGES$&locale=en-us,en-gb,*&w=509&sm=aspect&aspect=1:1&fmt=webp",
     price: 0,
@@ -70,7 +70,7 @@ const products = [
     id: 2,
   },
   {
-    name: "GOLD STANDARD® Pre-Workout",
+    name: "GS® Pre-Workout",
     image:
       "https://content.optimumnutrition.com/i/on/on-gold-standard-pre-workout_Image_01?$TTL_PRODUCT_IMAGES$&locale=en-us,en-gb,*&w=509&sm=aspect&aspect=1:1&fmt=webp",
     price: 0,
@@ -139,6 +139,76 @@ const products = [
     quantity: 0,
     id: 11,
   },
+  {
+    name: "Protein shaker",
+    image: "/store-asset5.png",
+    price: 0,
+    quantity: 0,
+    id: 12,
+  },
+  {
+    name: "Masstech Elite 6lbs",
+    image: "/masstech-removebg-preview.png",
+    price: 0,
+    quantity: 0,
+    id: 13,
+  },
+  {
+    name: "Power Lifting Knee Wraps",
+    image: "/store1.jpg",
+    price: 0,
+    quantity: 0,
+    id: 14,
+  },
+  {
+    name: "Weight lifting gloves. S M L",
+    image: "/store2.jpg",
+    price: 0,
+    quantity: 0,
+    id: 15,
+  },
+  {
+    name: "THE RIPPER FAT BURNER",
+    image: "/store3.jpg",
+    price: 0,
+    quantity: 0,
+    id: 16,
+  },
+  {
+    name: "CLA WEIGHT LOSS",
+    image: "/store4.jpg",
+    price: 0,
+    quantity: 0,
+    id: 17,
+  },
+  {
+    name: "Vapor X5 Pre-Workout",
+    image: "/store5.jpg",
+    price: 0,
+    quantity: 0,
+    id: 18,
+  },
+  {
+    name: "USN CREATINE",
+    image: "/store6.jpg",
+    price: 0,
+    quantity: 0,
+    id: 19,
+  },
+  {
+    name: "CREATINE",
+    image: "/store7.jpg",
+    price: 0,
+    quantity: 0,
+    id: 20,
+  },
+  {
+    name: "Bennie hat",
+    image: "/store8.png",
+    price: 0,
+    quantity: 0,
+    id: 21,
+  },
 ];
 
 const ProductCard: React.FC<ProductCardPropsEL> = ({
@@ -181,19 +251,23 @@ const ProductCard: React.FC<ProductCardPropsEL> = ({
 
   return (
     <>
-      <div className=' flex flex-col  justify-between md:m-3 m-2 w-[1fr] h-[100%]   text-black md:w-[280px]  md:h-[299px] rounded-md bg-white '>
+      <div className=' flex flex-col  justify-between md:m-3 m-2 w-[1fr] h-[100%]   text-black md:w-[250px]  md:h-[299px]  bg-white '>
         <img
-          className='w-full h-3/6 rounded-t-md'
+          className='w-full h-4/6 mb-2 border-[#dedede] rounded-[2px] border-[2px] '
           src={image}
           alt={name + quantity}
         />
-        <div className='p-3'>
-          <div className='font-bold text-lg mb-2'>{name}</div>
-          <p className='text-sm text-gray-500'>Ugs {price}</p>
+        <div className='pb-3'>
+          <div className='font-bold text-lg whitespace-nowrap text-center'>
+            {name}
+          </div>
+          <p className='text-lg font-bold text-red-500 text-center'>
+            Ugs {price}
+          </p>
           <div className='  flex flex-row justify-center items-center'>
             <button
               onClick={handleItems}
-              className='bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded'
+              className='bg-red-500 mt-2 rounded-[2px] hover:bg-red-700 text-white font-bold py-2 px-4 w-[100%]'
             >
               Add to Cart
             </button>
