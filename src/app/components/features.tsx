@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const OurFacilities = () => {
   return (
-    <section className='bg-white text-black'>
+    <section className='bg-[#f9f7f7] py-6 text-black'>
       <h3 className='text-center text-2xl md:text-4xl font-semibold title tracking-wide'>
         Experience the Best
       </h3>
