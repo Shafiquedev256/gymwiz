@@ -10,7 +10,7 @@ const HeroSection = () => {
             <div className='w-fit relative'>
               <div className='h-[180px]  w-[180px] md:w-[200px] md:h-[200px] bg-red-600 hexagon rounded-full'></div>
               <div className='absolute   font-bold text-black   flex flex-col justify-center items-center  top-0 left-0 w-[100%] h-[100%]'>
-                <span>Hurry Up to</span>
+                <span>Hurry: Up to</span>
                 <span className='font-bold text-4xl md:text-5xl text-white'>
                   50% <br /> off
                 </span>
