@@ -83,7 +83,7 @@ const SPAAndSauna: React.FC = () => {
             {/* New Steam Room Card */}
             <div className='bg-red-600 shadow-lg rounded-lg overflow-hidden'>
               <img
-                src='portrait-happy-african-american-woman-wearing-towel-sitting-sauna-spa-relaxation-beauty-lifestyle-concept_13339-338088.jpg'
+                src='room1.jpg'
                 alt='Steam Room'
                 className='w-full h-48 object-cover'
               />

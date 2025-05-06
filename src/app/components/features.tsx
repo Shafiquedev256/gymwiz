@@ -18,7 +18,7 @@ const OurFacilities = () => {
             </p>
             <div className='md:w-[70%] flex md:justify-center md:items-center'>
               <Link
-                href={`https://wa.me/+256705746131?text=${encodeURIComponent("Hello! Get me a trainer.")}`}
+                href={`https://wa.me/+256702329631?text=${encodeURIComponent("Hello! Get me a trainer.")}`}
                 className=' bg-[#f83131] px-3 w-fit hover:bg-red-600 text-white text-center rounded-full text-sm text-semibold p-2 my-2 md:m-4'
               >
                 GET TRAINER!
@@ -29,16 +29,10 @@ const OurFacilities = () => {
           <img
             src='/image2.jpg'
             alt=''
-            className='h-[50%] md:h-[80%]  rounded-md'
+            className='h-[50%] md:h-[80%] w-[1fr]  rounded-md'
           />
         </div>
-        <div className='md:w-[70%] flex my-2 flex-row-reverse md:flex-row h-[200px] md:h-[300px] justify-between items-center p-2  rounded-md to-red-400'>
-          <img
-            src='/3863eeed-070d-4238-a50d-e6af309fb334.jpg'
-            alt=''
-            className='h-[50%] md:h-[80%] rounded-md '
-          />
-
+        <div className='md:w-[70%] flex my-2 md:flex-row-reverse flex-row h-[200px] md:h-[300px] justify-between items-center p-2  rounded-md to-red-400'>
           <div className='w-[70%] md:w-[40%]'>
             <h4 className=' md:w-[100%] md:text-center md:text-3xl text-lg font-semibold   md:whitespace-nowrap'>
               Healthy nutrition plan
@@ -49,13 +43,18 @@ const OurFacilities = () => {
             </p>
             <div className='md:w-[100%] flex md:justify-center md:items-center'>
               <Link
-                href={`https://wa.me/+256705746131?text=${encodeURIComponent("Hello! I'm interested in your  meal plans.")}`}
+                href={`https://wa.me/+256702329631?text=${encodeURIComponent("Hello! I'm interested in your  meal plans.")}`}
                 className=' bg-[#f83131] px-3 w-fit hover:bg-red-600 text-white text-center rounded-full text-sm text-semibold p-2 my-2 md:m-4'
               >
                 GET PLAN!
               </Link>
             </div>
           </div>
+          <img
+            src='/image23 (1).jpg'
+            alt=''
+            className='h-[50%]  md:h-[80%] rounded-md '
+          />
         </div>
         <div className=' flex my-2 flex-row h-[200px] md:h-[300px] justify-between items-center p-2  rounded-md to-red-400'>
           <div className='md:w-[70%]'>
@@ -79,7 +78,7 @@ const OurFacilities = () => {
           <img
             src='/groupclass1.jpg'
             alt=''
-            className='h-[50%] md:h-[80%] rounded-md '
+            className='h-[50%] w-[1fr] md:h-[80%] rounded-md '
           />
         </div>
       </div>
@@ -87,7 +86,7 @@ const OurFacilities = () => {
         <button className='w-fit rounded-full hover:bg-red-600 bg-[#f83131] text-white text-sm text-center text-semi-bold p-2 px-6'>
           <Link
             target='blank'
-            href={`https://wa.me/+256705746131?text=${encodeURIComponent("Hello! I'm interested in your services.")}`}
+            href={`https://wa.me/+256702329631?text=${encodeURIComponent("Hello! I'm interested in your services.")}`}
           >
             START NOW
           </Link>
