@@ -57,6 +57,18 @@ const GymRulesPage: React.FC = () => {
                 className='w-10 h-10 rounded-full'
               />
               <p className=' text-white'>
+                <span className='font-semibold'>Payments:</span>
+                <br /> Payment is non-refundable, service is not transferable
+                and service is prepaid
+              </p>
+            </div>
+            <div className='flex flex-row space-x-2 justify-center mt-2  w-fit '>
+              <img
+                src='/zz.jpg'
+                alt='/wizz gym logo'
+                className='w-10 h-10 rounded-full'
+              />
+              <p className=' text-white'>
                 <span className='font-semibold'>Proper Attire:</span>
                 <br /> Members must wear appropriate gym clothing and
                 closed-toed footwear at all times. No sandals, open-toed shoes,
@@ -98,9 +110,15 @@ const GymRulesPage: React.FC = () => {
               />
               <p className=' text-white'>
                 <span className='font-semibold'>Cleanliness: </span>
-                <br /> Always wipe down equipment after use with available
-                cleaning supplies. Members must help keep the gym clean by
-                discarding trash and not leaving personal items lying around.
+                <br />{" "}
+                <span>
+                  Locker rooms must be used respectfully and kept clean.
+                </span>
+                <br />
+                <span>
+                  Personal belongings should be stored in lockers; the gym is
+                  not responsible for lost or stolen items.
+                </span>
               </p>
             </div>
           </div>
@@ -174,7 +192,9 @@ const GymRulesPage: React.FC = () => {
               <p className=' text-white'>
                 <span className='font-semibold'> Injuries: </span>
                 <br /> Any injury, whether minor or major, must be reported to
-                gym staff immediately.
+                gym staff immediately. While we prioritize your safety, Wizz Gym
+                is not liable for any injuries sustained while using the
+                facility or its equipment.
               </p>
             </div>
             <div className='flex flex-row space-x-2 justify-center mt-2  w-fit '>
@@ -217,8 +237,12 @@ const GymRulesPage: React.FC = () => {
               />
               <p className=' text-white'>
                 <span className='font-semibold'> Water Bottles: </span> <br />{" "}
-                Members must bring their own water bottles. Sharing is not
-                allowed to avoid cross-contamination.
+                No bottles are to be left behind, please take your belongings
+                with you after each session. Empty bottles must be disposed of
+                properly in the designated bins, Wizz Gym has a zero-tolerance
+                policy for littering or leaving bottles/rubbish around the
+                facility. <br /> It is your responsibility to help keep the gym
+                clean and hygienic for all members.
               </p>
             </div>
           </div>
@@ -275,7 +299,12 @@ const GymRulesPage: React.FC = () => {
         </section>
         <p className=' text-sm md:lg max-w-4xl mx-auto my-4'>
           By following these rules, members can enjoy a productive and positive
-          experience at Wizz Gym . Thank you for your cooperation.
+          experience at Wizz Gym.
+        </p>
+        <p className='text-sm md:lg max-w-4xl mx-auto mb-4'>
+          Please note that rules are subject to change at any time without prior
+          notice. For a complete copy of our Terms & Conditions, please email
+          us. Thank you for your cooperation.
         </p>
       </div>
       <FooterSection />
