@@ -110,9 +110,15 @@ const GymRulesPage: React.FC = () => {
               />
               <p className=' text-white'>
                 <span className='font-semibold'>Cleanliness: </span>
-                <br /> Always wipe down equipment after use with available
-                cleaning supplies. Members must help keep the gym clean by
-                discarding trash and not leaving personal items lying around.
+                <br />{" "}
+                <span>
+                  Locker rooms must be used respectfully and kept clean.
+                </span>
+                <br />
+                <span>
+                  Personal belongings should be stored in lockers; the gym is
+                  not responsible for lost or stolen items.
+                </span>
               </p>
             </div>
           </div>
@@ -231,8 +237,12 @@ const GymRulesPage: React.FC = () => {
               />
               <p className=' text-white'>
                 <span className='font-semibold'> Water Bottles: </span> <br />{" "}
-                Members must bring their own water bottles. Sharing is not
-                allowed to avoid cross-contamination.
+                No bottles are to be left behind, please take your belongings
+                with you after each session. Empty bottles must be disposed of
+                properly in the designated bins, Wizz Gym has a zero-tolerance
+                policy for littering or leaving bottles/rubbish around the
+                facility. <br /> It is your responsibility to help keep the gym
+                clean and hygienic for all members.
               </p>
             </div>
           </div>
