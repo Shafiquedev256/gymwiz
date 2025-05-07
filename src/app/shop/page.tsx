@@ -26,9 +26,24 @@ const StorePage: React.FC = () => {
       )}
       <HeaderSection />
       <div className=' min-h-screen'>
-        <h1 className='title tracking-wide text-2xl md:text-3xl font-bold text-center my-8'>
+        <h1 className='title tracking-wide text-2xl md:text-3xl font-bold text-center mt-8 mb-4'>
           Supplements and Accessories
         </h1>
+        <div className='flex flex-col justify-center text-center items-center mb-8 text-gray-700'>
+          <div className='w-[90%] md:w-[50%]'>
+            <p>
+              Shop premium imported supplements –{" "}
+              <span className='font-semibold'>100%</span> original, tested, and
+              trusted.
+            </p>
+            <p>
+              From Whey Protein to Pre-Workout, we’ve got what your body needs
+              to perform.
+            </p>
+            <p className='my-2  font-semibold'>Train Hard. Recover Right.</p>
+          </div>
+        </div>
+
         <div className='grid grid-cols-2 mx-2 mb-8 md:grid-cols-3 lg:grid-cols-4 gap-2 md:gap-6'>
           {products.map((product, index) => (
             <div key={product.id}>
