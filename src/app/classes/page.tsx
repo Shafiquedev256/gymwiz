@@ -1,9 +1,8 @@
-"use client";
-
 import Link from "next/link";
 import { FooterSection } from "../components/footer";
 import HeaderSection from "../components/header";
 import WeeklySchedule from "../components/weeklySchedule";
+import { Metadata } from "next";
 
 type Program = {
   name: string;
@@ -14,13 +13,21 @@ type Program = {
   finished: boolean;
 };
 
+export function generateMetadata(): Metadata {
+  return {
+    title: `Men’s Fitness Classes – Wizz Gym Kampala | Strength, Conditioning & More`,
+    description:
+      "Join our men’s fitness programs at Wizz Gym Kampala. Build muscle, boost strength, and stay fit with expert-led workouts designed specifically for men in Uganda.",
+  };
+}
+
 const Classes = () => {
   return (
     <>
       <HeaderSection />
       <div className='w-[100%] overflow-hidden'>
         <div className=''>
-          <div className='flex flex-col justify-center items-center '>
+          <div className='px-2 flex flex-col justify-center items-center '>
             <h1 className=' text-center text-2xl tex-black title '>
               Be part of Kampala’s Biggest Fitness Community
             </h1>

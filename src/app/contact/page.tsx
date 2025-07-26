@@ -1,6 +1,5 @@
-"use client";
 /* eslint-disable @typescript-eslint/no-explicit-any */
-
+"use client";
 import { useState } from "react";
 import { FooterSection } from "../components/footer";
 import { useRef } from "react";
@@ -66,7 +65,7 @@ const ContactUsPage = () => {
       <header>
         <meta
           name='description'
-          content="Empower your fitness journey with women's workout programs at Siti Gym in Kampala, Uganda. Our tailored fitness routines are designed to help women of all fitness levels achieve their health and wellness goals in a supportive environment."
+          content="Have questions or ready to start your fitness journey? Contact Wizz Gym Kampala for directions, support, class bookings, or membership inquiries. We're here to help you!"
         />
 
         <meta
@@ -74,7 +73,7 @@ const ContactUsPage = () => {
           content="women's workouts, Siti Gym Kampala, women's fitness classes, female fitness Uganda, strength training for women, women's health and wellness, women's cardio classes, fitness programs for women, women-only workout sessions, Kampala gym for women"
         />
 
-        <title>Contact | Siti Gym Kampala, Uganda</title>
+        <title>Contact Wizz Gym Kampala – Get in Touch or Visit Us Today</title>
       </header>
       <HeaderSection />
 

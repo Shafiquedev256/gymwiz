@@ -1,30 +1,20 @@
-"use client";
-import { useEffect } from "react";
 import Link from "next/link";
 import { FooterSection } from "../components/footer";
 import HeaderSection from "../components/header";
 
+import type { Metadata } from "next";
+
+export function generateMetadata(): Metadata {
+  return {
+    title: "Best Spa & Sauna Experience in Kampala – Wizz Gym Uganda",
+    description:
+      "Treat yourself to the best spa and sauna experience in Kampala at Wizz Gym. Relax, detox, and recover in a peaceful environment designed to boost your wellness.",
+  };
+}
+
 const SPAAndSauna: React.FC = () => {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
   return (
     <>
-      <header>
-        <meta
-          name='description'
-          content="Relax and rejuvenate at Wizz Gym's SPA and Sauna in Kampala, Uganda. Enjoy top-notch wellness treatments, soothing sauna sessions, and a serene environment designed to help you unwind and restore balance."
-        />
-
-        <meta
-          name='keywords'
-          content='Wizz Gym SPA, Kampala sauna, wellness center Uganda, spa treatments Kampala, sauna sessions, relaxation Uganda, rejuvenation spa, wellness treatments, stress relief Kampala, health and wellness'
-        />
-
-        <title>
-          SPA & Sauna | Relax and Rejuvenate at Wizz Gym Kampala, Uganda
-        </title>
-      </header>
       <HeaderSection />
       <div className='w-[100%] overflow-hidden'>
         <section className='p-6 bg-red-100'>

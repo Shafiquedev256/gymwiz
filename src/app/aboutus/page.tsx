@@ -1,17 +1,25 @@
-"use client";
 import Link from "next/link";
 import { FooterSection } from "../components/footer";
 import HeaderSection from "../components/header";
+import { Metadata } from "next";
+
+export function generateMetadata(): Metadata {
+  return {
+    title: `About Us | Wizz Gym Kampala | Uganda's Best Fitness & Wellness Center`,
+    description:
+      "Learn about Wizz Gym Kampala – our mission, certified trainers, and commitment to helping Ugandans achieve their health and fitness goals in a supportive environment.",
+  };
+}
 
 const About_us_page = () => {
   return (
     <>
-      <HeaderSection />
-      <section className='text-black bg-white'>
+      <main className=' overflow-hidden'>
+        <HeaderSection />
         {/** Hero section on the about us page  */}
-        <div className=' h-[60vh] flex items-center justify-center bg-[url("/aboutus.jpg")]  bg-cover bg-center bg-no-repeat bg-aboutsection  w-[100%]   '></div>
+        <div className=' h-[60vh] w-[100%] flex items-center justify-center bg-[url("/aboutus.jpg")]  bg-cover bg-center bg-no-repeat bg-aboutsection  w-[100%]   '></div>
         <section className='my-4 bg-white text-black'>
-          <h2 className='text-2xl text-center title md:text-3xl flex flex-row justify-center items-center space-x-2'>
+          <h2 className='text-lg text-center title md:text-3xl flex flex-row justify-center items-center space-x-2'>
             <span className='underline '>SMARTER </span>
             <span className='underline '> STRONGER </span>
             <span className='underline '>TOGETHER</span>
@@ -444,7 +452,7 @@ const About_us_page = () => {
             </div>
           </div>
         </section>
-      </section>
+      </main>
       <div className=''>
         <iframe
           src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.765779931804!2d32.60261527403775!3d0.29404126406153863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177dbd39c034e6cb%3A0x967e07aca4b42153!2sWizz%20Gym!5e0!3m2!1sen!2sug!4v1744286971703!5m2!1sen!2sug'
