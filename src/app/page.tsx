@@ -1,4 +1,3 @@
-"use client";
 import Link from "next/link";
 import OurFacilities from "./components/features";
 import { FooterSection } from "./components/footer";
@@ -6,6 +5,15 @@ import HeaderSection from "./components/header";
 import HeroSection from "./components/hero";
 import Testimonial from "./components/testimonial";
 import WhyChooseUs from "./components/whyChooseUs";
+import { Metadata } from "next";
+
+export function generateMetadata(): Metadata {
+  return {
+    title: `Wizz Gym Kampala | Affordable Fitness & Personal Training in Uganda  ${new Date().getFullYear()}`,
+    description:
+      "Discover Wizz Gym, Kampala's top destination for affordable fitness, personal training, and wellness programs. Train with certified experts in Uganda.",
+  };
+}
 
 export default function Home() {
   return (

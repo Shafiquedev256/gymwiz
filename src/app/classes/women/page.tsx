@@ -1,9 +1,16 @@
-"use client";
-
 import { FooterSection } from "@/app/components/footer";
 import HeaderSection from "@/app/components/header";
 import WeeklySchedule from "@/app/components/weeklySchedule";
+import { Metadata } from "next";
 import Link from "next/link";
+
+export function generateMetadata(): Metadata {
+  return {
+    title: `Women’s Fitness Classes – Wizz Gym Kampala | Empowering Health & Strength`,
+    description:
+      "Discover empowering fitness programs for women at Wizz Gym Kampala. From weight loss to strength training, our expert coaches help you reach your goals in a safe and supportive space.",
+  };
+}
 
 const WomenClasses = () => {
   return (
@@ -14,7 +21,7 @@ const WomenClasses = () => {
         <div className='min-h-screen bg-white'>
           {/* Hero Section */}
           <div className='bg-[url("/image4.jpg")] bg-center  bg-cover bg-no-repeat w-[100%] h-[60vh] md:h-[50vh] lg:h-[80vh]'></div>
-          <div className='flex flex-col justify-center mt-4 items-center '>
+          <div className='flex flex-col px-4 justify-center mt-4 items-center '>
             <h1 className=' text-center text-2xl tex-black title '>
               Be part of Kampala’s Biggest Fitness Community
             </h1>

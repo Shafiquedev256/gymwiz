@@ -1,9 +1,13 @@
-"use client";
-
 import Link from "next/link";
 import { FooterSection } from "../components/footer";
 import HeaderSection from "../components/header";
+import type { Metadata } from "next";
 
+export const metadata: Metadata = {
+  title: "Careers at Wizz Gym Kampala – Join Our Fitness & Wellness Team",
+  description:
+    "Looking to grow your career in fitness and wellness? Wizz Gym Kampala is hiring passionate trainers, receptionists, and spa professionals. Apply now and be part of a healthy movement in Uganda.",
+};
 function Carears() {
   return (
     <>
